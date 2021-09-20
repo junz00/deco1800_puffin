@@ -4,6 +4,16 @@ body {
     background-color: skyblue;
 }
 
+#book {
+  display: block;
+}
+
+#book-bg {
+  width: 100vw;
+  display: block;
+  position: absolute;
+  z-index: -1;
+}
 
 /*Book mark bar*/
 ul {
