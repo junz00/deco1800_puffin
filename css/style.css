@@ -57,14 +57,13 @@ ul {
     box-sizing: border-box;
 }
 
-.row {
+.pages {
     display: flex;
 }
 
-.row > * {
+.pages > * {
     /* off white */
     flex:50%;
-    background-color: wheat;
     border: 3px solid black;
     height: 500px;
     padding: 20px;
@@ -91,13 +90,13 @@ strong {
     height: 500px;
 }
 
-.row .button_prev{
+.pages .button_prev{
   position:absolute;
   left:2%;
   bottom:1%;
 }
 
-.row .button_next{
+.pages .button_next{
   position:absolute;
   left:95%;
   bottom:1%;
