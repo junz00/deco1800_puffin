@@ -80,3 +80,15 @@ strong {
     width: 60%;
     height: 500px;
 }
+
+.row .button_prev{
+  position:absolute;
+  left:2%;
+  bottom:1%;
+}
+
+.row .button_next{
+  position:absolute;
+  left:95%;
+  bottom:1%;
+}
