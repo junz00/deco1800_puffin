@@ -41,13 +41,17 @@ nav .active {
 }
 
 /* The book, and everything inside it */
+#book-container {
+  position: static; /* Needed so that the footer can appear below this section */
+  height: 910px;
+}
 
 #book {
-  display: inline-block;
+  display: block;
   position: absolute;
   width: 90%;
+  height: 910px;
   left: 5%;
-  margin-bottom: 50px;
 }
 
 #book-bg {
@@ -62,12 +66,12 @@ nav .active {
 
 #pages {
     display: flex;
+    height: 100%;
 }
 
 #pages > #leftpage,#rightpage {
     flex: 50%;
     border: 3px solid black;
-    height: 870px;
     padding: 20px;
 }
 
