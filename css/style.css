@@ -4,18 +4,6 @@ body {
     background-color: skyblue;
 }
 
-h1{
-  text-align: center;
-}
-
-#map{
-  padding: 1%;
-  width: 100%; 
-  height: 500px;
-  margin:auto;
-  display: block;
-}
-
 /*Book mark bar*/
 nav ul {
     list-style-type: none;
@@ -85,26 +73,6 @@ nav .active {
     flex: 50%;
     border: 3px solid black;
     padding: 20px;
-}
-
-/* Front page */
-#front {
-    margin: auto;
-    display: block;
-    width: 30%;
-    height: 400px;
-}
-
-strong {
-    text-align: center;
-    display: block;
-}
-
-#cert {
-    margin: auto;
-    display: block;
-    width: 60%;
-    height: 500px;
 }
 
 /* Navigation buttons */

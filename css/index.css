@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+  }
+
+#front_diary {
+    margin: auto;
+    display: block;
+    width: 30%;
+    height: 400px;
+}
+
+#front_text{
+    text-align: center;
+    display: block;
+}

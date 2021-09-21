@@ -9,3 +9,10 @@
 #exit_button:hover {
     opacity: 1;
 }
+
+#cert {
+  margin: auto;
+  display: block;
+  width: 60%;
+  height: 500px;
+}
