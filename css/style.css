@@ -71,7 +71,7 @@ nav .active {
   height: 100%;
 }
 
-#pages > #leftpage,#rightpage {
+#pages > #leftpage,#rightpage,#pagespread {
   flex: 50%;
   border: 1px solid #aaa; /* FOR DEBUGGING */
   padding-top: 3%;
