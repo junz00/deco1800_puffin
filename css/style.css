@@ -4,6 +4,18 @@ body {
     background-color: skyblue;
 }
 
+h1{
+  text-align: center;
+}
+
+#map{
+  padding: 1%;
+  width: 100%; 
+  height: 500px;
+  margin:auto;
+  display: block;
+}
+
 
 /*Book mark bar*/
 ul {
@@ -66,7 +78,7 @@ ul {
     margin:auto;
     display: block;
     width: 30%;
-    height: 500px;
+    height: 400px;
 }
 
 strong {
