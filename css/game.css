@@ -10,6 +10,12 @@ body{
   
 #exit_button {
     position: absolute;
+    opacity: 0.75;
+    background-color: red;
     right: 20px;
     top: 20px;
   }
+
+#exit_button:hover {
+    opacity: 1;
+}
