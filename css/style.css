@@ -10,7 +10,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #aaaaaa; /*  FOR DEBUGGING */
+    /*border: 1px solid #aaaaaa; /*  FOR DEBUGGING */
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
