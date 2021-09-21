@@ -129,15 +129,3 @@ strong {
 footer {
   height: 50px;
 }
-
-#game_background {
-  position: static;
-  height: 100%;
-  width: 100%;
-}
-
-#exit_button{
-  position: absolute;
-  right: 20px;
-  top: 20px;
-}
