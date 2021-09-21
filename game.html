@@ -15,8 +15,10 @@
 			<button type="button"  id =exit_button onclick="exitGame()">exit</button>
 
 			<div id = "images">
-				<img id="box" src="images/box.png">
-				<img id="sandbag" src="images/bag.jpeg">
+				<div id = "box" ondragover="showDrop(event)" 
+					ondrop="drop(event)"> </div>
+				<img id="sandbag" src="images/bag.jpeg" draggable="true"
+					 ondragstart="dragStart(event)">
 			</div>
 		</section>
 	</body>
