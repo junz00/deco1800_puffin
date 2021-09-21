@@ -52,6 +52,7 @@ nav .active {
   width: 90vw;
   height: 56.76vw;
   left: 5%;
+  box-shadow: 0 10px 15px 0 #333;
 }
 
 #book-bg {
@@ -71,7 +72,7 @@ nav .active {
 
 #pages > #leftpage,#rightpage {
   flex: 50%;
-  border: 1px solid #aaa; /*  FOR DEBUGGING */
+  border: 1px solid #aaa; /* FOR DEBUGGING */
   padding-top: 3%;
   padding-bottom: 3%;
 }
