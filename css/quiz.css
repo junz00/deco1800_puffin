@@ -13,3 +13,6 @@
     bottom: 30%;
   }
 
+#win {
+    display : none;
+}

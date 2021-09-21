@@ -23,9 +23,47 @@
 			<section id="book">
 				<img id="book-bg" src="images/diary_bg.jpg">
 				<div id="quiz"></div>
-				<button id="submit">Submit Quiz</button>
+				<button id="submit">Get Results</button>
 				<div id="results"></div>
+
 					<div id="leftpage">
+				
+						<form>
+							<p>Question 1</p>
+							<input type="text" id="q1" name="q1"> <br>
+						
+						<p>Question 2</p>
+						
+							<input type="radio" id="q2a" name="q2" value="a">
+							<label for="q2a">a</label> <br>
+							<input type="radio" id="q2b" name="q2" value="b">
+							<label for="q2b">b</label> <br>
+							<input type="radio" id="q2c" name="q2" value="c">
+							<label for="q2c">c</label> <br>
+							<input type="radio" id="q2d" name="q2" value="d">
+							<label for="q2d">d</label> <br>
+						
+						<p>Question 3</p>
+						
+							<input type="checkbox" id="q3a" name="q3" value="a">
+							<label for="q3a">a</label> <br>
+							<input type="checkbox" id="q3b" name="q3" value="b">
+							<label for="q3b">b</label> <br>
+							<input type="checkbox" id="q3c" name="q3" value="c">
+							<label for="q3c">c</label> <br>
+							<input type="checkbox" id="q3d" name="q3" value="d">
+							<label for="q3d">d</label> <br>
+						</form>
+
+						<!-- <div id=serialize></div> -->
+						<p id="result"></p>
+						<button id="submit" onclick="submit()">Submit</button>
+						<div id="win">
+							<p>congratz you won</p>
+						<a href="certificate.html">
+						<div id=get_cert> click here to get your certificate</div>
+						</a>
+					</div>
 						<button id="button-prev" onclick="prevPage()"> previous </button>
 					</div>
 					<div id="rightpage">
