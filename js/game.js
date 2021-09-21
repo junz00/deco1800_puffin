@@ -15,4 +15,5 @@ function drop(event) {
     var id = event.dataTransfer.getData("text");
     var item = document.getElementById(id);
     event.target.appendChild(item);
+    cont.style.display = "block";
 }
