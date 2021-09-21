@@ -45,6 +45,7 @@ nav .active {
 #book-container {
   position: static; /* Needed so that the footer can appear below this section */
   height: 56.76vw;
+  font-size: 19px;
 }
 
 #book {

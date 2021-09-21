@@ -1,8 +1,5 @@
 function prevPage(){
     location.href="article_p2.html";
-<<<<<<< HEAD
-}
-=======
 }
 
 function submit(){
@@ -53,4 +50,4 @@ function check (update) {
     total=0;
     return send;
 } */
->>>>>>> aa577c602854cf54d906777b8c116200024a85d3
+
