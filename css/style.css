@@ -16,9 +16,8 @@ h1{
   display: block;
 }
 
-
 /*Book mark bar*/
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -27,55 +26,70 @@ ul {
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
-  }
-
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    flex-grow: 1;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    border: black;
-    border-width: 2px;
-    background-color:red;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-  }
-
-
-  /* For making pages*/
-* {
-    box-sizing: border-box;
 }
 
-.row {
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  flex-grow: 1;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: black;
+  border-width: 2px;
+  background-color:red;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+nav .active {
+  background-color: #04AA6D;
+}
+
+/* The book, and everything inside it */
+#book-container {
+  position: static; /* Needed so that the footer can appear below this section */
+  height: 910px;
+}
+
+#book {
+  display: block;
+  position: absolute;
+  width: 90%;
+  height: 910px;
+  left: 5%;
+}
+
+#book-bg {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pages {
     display: flex;
+    height: 100%;
 }
 
-.row > * {
-    /* off white */
-    flex:50%;
-    background-color: wheat;
+#pages > #leftpage,#rightpage {
+    flex: 50%;
     border: 3px solid black;
-    height: 500px;
     padding: 20px;
-    margin-bottom: 50px;
 }
 
-/*front page*/
+/* Front page */
 #front {
-    margin:auto;
+    margin: auto;
     display: block;
     width: 30%;
     height: 400px;
@@ -83,24 +97,35 @@ ul {
 
 strong {
     text-align: center;
-    display:block;
+    display: block;
 }
 
 #cert {
-    margin:auto;
+    margin: auto;
     display: block;
     width: 60%;
     height: 500px;
 }
 
-.row .button_prev{
-  position:absolute;
-  left:2%;
-  bottom:1%;
+/* Navigation buttons */
+
+#pages button {
+  display: block;
 }
 
-.row .button_next{
-  position:absolute;
-  left:95%;
-  bottom:1%;
+#button-prev {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+#button-next {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+/* Footer */
+footer {
+  height: 50px;
 }
