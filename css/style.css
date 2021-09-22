@@ -74,16 +74,18 @@ nav .active {
 
 #pages > #leftpage,#rightpage,#pagespread {
   flex: 50%;
-  border: 1px solid #aaa; /* FOR DEBUGGING */
+  /* border: 1px solid #aaa; FOR DEBUGGING */
   padding-top: 3%;
   padding-bottom: 3%;
 }
 
 #leftpage {
   padding-left: 4%;
+  padding-right: 2%;
 }
 
 #rightpage {
+  padding-left: 2%;
   padding-right: 4%;
 }
 
