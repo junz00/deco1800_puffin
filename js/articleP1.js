@@ -1,7 +1,7 @@
 function prevPage(){
-    location.href="map.html";
+    location.href="map.php";
 }
 
 function nextPage(){
-    location.href="game.html";
+    location.href="game.php";
 }

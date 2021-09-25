@@ -1,3 +1,3 @@
 function exitCert() {
-    location.href="index.html";
+    location.href="index.php";
 }

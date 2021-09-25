@@ -1,5 +1,5 @@
 function prevPage(){
-    location.href="article_p2.html";
+    location.href="article_p2.php";
 }
 
 function submit(){

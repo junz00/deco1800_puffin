@@ -1,5 +1,5 @@
 function exitGame() {
-    location.href="article_p1.html";
+    location.href="article_p1.php";
 }
 
 function dragStart(event) {

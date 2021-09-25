@@ -1,7 +1,11 @@
 #map {
-    padding: 1%;
+    padding: 5%;
+    position: absolute;
     margin: auto;
     display: block;
-    max-height: 100%;
+    left: 0;
+    top:0;
+    max-height: 80%;
+    max-width: 100%;
 }
   

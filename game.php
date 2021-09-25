@@ -1,22 +1,14 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Brisbane Flood Diary: Game</title>
-		<link rel="stylesheet" href="css/game.css">
-		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-		<script src="js/game.js"></script>
-	</head>
-	<body>
-		<section>
-			<!-- background image-->
+<?php $pageTitle="game"; ?>
+<?php $pageFile="game"; ?>
+<?php $pagePrev="article_p1.php"; ?>
+<?php include("left_page.php"); ?>
 			<img id="game_bg" src="images/grass.jpg">
 
 
 			<button type="button" id =exit_button onclick="exitGame()">exit</button>
 
 			<div id = "images">
-				<a href ="article_p2.html">
+				<a href ="article_p2.php">
 					<div id = "cont">
 						<strong id = "cont_text"> Continue</strong>
 					</div>
@@ -31,8 +23,5 @@
 					<img id="among_us" src="images/among_us.png" draggable="true">
 				<img id="sandbag" src="images/sandbag.png" draggable="true"
 					 ondragstart="dragStart(event)">
-			</div>
-			
-		</section>
-	</body>
-</html>
+<?php include("right_page.php"); ?>
+<?php include("end_page.php"); ?>
