@@ -1,7 +1,12 @@
 #map {
-    /* padding: 5%; */
-    margin: auto;
-    display: block;
-    height: 95%;
+    display: inline-block;
+    height: 75%;
+    width: 100%;
 }
-  
+
+#map img {
+    display: block;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
