@@ -3,5 +3,5 @@ function prevPage(){
 }
 
 function nextPage(){
-    location.href="article_p1.php";
+    location.href="map.php";
 }
