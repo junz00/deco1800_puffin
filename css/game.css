@@ -38,6 +38,11 @@ body{
     position: absolute;
     right: 40px;
     bottom: 50px;
+    border : 5px transparent;
+}
+
+#sandbag:hover {
+    border : 5px yellow solid;
 }
 
 #among_us {
