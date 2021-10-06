@@ -1,7 +1,7 @@
 function prevPage(){
-    location.href="index.php";
+    location.href="intro.php";
 }
 
 function nextPage(){
-    location.href="article_p1.php";
+    location.href="article1_p1.php";
 }
