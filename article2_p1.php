@@ -10,7 +10,7 @@
 		<img id="book-bg" src="images/diary_bg.jpg">
 		<div id="pages">
 			<div id="leftpage">
-				<h2>New satellite imagery reveals extend of flooding</h2>
+				<h2>New satellite imagery reveals extent of flooding</h2>
 				<button id="button-prev" onclick="prevPage()"> previous </button>
 			</div>
 			<div id="rightpage">

@@ -13,7 +13,7 @@
 			<button id="button-prev" onclick="prevPage()"> previous </button>
 			</div>
 			<div id="rightpage">
-				<form action="map.php" id="username-entry">
+				<form action="map.php" method="post" id="username-entry">
 					<label for="username">This book belongs to...</label>
 					<input type="text" id="username" name="username">
 					<input type="submit" value="Submit">
