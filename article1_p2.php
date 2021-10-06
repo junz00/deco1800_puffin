@@ -1,5 +1,5 @@
-<?php $pageTitle="Article- Part 2"; ?>
-<?php $pageFile="articleP2"; ?>
+<?php $pageTitle="Article 1 - Part 2"; ?>
+<?php $pageFile="article1P2"; ?>
 <?php $pagePrev="article_p1.php"; ?>
 <?php $pageNext="quiz.php"; ?>
 <?php include("header.php"); ?>

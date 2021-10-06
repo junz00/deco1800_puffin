@@ -1,6 +1,6 @@
 <?php $pageTitle="quiz"; ?>
 <?php $pageFile="quiz"; ?>
-<?php $pagePrev="article_p1.php"; ?>
+<?php $pagePrev="article1_p1.php"; ?>
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
 

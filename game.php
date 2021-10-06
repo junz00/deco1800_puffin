@@ -13,7 +13,7 @@
 					<button type="button" id =exit_button onclick="exitGame()">exit</button>
 
 					<div id = "images">
-						<a href ="article_p2.php">
+						<a href ="article1_p2.php">
 							<div id = "cont"><strong id = "cont_text"> Continue</strong></div>
 						</a>
 						<img id="dog_girl" src="images/dog_girl.jpg" draggable="true">

@@ -1,5 +1,5 @@
 function prevPage(){
-    location.href="article_p1.php";
+    location.href="article2_p1.php";
 }
 
 function nextPage(){
