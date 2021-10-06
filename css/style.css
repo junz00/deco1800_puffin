@@ -27,109 +27,109 @@ nav li {
 }
 
 nav li a {
-  display: block;
-  flex-grow: 1;
-  color: #333;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  border: black;
-  border-width: 2px;
-  background-color:rgb(221, 236, 0);
+    display: block;
+    flex-grow: 1;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: black;
+    border-width: 2px;
+    background-color:rgb(221, 236, 0);
 }
 
 nav li a:hover {
-  background-color: red;
-  color:white;
+    background-color: red;
+    color:white;
 }
 
 nav .active {
-  background-color: #04AA6D;
+    background-color: #04AA6D;
 }
 
 /* The book, and everything inside it */
 #book-container {
-  position: static; /* Needed so that the footer can appear below this section */
-  height: 56.76vw;
-  font-size: 19px;
+    position: static; /* Needed so that the footer can appear below this section */
+    height: 56.76vw;
+    font-size: 19px;
 }
 
 #book {
-  display: block;
-  position: absolute;
-  width: 90vw;
-  height: 56.76vw;
-  left: 5%;
-  box-shadow: 0 10px 15px 0 #333;
+    display: block;
+    position: absolute;
+    width: 90vw;
+    height: 56.76vw;
+    left: 5%;
+    box-shadow: 0 10px 15px 0 #333;
 }
 
 #book-bg {
-  display: block;
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#pages {
-  display: flex;
-  height: 100%;
-  width: 100%;
+  #pages {
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
 
 #pages.spread {
-  display: inline-block;
+    display: inline-block;
 }
 
 #pages > #leftpage,#rightpage,#pagespread {
-  padding-top: 3%;
-  padding-bottom: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 #pages > #leftpage,#rightpage {
-  flex: 50%;
-  /* border: 1px solid #aaa; FOR DEBUGGING */
+    flex: 50%;
+    /* border: 1px solid #aaa; FOR DEBUGGING */
 }
 
 #leftpage {
-  padding-left: 4%;
-  padding-right: 2%;
+    padding-left: 4%;
+    padding-right: 2%;
 }
 
 #rightpage {
-  padding-left: 2%;
-  padding-right: 4%;
+    padding-left: 2%;
+    padding-right: 4%;
 }
 
 #pagespread {
-  display: inline-block;
-  height: 94%;
-  width: 92%;
-  padding-left: 4%;
-  padding-right: 4%;
+    display: inline-block;
+    height: 94%;
+    width: 92%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 /* Navigation buttons */
 
 #pages button {
-  display: block;
+    display: block;
 }
 
 #button-prev {
-  position: absolute;
-  left: 4%;
-  bottom: 4%;
+    position: absolute;
+    left: 4%;
+    bottom: 4%;
 }
 
 #button-next {
-  position: absolute;
-  right: 4%;
-  bottom: 4%;
+    position: absolute;
+    right: 4%;
+    bottom: 4%;
 }
 
 /* Footer */
 footer {
-  height: 50px;
+    height: 50px;
 }

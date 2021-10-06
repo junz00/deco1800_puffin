@@ -1,0 +1,12 @@
+#username-entry {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#username-entry > * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

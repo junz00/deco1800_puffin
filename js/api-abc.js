@@ -37,6 +37,8 @@ $(document).ready(function() {
     var data = {
         resource_id: "d73f2a2a-c271-4edd-ac45-25fd7ad2241f",
         limit: 5,
+        /* Documentation on how to query CKAN datasets can be found at:
+         * https://docs.ckan.org/en/latest/user-guide.html#using-ckan */
         q: "flood"
     };
 
