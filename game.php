@@ -13,7 +13,7 @@
 					<button type="button" id =exit_button onclick="exitGame()">exit</button>
 
 					<div id = "images">
-						<a href ="article1_p2.php">
+						<a href ="article1_p3.php">
 							<div id = "cont"><strong id = "cont_text"> Continue</strong></div>
 						</a>
 						<img id="dog_girl" src="images/dog_girl.jpg" draggable="true">
@@ -25,8 +25,8 @@
 						</div>
 						<img id="among_us" src="images/among_us.png" draggable="true">
 						<img id="sandbag" src="images/sandbag.png" draggable="true"	ondragstart="dragStart(event)">
-						<button id="button-prev" onclick="prevPage()"> previous </button>
-						<button id="button-next" onclick="nextPage()"> next </button>
+						<!--<button id="button-prev" onclick="prevPage()"> previous </button>
+						//<button id="button-next" onclick="nextPage()"> next </button>-->
 					</div>
 			</div>
 		</section>

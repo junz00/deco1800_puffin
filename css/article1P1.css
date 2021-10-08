@@ -1,29 +1,3 @@
-
-
-#access_game{
-    opacity: 0.5;
-    width: 300px;
-    height: 200px;
-    padding: 10px;
-    position: absolute;
-    right: 140px;
-    bottom: 50px;
-    border: 2px solid white;
-    background-color:rgb(41, 33, 153);
-}
-
-#access_game_text {
-    text-align: center;
-    display: block;
-    color: white;
-    font-size: larger;
-}
-
-#access_game:hover {
-    opacity: 1;
-    outline: 5px dotted yellow;
-}
-
-#access_game:hover > #access_game_text {
-    font-weight: bold;
+figcaption{
+    font-size: 80%;
 }

@@ -18,12 +18,12 @@ function setCookie(name, id) {
     document.cookie = name + "=" + elementValue + "; path=/; expires=" + expiry.toGMTString();
     console.log(document.cookie);
 
-    displayCookieValue(name)
+    displayCookieValue()
 
 }
 
-function displayCookieValue(name) {
-    var value = getCookie(name);
+function displayCookieValue() {
+    var value =getCookie();
     var element = document.getElementById("enterName");
     element.innerHTML = value;
 
@@ -35,8 +35,13 @@ function displayCookieValue(name) {
     nameForm.parentNode.replaceChild(namePara, nameForm);
 }
 
-function getCookie(name) {
-    var re = new RegExp(name + "=([^;]+)");
-    var value = re.exec(document.cookie);
-    return (value != null) ? unescape(value[1]) : null;
+function getCookie() {
+    storedName = document.cookie
+    userName= storedName.slice(9,)
+    return userName
+
+    //var re = new RegExp(name + "=([^;]+)");
+    //var value = re.exec(document.cookie);
+    //return (value != null) ? unescape(value[1]) : null;
 }
+

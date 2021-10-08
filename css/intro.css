@@ -10,21 +10,39 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+#enterName{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
 #enterName input{
-    border: 0;
     background-color: #e7ebec;
-    border-width:0px;
     border:none;
     float: left;
-    margin: 0 5% 0 5%;
-    padding: 5%
+    margin-top: 5%;
+    font-size: 20px;
+    border-bottom: 5px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+.nameInput{
+    margin-top: 40%;
+}
+
+#enterName button{
+    margin-top: 4%;
+    width: 100%;
+
 }
 
 .p1{
-    font-weight: bolder;
-    padding-left: 10%;
-    font-size: 35px;
-    text-decoration: underline;
+    font-size: 22px;
+    border-bottom: 5px solid black;
+    margin-top: 7%;
+    width: 100%;
+    text-align: center;
 }
 
 .introMessage{
@@ -33,7 +51,10 @@
 }
 
 .nameInput{
-    padding: 35% 15% 0 12%;
     font-size: 15px;;
+}
 
+#leftpage{
+    display: flex;
+    justify-content: center;
 }

@@ -51,7 +51,7 @@ nav .active {
 #book-container {
     position: static; /* Needed so that the footer can appear below this section */
     height: 56.76vw;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 #book {
@@ -94,13 +94,13 @@ nav .active {
 }
 
 #leftpage {
-    padding-left: 4%;
-    padding-right: 2%;
+    padding-left: 5%;
+    padding-right: 3%;
 }
 
 #rightpage {
-    padding-left: 2%;
-    padding-right: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #pagespread {
@@ -115,6 +115,18 @@ nav .active {
 
 #pages button {
     display: block;
+    background-color: rgb(212, 219, 226);
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+    width: 70px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+#pages button:hover{
+    cursor: pointer;
+    background-color: rgb(185, 197, 209);
+
 }
 
 #button-prev {
@@ -133,3 +145,4 @@ nav .active {
 footer {
     height: 50px;
 }
+

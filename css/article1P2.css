@@ -1,5 +1,27 @@
-#congrats {
-    font-weight: bolder;
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#access_game{
+    opacity: 0.5;
+    width: 300px;
+    height: 140px;
+    padding: 10px;
+    position: absolute;
+    right: 140px;
+    bottom: 50px;
+    border: 2px solid white;
+    background-color:rgb(33, 45, 153);
+}
+
+#access_game_text {
+    text-align: center;
+    display: block;
+    color: white;
+    font-size: larger;
+}
+
+#access_game:hover {
+    opacity: 1;
+    outline: 5px dotted yellow;
+}
+
+#access_game:hover > #access_game_text {
+    font-weight: bold;
 }

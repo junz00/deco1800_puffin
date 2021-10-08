@@ -1,7 +1,7 @@
-<?php $pageTitle="Article 1 - Part 2"; ?>
+<?php $pageTitle="Article 1 - Part 1"; ?>
 <?php $pageFile="article1P2"; ?>
 <?php $pagePrev="article_p1.php"; ?>
-<?php $pageNext="quiz.php"; ?>
+<?php $pageNext="game.php"; ?>
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
 
@@ -10,35 +10,46 @@
 			<img id="book-bg" src="images/diary_bg.jpg">
 			<div id="pages">
 				<div id="leftpage">
-					<h1> Chapter: Chelmer Part II</h1><br>
-					<figure id="aaron">
-						<img src="images/aaron2.jpeg" alt="Aaron and co" width="80%" height="60%">
-						<figcaption>Figure: A very happy Aaron and his family</figcaption>
-					</figure>
-					<p id=congrats> Yay! You did it</p>
+					<h1> Chapter: Chelmer Part I</h1><br>
 					<article>
-						Aaron and his family successfully protected his home from the flood with your 
-						help by placing sandbags in front of vulnerable locations.<br><br>
-
-						Sandbags can be placed along doorways, drainage holes and floor drains, and toilets to prevent the backflow of water.
+						<p>Sandbags correctly placed appropriately around the home can impact of flooding 
+							significantly. They can be purchased from your local hardware
+							store or distributed by your local Council in an emergency flood.</p>
+						<figure>
+							<img src="images/Article1-sandbag_distribution.jpg" alt="Aaron and co" width="50%">
+							<figcaption>Figure: Chelmer, January 2011 </figcaption>
+						</figure>
+						<p>Before laying down a sandbag, place down a layer of plastic sheeting to act as a waterproof membrane.</p>
+						<figure>
+							<img src="images/Article1-sandbag_membrane.jfif" alt="Aaron and co" width="50%">
+							<figcaption>Figure: Chelmer, January 2011 </figcaption>
+						</figure>
 					</article>
 					<button id="button-prev" onclick="prevPage()"> previous </button>
 				</div>
-				<div id="rightpage">
-					<figure id="aaron">
-						<img src="images/sandbag_example.jpg" alt="Sandbag" width="80%" height="60%">
-						<figcaption>Figure: House protected by sandbags</figcaption>
-					</figure>
-					<article>To find out more informations on how to prepare for a flood be sure to
-						the Queensland Government Website below:
-					</article>
-					<a href="https://www.disaster.qld.gov.au/dmp/sandbagging/Pages/default.aspx">
-						<p>https://www.disaster.qld.gov.au/dmp/sandbagging/Pages/default.aspx</p>
-					</a>
-					<p>The best tip is to keep calm and follow the Qld Gov Recommended Steps</p>
-					<img src="images/keep_calm.jpg" alt="Keep calm and follow the QLD Gov Steps" height = 40%>
-					<button id="button-next" onclick="nextPage()"> next </button>
+		<div id="rightpage">
+
+			<article>		
+				<p>Sandbags should be placed in front of doorways / roller doors and brickwork vents with
+					sandbag walls being at least at 2 sandbags high for maximum effectiveness.</p>
+				<figure>
+					<img src="images/Article1-sandbag_doors.jpg" alt="Aaron and co" width="50%">
+					<figcaption>Figure: Chelmer, January 2011 </figcaption>
+				</figure>
+				<p> Make sure you cover all drainage holes and floor drains, including toilets, laundry, shower
+					and bath drains to stop the backflow of contaminated water.</p>
+				<p>With this information, you will be easily able to aid Aaron and his family in sandbagging their home!
+					Click on the box below to help them out.</p>
+			</article>
+
+			<a href="game.php">
+				<div id="access_game">
+					<p id="access_game_text"> Click here to play</p>
 				</div>
+			</a>
+
+			<button id="button-next" onclick="nextPage()"> next </button>
+			</div>
 			</div>
 		</section>
 	</div>
