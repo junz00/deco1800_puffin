@@ -13,15 +13,15 @@
 			<div id="leftpage">
 				<h1>Chapter: Chelmer Part I</h1>
 				<article>
-					<p>Let's get started, <span id="enterName"></span></p>
+					<p>Let's get started<span id="enterName"></span></p>
 					<p>The Brisbane floods of 2011 hit many people hard. The suburb of Chelmer was immersed in water with houses and roads being flooded. </p>
 					<figure>
 						<img src="images/Article1-chelmer_tape.png" alt="chelmer" width="100%">
 						<figcaption>Figure: Chelmer, January 2011 </figcaption>
 					</figure>
 					<figure>
-						<img src="images/Article1-chelmer2.jpg" alt="chelmer" width="80%">
-						<figcaption>Figure: Chelmer, January 2011 </figcaption>
+						<img src="images/Article1-chelmer2.jpg" alt="flooded roads" width="80%">
+						<figcaption>Figure: Flooded roads </figcaption>
 					</figure>
 				</article>
 
@@ -35,8 +35,8 @@
 						the upcoming disaster. Meet Aaron and his family. To prepare for the floods, they 
 						stayed up sandbagging their Graceville home until 4:00 in the morning.</p>
 					<figure>
-						<img src="images/Article1-Aaron_family.jpg" alt="chelmer" width="100%">
-						<figcaption>Figure: Chelmer, January 2011 </figcaption>
+						<img src="images/Article1-Aaron_family.jpg" alt="Aaron and his family" width="100%">
+						<figcaption>Figure: Aaron and his family </figcaption>
 					</figure>
 
 					<p>In order to help them out, let's learn more about sandbags and the best way to use 

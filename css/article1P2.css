@@ -1,10 +1,10 @@
 #access_game{
     opacity: 0.5;
-    width: 300px;
-    height: 140px;
+    width: 200px;
+    height: 100px;
     padding: 10px;
     position: absolute;
-    right: 140px;
+    right: 210px;
     bottom: 50px;
     border: 2px solid white;
     background-color:rgb(33, 45, 153);
@@ -24,4 +24,13 @@
 
 #access_game:hover > #access_game_text {
     font-weight: bold;
+}
+
+#sandbag_distribution{
+    width: 50%;
+    float: right;
+}
+
+#distribution{
+    display: flex;
 }

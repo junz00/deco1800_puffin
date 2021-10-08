@@ -141,6 +141,10 @@ nav .active {
     bottom: 4%;
 }
 
+figcaption{
+    font-size: 80%;
+}
+
 /* Footer */
 footer {
     height: 50px;

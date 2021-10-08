@@ -15,5 +15,5 @@ function displayCookieValue() {
 function getCookie() {
     storedName = document.cookie
     userName= storedName.slice(9,)
-    return userName
+    return ", " + userName 
 }
