@@ -11,7 +11,7 @@
 				<div id="leftpage">
 					<h1>Quiz</h1>
 
-					<form action = "result.php" method = "post">
+					<form action = "" method = "post">
 						<p>Question 1 : Which year did the Brisbane Floods occur?</p>
 						<input type="radio" id="q1a" name="q1" value="a">
 						<label for="q1a">Option a</label> <br>
@@ -45,6 +45,7 @@
 						<label for="q3d">Option d</label> <br>
 
 						<br>
+						<?php include("results.php"); ?>
 						<input type="submit" value="Submit" name="submit">
 					</form>
 
