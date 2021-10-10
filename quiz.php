@@ -1,6 +1,7 @@
 <?php $pageTitle="quiz"; ?>
 <?php $pageFile="quiz"; ?>
 <?php $pagePrev="article1_p1.php"; ?>
+<?php $result = 0; ?>
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
 
@@ -45,18 +46,17 @@
 						<label for="q3d">Option d</label> <br>
 
 						<br>
-						<?php include("results.php"); ?>
 						<input type="submit" value="Submit" name="submit">
 					</form>
-
+					<?php include("results.php"); ?>
+					<div id="win">
+					<p>Congratualtions! You Passed</p>
+					<a href="certificate.php"><div id="get_cert"> Click here to get your certificate!</div></a>
+                    </div>
 					<!-- <div id=serialize></div> -->
 					<!-- <button id="submit" onclick="submit()">Submit</button> -->
-					<div id="win">
-						<p>Congratualtions! You Passed</p>
-					<a href="certificate.php"><div id="get_cert"> Click here to get your certificate!</div></a>
-
 					<button id="button-next" onclick="nextPage()"> next </button>
-					</div>
+					
 				</div>
 			</div>
 		</section>
