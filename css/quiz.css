@@ -1,5 +1,10 @@
 #win {
-    display : none;
+    display : block;
+    width: 200px;
+    height: 50px;
+    border: blue solid;
+    background-color: turquoise;
+    color: black;
 }
 
 #get_cert{

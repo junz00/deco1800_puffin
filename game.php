@@ -1,6 +1,6 @@
 <?php $pageTitle="game"; ?>
 <?php $pageFile="game"; ?>
-<?php $pagePrev="article_p1.php"; ?>
+<?php $pagePrev="article1_p1.php"; ?>
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
 
@@ -9,7 +9,7 @@
 			<img id="book-bg" src="images/diary_bg.jpg">
 			<div id="pages">
 				<div id="pagespread">
-					<img id="game_bg" src="images/grass.jpg">
+					<img id="game_bg" src="images/grass.jpg" draggable="false">
 					<button type="button" id =exit_button onclick="exitGame()">exit</button>
 
 					<div id = "images">
