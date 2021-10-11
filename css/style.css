@@ -51,6 +51,7 @@ nav .active {
 #book-container {
     position: static; /* Needed so that the footer can appear below this section */
     height: 56.76vw;
+    max-height: 75vh;
     font-size: 18px;
 }
 
@@ -58,8 +59,11 @@ nav .active {
     display: block;
     position: absolute;
     width: 90vw;
-    height: 56.76vw;
-    left: 5%;
+    height: 56.76vw; /* Calculated based on image dimensions */
+    max-width: min(176.18vh, 1.7618*80vh); /* Adjust proportionally based on height */
+    max-height: 75vh;
+    margin: 0 auto;
+
     box-shadow: 0 10px 15px 0 #333;
 }
 
@@ -67,13 +71,15 @@ nav .active {
     display: block;
     position: absolute;
     z-index: -1;
-    width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+
+    /* Taken from dimensions of the book */
+    width: 90vw;
+    height: 56.76vw; /* Calculated based on image dimensions */
+    max-width: min(176.18vh, 1.7618*80vh); /* Adjust proportionally based on height */
+    max-height: 75vh;
 }
 
-  #pages {
+#pages {
     display: flex;
     height: 100%;
     width: 100%;
