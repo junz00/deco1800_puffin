@@ -23,7 +23,16 @@
 		<div id="pages" class="spread">
 			<div id="pagespread">
 				<h2>Map of Brisbane</h2>
-				<a href="article_p1.php" id="map"><img src="images/floodmapingwotape.jpg" alt="Map of Brisbane"></a>
+				<img src="images/nav-map.jpg" id="map" alt="Map of Brisbane">
+
+				<div id="mapPoints">
+				    <a href="article1_p1.php"><div class="mapPoint" id="ch1"></div></a>
+					<div class="mapPoint"  id="ch2"></div>
+					<div class="mapPoint"  id="ch3"></div>
+					<div class="mapPoint"  id="ch4"></div>
+					<div class="mapPoint"  id="ch5"></div>
+				</div>
+
 				<button id="button-prev" onclick= "prevPage()" > previous </button>
 				<button id="button-next" onclick="nextPage()"> next </button>
 			</div>

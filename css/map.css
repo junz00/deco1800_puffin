@@ -40,5 +40,53 @@
       cursor: pointer;
   }
  
+  .mapPoints{
+    display: flex;
+    position: absolute;
+  }
 
- 
+  .mapPoints hover{
+      background-color: white;
+
+  }
+
+  .mapPoint {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position:absolute
+  }
+
+  #pageSpread{
+      position:relative;
+  }
+
+  #ch1{
+      background-color: red;
+      top:62%;
+      left:20%
+  }
+
+  #ch2{
+    background-color: blue;
+    top:52.5%;
+    left:35%
+      
+  }
+  #ch3{
+    background-color: yellow;
+    top:40%;
+    left:50%
+        
+  }
+  #ch4{
+    background-color: purple;
+    top:46%;
+    left:65%
+
+  }
+  #ch5{
+    background-color: pink;
+    top:13%;
+    left:80%
+}

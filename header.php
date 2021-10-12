@@ -9,4 +9,3 @@
 		<script src="js/<?php echo $pageFile ?>.js"></script>
 	</head>
 	<body>
-		<h1>Brisbane Flood Journal</h1>

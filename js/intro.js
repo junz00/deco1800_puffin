@@ -6,8 +6,6 @@ function nextPage(){
     location.href="map.php";
 }
 
-
-
 var today = new Date();
 var expiry = new Date(today.getTime() + 30 * 24 * 3600 * 1000); // plus 1 day??
 
@@ -19,7 +17,6 @@ function setCookie(name, id) {
     console.log(document.cookie);
 
     displayCookieValue()
-
 }
 
 function displayCookieValue() {
