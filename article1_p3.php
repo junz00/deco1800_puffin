@@ -22,7 +22,7 @@
 						<p>You successfully helped Aaron and his family  protect their home from the flood by
 						 placing sandbags in vulnerable locations.</p>
 
-						<p>Remember: Sandbags can be placed along doorways, drainage holes and floor drains, and toilets
+						<p>Remember: Sandbags can be placed along doorways, drainage holes, floor drains and toilets
 						 to prevent the backflow of water.</p>
 					</article>
 					<button id="button-prev" onclick="prevPage()"> previous </button>
@@ -34,9 +34,9 @@
 			</figure>
 			
 			<article>
-				<p>To find out more informations on how to use sandbags to prepare for a flood be sure to
-				the Queensland Government's website on<a href="https://www.disaster.qld.gov.au/dmp/sandbagging/Pages/default.aspx" target="_blank">
-				Using sandbags to protect your home and business</a>.
+				<p>To find out more information on how to use sandbags to prepare for a flood be sure to go
+				the Queensland Government's website on <a href="https://www.disaster.qld.gov.au/dmp/sandbagging/Pages/default.aspx" target="_blank">Using
+				sandbags to protect your home and business</a>.
 			</article>
 			
 			<p>Atfer all, the best tip is to keep calm and follow the Qld Government Recommended Steps</p>

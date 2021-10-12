@@ -30,12 +30,12 @@
 			<div id="rightpage">
 
 				<article>	
-					<p>However, with the proper preparation, the worst of damages can be avoided.</p>
+					<p>However, with the proper preparation, the worst of the damage was avoided.</p>
 					<p>On the 12th of January, the night before the flood, everyone was getting ready for 
 						the upcoming disaster. Meet Aaron and his family. To prepare for the floods, they 
 						stayed up sandbagging their Graceville home until 4:00 in the morning.</p>
 					<figure>
-						<img src="images/Article1-Aaron_family.jpg" alt="Aaron and his family" width="100%">
+						<img src="images/Article1-aaron_family.jpg" alt="Aaron and his family" width="100%">
 						<figcaption>Figure: Aaron and his family </figcaption>
 					</figure>
 

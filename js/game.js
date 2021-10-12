@@ -33,11 +33,15 @@ function drop2(event) {
     event.preventDefault();
     var id = event.dataTransfer.getData("text");
     var item = document.getElementById(id);
-    event.target.appendChild(item);
 
     count = count + 1;
+
+    if (count == 1) {
+        sandbag2_placed.style.display = "block";
+    }
     
     if (count == 2) {
+        sandbag1_placed.style.display = "block";
         cont.style.display = "block";
     }
 }
@@ -57,5 +61,6 @@ window.onclick = function(event) {
     var box = document.getElementById("scrapMessage");
     var scrap = document.getElementById("scrap");
     if (event.target == scrap) {
-        box.style.display = "none";}
+        box.style.display = "none";
     }
+}

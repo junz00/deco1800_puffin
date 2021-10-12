@@ -25,16 +25,16 @@
 
 					<div id = "images">
 						<a href = "article1_p3.php">
-							<div id = "cont"><strong id = "cont_text"> Continue</strong></div>
+							<div id = "cont"><strong id = "cont_text">Well done! Click to Continue</strong></div>
 						</a>
 						
 						<div id = "plastic_cover"></div>
 						<div id = "box2" ondragover = "showDrop(event)" ondrop = "drop2(event)"></div>
 
 						<img id = "plastic_sheeting" src = "images/plastic_sheeting.png" draggable = "true" ondragstart = "dragStart1(event)">
-						<img id="dog_girl" src="images/dog_girl.jpg" draggable="true">
+						<!-- <img id="dog_girl" src="images/dog_girl.jpg" draggable="true">
 						<img id="bernie" src="images/bernie.png" draggable="true">
-						<img id="fruits" src="images/fruits.png" draggable="true">
+						<img id="fruits" src="images/fruits.png" draggable="true"> -->
 
 						
 						
@@ -44,9 +44,12 @@
 						
 						
 
-						<img id="among_us" src="images/among_us.png" draggable="true">
+						<!-- <img id="among_us" src="images/among_us.png" draggable="true"> -->
 						<img id="sandbag1" src="images/sandbag.png" draggable="true" ondragstart="dragStart2(event)">
 						<img id="sandbag2" src="images/sandbag.png" draggable="true" ondragstart="dragStart2(event)">
+
+						<img id="sandbag1_placed" src="images/sandbag.png" draggable="false">
+						<img id="sandbag2_placed" src="images/sandbag.png" draggable="false">
 
 						<!--<button id="button-prev" onclick="prevPage()"> previous </button>
 						//<button id="button-next" onclick="nextPage()"> next </button>-->

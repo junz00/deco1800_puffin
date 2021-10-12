@@ -12,7 +12,7 @@
 				<div id="leftpage">
 					<h1> Chapter: Chelmer Part I</h1>
 					<article>
-						<p>Sandbags correctly placed appropriately around the home can reduce the impact of flooding significantly.</p> 
+						<p>Sandbags correctly placed appropriately around the home can significantly reduce the impact of flooding.</p> 
 						<div class=id="distribution"">
 							<figure id="sandbag_distribution">
 								<img src="images/Article1-sandbag_distribution.png" alt="sandbags being distributed" width="100%">
@@ -20,7 +20,7 @@
 							</figure>
 							
 							<p>They can be purchased from your local hardware
-								store or distributed by your local Council or by <mark title="State Emergency Services">SES</mark> in an emergency flood.</p>
+								store or are distributed by your local Council or by <mark title="State Emergency Services">SES</mark> during a flood emergency.</p>
 						</div>
 							
 						<p>Before laying down a sandbag, place down a layer of plastic sheeting to act as a waterproof membrane.</p>
