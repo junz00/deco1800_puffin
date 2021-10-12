@@ -24,7 +24,7 @@
 					<button type="button" id =exit_button onclick="exitGame()">exit</button>
 
 					<div id = "images">
-						<a href = "article1_p3.php">
+						<a href = "map.php">
 							<div id = "cont"><strong id = "cont_text">Well done! Click to Continue</strong></div>
 						</a>
 						
