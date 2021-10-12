@@ -21,11 +21,11 @@ body{
 }
 
 #box1 {
-    width: 440px;
-    height: 200px;
+    width: 30%;
+    height: 11%;
     padding: 10px;
     position: absolute;
-    left: 65%;
+    left: 63%;
     bottom: 50%;
     outline: 2px solid black;
     background-color: transparent;
@@ -34,11 +34,11 @@ body{
 }
 
 #box2 {
-    width: 440px;
-    height: 100px;
+    width: 30%;
+    height: 10%;
     padding: 10px;
     position: absolute;
-    left: 65%;
+    left: 63%;
     bottom: 50%;
     outline: 4px solid red;
     background-color: transparent;
@@ -46,8 +46,8 @@ body{
 }
 
 #sandbag1 {
-    width: 150px;
-    height: 80px;
+    width: 10%;
+    height: 10%;
     position: absolute;
     right: 40px;
     bottom: 50px;
@@ -59,8 +59,8 @@ body{
 }
 
 #sandbag2 {
-    width: 150px;
-    height: 80px;
+    width: 10%;
+    height: 10%;
     position: absolute;
     right: 100px;
     bottom: 120px;
@@ -107,10 +107,10 @@ body{
 }
 
 #plastic_cover {
-    width: 535px;
-    height: 150px;
+    width: 32%;
+    height: 14%;
     position: absolute;
-    left: 62%;
+    left: 63%;
     bottom: 50%;
     background-image: url('../images/plastic_cover.png');
     background-repeat: no-repeat;
