@@ -23,14 +23,28 @@
 		<div id="pages" class="spread">
 			<div id="pagespread">
 				<h2>Map of Brisbane</h2>
-				<img src="images/nav-map.jpg" id="map" alt="Map of Brisbane">
+				<img src="images/floodmapingwotape.jpg" id="map" alt="Map of Brisbane">
 
 				<div id="mapPoints">
-				    <a href="article1_p1.php"><div class="mapPoint" id="ch1"></div></a>
-					<div class="mapPoint"  id="ch2"></div>
-					<div class="mapPoint"  id="ch3"></div>
-					<div class="mapPoint"  id="ch4"></div>
-					<div class="mapPoint"  id="ch5"></div>
+				    <a href="article1_p1.php"><div class="mapPoint" id="ch1"></div>
+					<div id="ch1" class="mapPointMessage">Chapter 1</div></a>
+
+					<a href="article2_p1.php"><div class="mapPoint"  id="ch2"></div>
+					<div id="ch2" class="mapPointMessage">Chapter 2</div></a>
+
+					<a href="article1_p1.php"><div class="mapPoint"  id="ch3"></div>
+					<div id="ch3" class="mapPointMessage">Chapter 3: Locked</div></a>
+
+					<a href="article1_p1.php"><div class="mapPoint"  id="ch4"></div>
+					<div id="ch4" class="mapPointMessage">Chapter 4: Locked</div></a>
+					
+					<a href="article1_p1.php"><div class="mapPoint"  id="ch5"></div>
+					<div id="ch5" class="mapPointMessage">Chapter 5: Locked</div></a>
+				</div>
+
+				<div id="container">
+					<div id="cube">
+					</div>
 				</div>
 
 				<button id="button-prev" onclick= "prevPage()" > previous </button>

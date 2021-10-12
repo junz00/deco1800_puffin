@@ -46,10 +46,13 @@
     position: absolute;
   }
 
-  .mapPoints hover{
+  a:hover #ch1, a:hover #ch2, a:hover #ch3, a:hover #ch4, a:hover #ch5{
       background-color: white;
-
   }
+
+  a:hover .mapPointMessage{
+    display: inline;
+}
 
   .mapPoint {
     width: 20px;
@@ -58,36 +61,47 @@
     position:absolute
   }
 
-  #pageSpread{
-      position:relative;
+  .mapPointMessage{
+    display: none;
+    background-color: white;
+    border: 2px dashed black;
+    width: 20%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
   }
 
   #ch1{
       background-color: red;
-      top:62%;
+      top:67%;
       left:20%
   }
 
   #ch2{
-    background-color: blue;
-    top:52.5%;
+    background-color: rgb(132, 210, 255);
+    top:54.5%;
     left:35%
       
   }
   #ch3{
-    background-color: yellow;
-    top:40%;
+    background-color: rgb(201, 201, 181);
+    top:47%;
     left:50%
         
   }
   #ch4{
-    background-color: purple;
-    top:46%;
+    background-color: rgb(171, 185, 177);
+    top:41.5%;
     left:65%
 
   }
   #ch5{
-    background-color: pink;
-    top:13%;
+    background-color: rgb(177, 169, 171);
+    top:13.5%;
     left:80%
+}
+
+
+#pageSpread{
+  position:relative;
 }
