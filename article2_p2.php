@@ -10,6 +10,19 @@
 		<img id="book-bg" src="images/diary_bg.jpg">
 		<div id="pages">
 			<div id="leftpage">
+				<p>Congratulations, you made the right decision and stayed safe during the floods!</p>
+				<p> Ms Peterson was not as lucky however.
+					"So then I followed them and just as I was going across, about eight or 10 feet upstream there was 
+					this broken branch lodged with all this debris... and there was an almighty crack and the branch just
+					splintered into pieces and this wave of debris and water just hit the car," she says.
+					"Then it was history because the stream was flowing quite rapidly."
+					Ms Petersen managed to open her window and climb onto the roof of the vehicle before jumping into the
+					floodwaters and making her way to the edge.
+					She says she will never drive through water again.
+					"It was really terrifying and it was really quick, it happened so quickly," she says.
+					"I would just say never even try it, it's really deceptive.
+					"You watch other cars go through, you think it's fine and it's not."
+				</p>
 				<button id="button-prev" onclick="prevPage()"> previous </button>
 			</div>
 			<div id="rightpage">

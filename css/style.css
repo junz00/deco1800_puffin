@@ -1,4 +1,4 @@
-h1, h2, p, a, figcaption {
+h1, h2, p, a, figcaption, ul {
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -90,6 +90,7 @@ nav .active {
 
 #pages > #leftpage,#rightpage {
     flex: 50%;
+    max-width: 42%;
     /* border: 1px solid #aaa; FOR DEBUGGING */
 }
 
