@@ -67,6 +67,27 @@ body{
     border : 5px transparent;
 }
 
+#sandbag1_placed {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    right: 20%;
+    bottom: 54%;
+    border: 5px transparent;
+    display: none;
+}
+
+#sandbag2_placed {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    right: 20%;
+    bottom: 48%;
+    border: 5px transparent;
+    display: none;
+}
+
+
 #among_us {
     position: absolute;
     height: 100px;

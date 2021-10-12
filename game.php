@@ -48,6 +48,9 @@
 						<img id="sandbag1" src="images/sandbag.png" draggable="true" ondragstart="dragStart2(event)">
 						<img id="sandbag2" src="images/sandbag.png" draggable="true" ondragstart="dragStart2(event)">
 
+						<img id="sandbag1_placed" src="images/sandbag.png" draggable="false">
+						<img id="sandbag2_placed" src="images/sandbag.png" draggable="false">
+
 						<!--<button id="button-prev" onclick="prevPage()"> previous </button>
 						//<button id="button-next" onclick="nextPage()"> next </button>-->
 					</div>
