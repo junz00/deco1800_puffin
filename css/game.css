@@ -140,11 +140,11 @@ body{
 }
 
 #cont {
-    width: 200px;
-    height: 100px;
+    width: 20%;
+    height: 15%;
     position: absolute;
-    left: 45%;
-    bottom: 53%;
+    left: 40%;
+    bottom: 48%;
     color: black;
     outline: 4px solid black;
     text-align: center;
@@ -162,6 +162,8 @@ body{
     color:black;
     font-size: large;
     transform: translate(0, 50%);
+    position: absolute;
+    top: 15%;
 }
 
 #scrapMessage {
