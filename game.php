@@ -32,9 +32,9 @@
 						<div id = "box2" ondragover = "showDrop(event)" ondrop = "drop2(event)"></div>
 
 						<img id = "plastic_sheeting" src = "images/plastic_sheeting.png" draggable = "true" ondragstart = "dragStart1(event)">
-						<img id="dog_girl" src="images/dog_girl.jpg" draggable="true">
+						<!-- <img id="dog_girl" src="images/dog_girl.jpg" draggable="true">
 						<img id="bernie" src="images/bernie.png" draggable="true">
-						<img id="fruits" src="images/fruits.png" draggable="true">
+						<img id="fruits" src="images/fruits.png" draggable="true"> -->
 
 						
 						
@@ -44,7 +44,7 @@
 						
 						
 
-						<img id="among_us" src="images/among_us.png" draggable="true">
+						<!-- <img id="among_us" src="images/among_us.png" draggable="true"> -->
 						<img id="sandbag1" src="images/sandbag.png" draggable="true" ondragstart="dragStart2(event)">
 						<img id="sandbag2" src="images/sandbag.png" draggable="true" ondragstart="dragStart2(event)">
 
