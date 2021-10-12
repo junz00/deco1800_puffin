@@ -30,7 +30,7 @@
 			<div id="rightpage">
 
 				<article>	
-					<p>However, with the proper preparation, the worst of damages can be avoided.</p>
+					<p>However, with the proper preparation, the worst of the damage was avoided.</p>
 					<p>On the 12th of January, the night before the flood, everyone was getting ready for 
 						the upcoming disaster. Meet Aaron and his family. To prepare for the floods, they 
 						stayed up sandbagging their Graceville home until 4:00 in the morning.</p>

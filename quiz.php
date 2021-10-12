@@ -23,7 +23,7 @@
 						<input type="radio" id="q1d" name="q1" value="d">
 						<label for="q1d">Option d</label> <br>
 					
-					<p>Question 2 : Where should you place sandbags?</p>
+						<p>Question 2 : Where should you place sandbags?</p>
 					
 						<input type="radio" id="q2a" name="q2" value="a">
 						<label for="q2a">a)</label> <br>
@@ -34,7 +34,7 @@
 						<input type="radio" id="q2d" name="q2" value="d">
 						<label for="q2d">d)</label> <br>
 					
-					<p>Question 3 : Which all should you do during a flood?</p>
+						<p>Question 3 : Which all should you do during a flood?</p>
 					
 						<input type="radio" id="q3a" name="q3" value="a">
 						<label for="q3a">Option a</label> <br>
@@ -50,13 +50,11 @@
 					</form>
 					<?php include("results.php"); ?>
 					<div id="win">
-					<p>Congratualtions! You Passed</p>
-					<a href="certificate.php"><div id="get_cert"> Click here to get your certificate!</div></a>
+						<p>Congratualtions! You Passed</p>
+						<a href="certificate.php"><div id="get_cert"> Click here to get your certificate!</div></a>
                     </div>
 					<!-- <div id=serialize></div> -->
 					<!-- <button id="submit" onclick="submit()">Submit</button> -->
-					<button id="button-next" onclick="nextPage()"> next </button>
-					
 				</div>
 			</div>
 		</section>

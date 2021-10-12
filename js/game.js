@@ -57,5 +57,6 @@ window.onclick = function(event) {
     var box = document.getElementById("scrapMessage");
     var scrap = document.getElementById("scrap");
     if (event.target == scrap) {
-        box.style.display = "none";}
+        box.style.display = "none";
     }
+}

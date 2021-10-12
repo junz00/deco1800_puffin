@@ -25,7 +25,7 @@
 
 					<div id = "images">
 						<a href = "article1_p3.php">
-							<div id = "cont"><strong id = "cont_text"> Continue</strong></div>
+							<div id = "cont"><strong id = "cont_text">Well done! Click to Continue</strong></div>
 						</a>
 						
 						<div id = "plastic_cover"></div>
