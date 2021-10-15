@@ -1,0 +1,11 @@
+#db-queries {
+    display: flex;
+    list-style-type: none;
+}
+
+#db-queries li {
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px brown;
+    border: 1px solid brown;
+}

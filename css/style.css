@@ -12,6 +12,13 @@ body {
 }
 
 /*Book mark bar*/
+nav {
+    width: 90vw;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
