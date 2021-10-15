@@ -11,7 +11,7 @@
 			<img id="book-bg" src="images/diary_bg.jpg">
 			<div id="pages">
 				<div id="leftpage">
-				<h1> Chapter: Chelmer Part II</h1><br>
+				<h1> Chapter: Chelmer Part III</h1><br>
 					<p id=congrats> Congratulations<span id="enterName"></span>! You did it!</p>
 					<figure id="aaron">
 						<img src="images/aaron2.jpeg" alt="Aaron and co" width="80%" height="60%">

@@ -10,7 +10,7 @@
 			<img id="book-bg" src="images/diary_bg.jpg">
 			<div id="pages">
 				<div id="leftpage">
-					<h1> Chapter: Chelmer Part I</h1>
+					<h1> Chapter: Chelmer Part II</h1>
 					<article>
 						<p>Sandbags correctly placed appropriately around the home can significantly reduce the impact of flooding.</p> 
 						<div class=id="distribution"">
