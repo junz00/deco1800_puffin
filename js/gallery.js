@@ -87,7 +87,6 @@ function apiQueryABC(primaryQuery, secondaryQuery, limit) {
 $(document).ready(function() {
     apiQueryABC("flood", "sandbag", 500);
 
-        
     $("#db-queries li").click(function() {
         apiQueryABC("flood", $(this).attr("search").toLowerCase(), 500);
     });
