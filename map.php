@@ -32,19 +32,14 @@
 					<a href="article2_p1.php"><div class="mapPoint"  id="ch2"></div>
 					<div id="ch2" class="mapPointMessage">Chapter 2</div></a>
 
-					<a href="article1_p1.php"><div class="mapPoint"  id="ch3"></div>
+					<a><div class="mapPoint"  id="ch3"></div>
 					<div id="ch3" class="mapPointMessage">Chapter 3: Locked</div></a>
 
-					<a href="article1_p1.php"><div class="mapPoint"  id="ch4"></div>
+					<a><div class="mapPoint"  id="ch4"></div>
 					<div id="ch4" class="mapPointMessage">Chapter 4: Locked</div></a>
 					
-					<a href="article1_p1.php"><div class="mapPoint"  id="ch5"></div>
+					<a><div class="mapPoint"  id="ch5"></div>
 					<div id="ch5" class="mapPointMessage">Chapter 5: Locked</div></a>
-				</div>
-
-				<div id="container">
-					<div id="cube">
-					</div>
 				</div>
 
 				<button id="button-prev" onclick= "prevPage()" > previous </button>

@@ -5,6 +5,9 @@
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
 
+<script src="js/jquery.min.js"></script>
+<script src="js/jsPDF/dist/jspdf.min.js"></script>
+
 	<div id="book-container">
 		<section id="book">
 			<img id="book-bg" src="images/diary_bg.jpg">
