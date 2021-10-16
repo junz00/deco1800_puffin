@@ -55,11 +55,11 @@ nav .active {
     background-color: #04AA6D;
 }
 
-/* The book, and everything inside it */
+/* The book and everything inside it */
 #book-container {
     position: static; /* Needed so that the footer can appear below this section */
     height: 44.15vw;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 #book {

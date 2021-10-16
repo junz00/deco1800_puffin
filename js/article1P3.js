@@ -3,19 +3,13 @@ function prevPage(){
 }
 
 function nextPage(){
-    location.href="article2_p1.php";
+    location.href="map.php";
 }
 
-function displayCookieValue() {
-    var value =getCookie();
+function displayName() {
+    var value = sessionStorage.getItem("name");
     var element = document.getElementById("enterName");
-    element.innerHTML = value;
-}
-
-function getCookie() {
-    storedName = document.cookie
-    userName= storedName.slice(9,)
-    return ", " + userName 
+    element.innerHTML = ", " + value;
 }
 
 

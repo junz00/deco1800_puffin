@@ -22,7 +22,11 @@
 		<img id="book-bg" src="images/diary_bg.jpg">
 		<div id="pages" class="spread">
 			<div id="pagespread">
-				<h2>Map of Brisbane</h2>
+				<h2 id="title">
+					Map of Brisbane
+					<button class="helpButton" onclick="openBox()"><img src="images/help_symbol.png" id="help"></button>
+				</h2>
+
 				<img src="images/floodmapingwotape.jpg" id="map" alt="Map of Brisbane">
 
 				<div id="mapPoints">

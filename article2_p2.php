@@ -1,7 +1,7 @@
 <?php $pageTitle="Article 2 - Part 2"; ?>
 <?php $pageFile="article2P2"; ?>
-<?php $pagePrev="map.php"; ?>
-<?php $pageNext="game.php"; ?>
+<?php $pagePrev="article2_p1.php"; ?>
+<?php $pageNext="map.php"; ?>
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
 
@@ -10,6 +10,17 @@
 		<img id="book-bg" src="images/diary_bg.jpg">
 		<div id="pages">
 			<div id="leftpage">
+
+				<section id="scrapMessage">
+					<img id="scrap" src="images/paper_scrap.png" width=40%>
+					<div class="scrapText">
+						<span id="close"   onclick="closeBox()">&#10006;</span>
+						<p>You received another mysterious scrap of paper!... This will come in handy later.
+						<img src="images/certificate_scrap.png" width="30%" style= "transform: scaleX(-1)">
+						</p>
+					</div>
+				</section>
+
 				<p>Congratulations, you made the right decision and stayed safe during the floods!</p>
 				<p> Ms Peterson was not as lucky however.<br><br>
 					"So then I followed them and just as I was going across, about eight or 10 feet upstream there was 

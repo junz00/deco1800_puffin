@@ -9,18 +9,17 @@ function nextPage(){
 var today = new Date();
 var expiry = new Date(today.getTime() + 30 * 24 * 3600 * 1000); // plus 1 day??
 
-function setCookie(name, id) {
+function setName(name, id) {
     var element = document.getElementById(id);
     var elementValue = escape(element.value);
 
-    document.cookie = name + "=" + elementValue + "; path=/; expires=" + expiry.toGMTString();
-    console.log(document.cookie);
+    sessionStorage.setItem("name", elementValue);
 
-    displayCookieValue()
+    displayName()
 }
 
-function displayCookieValue() {
-    var value =getCookie();
+function displayName() {
+    var value = sessionStorage.getItem("name");
     var element = document.getElementById("enterName");
     element.innerHTML = value;
 
@@ -31,14 +30,3 @@ function displayCookieValue() {
     const nameForm = document.getElementById("enterName");
     nameForm.parentNode.replaceChild(namePara, nameForm);
 }
-
-function getCookie() {
-    storedName = document.cookie
-    userName= storedName.slice(9,)
-    return userName
-
-    //var re = new RegExp(name + "=([^;]+)");
-    //var value = re.exec(document.cookie);
-    //return (value != null) ? unescape(value[1]) : null;
-}
-

@@ -1,8 +1,9 @@
 <?php $pageTitle="Introduction"; ?>
 <?php $pageFile="intro"; ?>
 <?php $pagePrev="index.php"; ?>
-<?php $pageNext="article_p1.php"; ?>
+<?php $pageNext="map.php"; ?>
 <?php include("header.php"); ?>
+
 <style>
 <?php include 'css/intro.css'; ?>
 </style>
@@ -17,7 +18,7 @@
                         <h2>This Journal Belongs to:</h2>
                             <form action="intro.php" method="post" id="enterName">
                                 <input type="text"  id="userName" name="userName" placeholder="Enter your name" autofocus>
-                                <button onclick="setCookie('userName', 'userName')" type="button">Enter</button>
+                                <button onclick="setName('userName', 'userName')" type="button">Enter</button>
                                 <br>
                             </form>
                     </div>

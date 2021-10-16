@@ -1,11 +1,11 @@
 <?php $pageTitle="Article 1 - Part 2"; ?>
 <?php $pageFile="article1P3"; ?>
 <?php $pagePrev="article_p2.php"; ?>
-<?php $pageNext="quiz.php"; ?>
+<?php $pageNext="map.php"; ?>
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
 
-<body onload="displayCookieValue();">
+<body onload="displayName();">
 	<div id="book-container">
 	<section id="book">
 			<img id="book-bg" src="images/diary_bg.jpg">
@@ -16,7 +16,9 @@
 					<img id="scrap" src="images/paper_scrap.png" width=40%>
 					<div class="scrapText">
 						<span id="close"   onclick="closeBox()">&#10006;</span>
-						<p>You received a mysterious scrap of paper... This will come in handy later.</p>
+						<p>You received a mysterious scrap of paper... This will come in handy later.
+						<img src="images/certificate_scrap.png" width="30%">
+						</p>
 					</div>
 				</section>
 

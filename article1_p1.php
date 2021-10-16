@@ -5,7 +5,7 @@
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
 
-<body onload="displayCookieValue();">
+<body onload="displayName();">
 <div id="book-container">
 	<section id="book">
 		<img id="book-bg" src="images/diary_bg.jpg">
