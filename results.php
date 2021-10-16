@@ -21,12 +21,11 @@
         if($result != 3) {
             echo "<p> Try again <p>";
         } else {
-            /*echo "<div id="win">
+            echo "<div id='win'>
 					<p>Congratualtions! You Passed</p>
-					<a href="certificate.php"><div id="get_cert"> Click here to get your certificate!</div></a>
+					<a href='certificate.php'><div id='get_cert'> Click here to get your certificate!</div></a>
                     </div>"; 
-            
-        */    }
+            }
         }
     }
 ?>

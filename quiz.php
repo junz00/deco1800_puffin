@@ -46,15 +46,11 @@
 						<label for="q3d">Option d</label> <br>
 
 						<br>
+						
 						<input type="submit" value="Submit" name="submit">
 					</form>
 					<?php include("results.php"); ?>
-					<div id="win">
-						<p>Congratualtions! You Passed</p>
-						<a href="certificate.php"><div id="get_cert"> Click here to get your certificate!</div></a>
-                    </div>
-					<!-- <div id=serialize></div> -->
-					<!-- <button id="submit" onclick="submit()">Submit</button> -->
+
 				</div>
 			</div>
 		</section>

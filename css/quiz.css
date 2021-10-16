@@ -1,14 +1,10 @@
 #win {
-    display : block;
-    width: 200px;
-    height: 50px;
-    border: blue solid;
-    background-color: turquoise;
-    color: black;
+
 }
 
 #get_cert{
-  width: 200px;
+  display: block;
+  width: 400px;
   height: 50px;
   border: blue solid;
   background-color: turquoise;
