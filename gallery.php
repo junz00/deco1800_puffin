@@ -23,11 +23,13 @@
 	<section id="book">
 		<img id="book-bg" src="images/diary_bg.jpg">
 		<div id="pages" class="spread">
-			<ul id="db-queries">
-				<li search="sandbag">Sandbag</li>
-				<li search="road">Flooded Road</li>
-			</ul>
 			<div id="pagespread">
+				<h1>Archive of flood footage</h1>
+				<p>Click on the categories below to see the effects that flooding has had on the lives of real people.</p>
+				<ul id="db-queries">
+					<li search="sandbag">Sandbag</li>
+					<li search="road">Flooded Road</li>
+				</ul>
 				<div id="gallery-images"></div>
 			</div>
 		</div>

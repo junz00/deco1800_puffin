@@ -1,6 +1,7 @@
 #db-queries {
     display: flex;
     list-style-type: none;
+    padding: 0;
 }
 
 #db-queries li {
