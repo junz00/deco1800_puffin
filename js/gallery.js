@@ -53,10 +53,12 @@ function iterateRecords(data, secondaryQuery) {
             console.log(rDate, rYear, rCaption, rImage);
             $("#gallery-images").append(
 				$('<section class="record">').append(
-					$('<h2>').text(rTitle),
-					$('<h3>').text(rDate),
-					$('<img>').attr("src", rImage),
-					$('<p>').text(rCaption)
+                    $('<img>').attr("src", rImage),
+                    $('<figcaption class="hidden">').append(
+                        $('<h2>').text(rTitle),
+                        $('<p>').text(rDate),
+                        $('<p>').text(rCaption)
+                    )
 				)
 			);
 		}
