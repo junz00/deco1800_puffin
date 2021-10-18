@@ -7,8 +7,10 @@ h1, h2 {
 }
 
 body {
-    /*background-image: url("images/grass.png");*/
-    background-color: skyblue;
+    background-image: url("/images/desk-background.jpg");
+    background-color: #b38050;
+    background-size: cover;
+    margin: 0;
 }
 
 /*Book mark bar*/
@@ -24,13 +26,14 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /*border: 1px solid #aaaaaa; /*  FOR DEBUGGING */
     display: flex;
     justify-content: space-around;
 }
 
 nav li {
+    display: block;
     float: left;
+    box-shadow: 0px -5px 5px #333;
 }
 
 nav li a {
@@ -169,4 +172,13 @@ footer {
     padding-right: 20px;
     display: flex;
     justify-content: space-between;
+
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), black);
+
+    color: white;
+}
+
+footer a {
+    color:rgb(221, 236, 0);
 }
