@@ -12,15 +12,11 @@ function displayName() {
     element.innerHTML = ", " + value;
 }
 
-
-function openBox() {
-    var box = document.getElementById("scrapMessage");
-    box.style.display = "block";
-}
 //hides the box when the close button is pressed
 function closeBox() {
     var box = document.getElementById("scrapMessage");
     box.style.display = "none";
+
 }
 //hides the box if the user presses outside of it        
 window.onclick = function(event) {
@@ -29,3 +25,10 @@ window.onclick = function(event) {
     if (event.target == scrap) {
         box.style.display = "none";}
 }
+
+
+
+window.onload = function(){
+    sessionStorage.setItem("ch1Complete", true);
+     }
+ 

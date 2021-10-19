@@ -51,3 +51,13 @@ function check (update) {
     return send;
 } */
 
+window.onload = function(){
+    ch1 = sessionStorage.getItem("ch1Complete")
+    ch2 = sessionStorage.getItem("ch2Complete")
+
+    if (ch1 == "true" && ch2 == "true"){
+            var box = document.getElementById("scrapMessage");
+            box.style.display = "none";
+    }
+}
+

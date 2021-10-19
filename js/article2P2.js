@@ -6,10 +6,6 @@ function nextPage(){
     location.href="quiz.php";
 }
 
-function openBox() {
-    var box = document.getElementById("scrapMessage");
-    box.style.display = "block";
-}
 //hides the box when the close button is pressed
 function closeBox() {
     var box = document.getElementById("scrapMessage");
@@ -22,3 +18,8 @@ window.onclick = function(event) {
     if (event.target == scrap) {
         box.style.display = "none";}
 }
+
+window.onload = function(){
+    sessionStorage.setItem("ch2Complete", true);
+     }
+ 

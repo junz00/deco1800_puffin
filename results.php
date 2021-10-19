@@ -22,9 +22,10 @@
             echo "<p> Try again <p>";
         } else {
             echo "<div id='win'>
-					<p>Congratualtions! You Passed</p>
+					<p>Congratulations! You Passed and recieved the final piece of paper. The papers combine to become a certificate with
+                    your name on it.</p>
 					<a href='certificate.php'><div id='get_cert'> Click here to get your certificate!</div></a>
-                    </div>"; 
+                    </div>; "; 
             }
         }
     }
