@@ -6,10 +6,6 @@
     align-items: center;
 }
 
-#enterName input, .introMessage, .nameInput, button{
-    font-family: 'Courier New', Courier, monospace;
-}
-
 #enterName{
     display: flex;
     flex-direction: column;
