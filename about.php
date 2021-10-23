@@ -1,5 +1,5 @@
-<?php $pageTitle="Gallery"; ?>
-<?php $pageFile="gallery"; ?>
+<?php $pageTitle="About"; ?>
+<?php $pageFile="about"; ?>
 <?php $pagePrev="index.php"; ?>
 <?php $pageNext="article1_p1.php"; ?>
 <?php include("header.php"); ?>
@@ -28,6 +28,10 @@
 				<h1>Credits</h1>
 				<p>This website was created as a project for the course DECO1800 - Interactive Design for the year 2021.</p>
 				<h2>Image sources</h2>
+				<ul>
+					<li>Australian Broadcasting Corparation. (2015). <em>ABC Local Online Photo Stories 2009-2014 CSV</em> [CKAN API].
+						<a href="https://data.gov.au/dataset/ds-dga-3fd356c6-0ad4-453e-82e9-03af582024c3">https://data.gov.au/dataset/ds-dga-3fd356c6-0ad4-453e-82e9-03af582024c3</a></li>
+				</ul>
 			</div>
 		</div>
 	</section>

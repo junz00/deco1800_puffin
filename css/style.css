@@ -1,9 +1,18 @@
+/* Default overrides: Should ensure better browser compatibility */
 * {
     font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
 }
 
-h1, h2 {
-  margin: 0;
+h1, h2, h3 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 body {
@@ -186,6 +195,7 @@ footer {
 footer > * {
     padding-left: 25px;
     padding-right: 25px;
+    padding-bottom: 10px;
 
     color:white;
 }
