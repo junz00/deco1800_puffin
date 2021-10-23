@@ -3,7 +3,8 @@
 <?php $pagePrev="index.php"; ?>
 <?php $pageNext="article1_p1.php"; ?>
 <?php include("header.php"); ?>
-<?php include("bookmarks.php"); ?>
+
+<nav><!-- Space for bookmarks --></nav>
 
 <!--<body onload="openBox(this)">-->
 <div id="book-container">

@@ -64,6 +64,7 @@ nav .active {
     position: static; /* Needed so that the footer can appear below this section */
     height: 44.15vw;
     font-size: 15px;
+    margin-bottom: 70px;
 }
 
 #book {
@@ -160,7 +161,7 @@ figcaption{
 
 /* Footer */
 footer {
-    height: 50px;
+    height: 70px;
 }
 
 mark{
@@ -174,6 +175,7 @@ footer {
 
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 
     background-color: rgba(0, 0, 0, 0);
     background-image: linear-gradient(rgba(0, 0, 0, 0), black);
@@ -182,8 +184,8 @@ footer {
 }
 
 footer > * {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
 
     color:white;
 }
