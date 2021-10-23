@@ -2,10 +2,20 @@
  * DATABASE ACCESS API
  * 
  * The code below has been adapted from examples supplied by DECO1800.
- * Specifically, this code is sourced from the example from the Week 5 workshop.
+ * Specifically, this code is sourced from the example from the Week 5
+ * workshop. It has been modified to retrieve records from a different API,
+ * with customisable search queries and filtering options.
  * 
- * It has been modified to retrieve records from a different API, with
- * customisable search queries and filtering options.
+ * API query results are displayed in HTML <div> elements with class
+ * "gallery-images" and attributes: query, n.
+ * 
+ *    For example: <div class="gallery-images" query="sandbag" n="5">
+ * 
+ * We call updateGalleries() to iterate through all the ".gallery-images"
+ * elements and update them with results described by the attributes.
+ * 
+ * An event handler for clicking on an element within ".db-queries li" was
+ * set up to allow updates to the galleries.
  */
 
 /* Extracts the year from a given date string */
@@ -77,7 +87,7 @@ function showRecords(target, data, secondaryQuery, limit) {
 /* Query the ABC Images API for flood images and populate the target element with results.
  * 
  * target:          HTML <div> element with class "gallery-images" and attributes: query, n.
- *                  Example: <div class="gallery-images" query="sandbag" n="5">
+ *                  For example: <div class="gallery-images" query="sandbag" n="5">
  * secondaryQuery:  Another search term used to further narrow down the results.
  * limit:           Maximum number of results displayed. Setting this to zero will show everything.
  */
@@ -102,6 +112,7 @@ function apiQueryABC(target, secondaryQuery, limit) {
     });
 }
 
+/* Updates "gallery-images" elements to display images corresponding to its attributes */
 function updateGalleries() {
     $(".gallery-images").each(function() {
         apiQueryABC($(this), $(this).attr("query"), parseInt($(this).attr("n")));
@@ -109,9 +120,11 @@ function updateGalleries() {
 }
 
 $(document).ready(function() {
+    /* Show deafult gallery */
     updateGalleries();
 
-    $("#db-queries li").click(function() {
+    /* Event handler when changing galleries. */
+    $(".db-queries li").click(function() {
         $(".gallery-images").attr("query", $(this).attr("query"), 500);
         updateGalleries();
     });

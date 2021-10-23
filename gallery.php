@@ -26,7 +26,7 @@
 			<div id="pagespread">
 				<h1>Archive of flood footage</h1>
 				<p>Click on the categories below to see the effects that flooding has had on the lives of real people.</p>
-				<ul id="db-queries">
+				<ul class="db-queries">
 					<li query="sandbag" n="6">Sandbag</li>
 					<li query="road" n="6">Flooded Road</li>
 				</ul>
