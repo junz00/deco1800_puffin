@@ -27,10 +27,10 @@
 				<h1>Archive of flood footage</h1>
 				<p>Click on the categories below to see the effects that flooding has had on the lives of real people.</p>
 				<ul id="db-queries">
-					<li search="sandbag">Sandbag</li>
-					<li search="road">Flooded Road</li>
+					<li query="sandbag">Sandbag</li>
+					<li query="road">Flooded Road</li>
 				</ul>
-				<div id="gallery-images"></div>
+				<div class="gallery-images" query="sandbag" n="5"></div>
 			</div>
 		</div>
 	</section>
