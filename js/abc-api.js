@@ -7,9 +7,9 @@
  * with customisable search queries and filtering options.
  * 
  * API query results are displayed in HTML <div> elements with class
- * "gallery-images" and attributes: query, n.
+ * "gallery-images" and attributes: query, limit.
  * 
- *    For example: <div class="gallery-images" query="sandbag" n="5">
+ *    For example: <div class="gallery-images" query="sandbag" limit="5">
  * 
  * We call updateGalleries() to iterate through all the ".gallery-images"
  * elements and update them with results described by the attributes.
@@ -45,7 +45,7 @@ function shuffleArray(array) {
 /* Extracts the year from a given date string */
 function getYear(year) {
 	if(year) {
-		var regexresult = year.match(/[\d]{4}/); // This is regex (https://en.wikipedia.org/wiki/Regular_expression)
+		let regexresult = year.match(/[\d]{4}/); // This is regex (https://en.wikipedia.org/wiki/Regular_expression)
         if (regexresult.length == 1) {
             return parseInt(regexresult[0]);
         } else {
@@ -64,7 +64,7 @@ function showRecords(target, data, secondaryQuery, limit) {
 
     /* Extract results into JSON data and do secondary query matching */
 	$.each(data.result.records, function(recordKey, recordValue) {
-        var r = {};
+        let r = {};
 
         r.image = recordValue["Primary image"];
         r.caption = recordValue["Primary image caption"]
@@ -77,25 +77,26 @@ function showRecords(target, data, secondaryQuery, limit) {
         r.latitude = recordValue["Latitude"];
         r.longitude = recordValue["Longitude"];
 
-        var match = r.caption.toLowerCase().match(secondaryQuery) ||
-                    r.title.toLowerCase().match(secondaryQuery) ||
+        let match = r.title.toLowerCase().match(secondaryQuery) ||
+                    r.caption.toLowerCase().match(secondaryQuery) ||
                     r.keywords.toLowerCase().match(secondaryQuery);
 
-		if(r.image && r.caption && r.date && match) {
+		if(match && r.image && r.title && r.caption && r.date) {
             results.push(r);
-
 		}
 	});
 
     /* Randomise order of results */
     shuffleArray(results);
 
-    n = limit;
-    if (limit == 0) {
+    let n = 0;
+    if (isNaN(limit) || limit == 0) {
         n = results.length;
+    } else {
+        n = limit < results.length ? limit : results.length;
     }
     for (let i = 0; i < n; i++) {
-        var r = results[i];
+        let r = results[i];
         target.append(
             $('<section class="record">').append(
                 $('<img>').attr("src", r.image),
@@ -108,18 +109,18 @@ function showRecords(target, data, secondaryQuery, limit) {
         );
     }
 
-    console.log("Displayed", n, "results of", data.result.total, "with search query:", secondaryQuery);
+    console.log("Displayed", n, "results of", results.length, "with secondary search query:", secondaryQuery);
 }
 
 /* Query the ABC Images API for flood images and populate the target element with results.
  * 
- * target:          HTML <div> element with class "gallery-images" and attributes: query, n.
- *                  For example: <div class="gallery-images" query="sandbag" n="5">
+ * target:          HTML <div> element with class "gallery-images" and attributes: query, limit.
+ *                  For example: <div class="gallery-images" query="sandbag" limit="5">
  * secondaryQuery:  Another search term used to further narrow down the results.
  * limit:           Maximum number of results displayed. Setting this to zero will show everything.
  */
 function apiQueryABC(target, secondaryQuery, limit) {
-    var data = {
+    let data = {
         resource_id: "d73f2a2a-c271-4edd-ac45-25fd7ad2241f",
         q: "flood",
         limit: 500 /* There are fewer than 500 flood images */
@@ -142,7 +143,7 @@ function apiQueryABC(target, secondaryQuery, limit) {
 /* Updates "gallery-images" elements to display images corresponding to its attributes */
 function updateGalleries() {
     $(".gallery-images").each(function() {
-        apiQueryABC($(this), $(this).attr("query"), parseInt($(this).attr("n")));
+        apiQueryABC($(this), $(this).attr("query"), parseInt($(this).attr("limit")));
     })
 }
 
@@ -152,7 +153,11 @@ $(document).ready(function() {
 
     /* Event handler when changing galleries. */
     $(".db-queries li").click(function() {
-        $(".gallery-images").attr("query", $(this).attr("query"), 500);
+        $(".db-queries li").removeClass("selected");
+        $(this).addClass("selected");
+        $(".gallery-images")
+                .attr("query", $(this).attr("query"))
+                .attr("limit", $(this).attr("limit"));
         updateGalleries();
     });
 });

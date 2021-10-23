@@ -1,20 +1,26 @@
 .db-queries {
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     padding: 0;
 }
 
 .db-queries li {
-    padding: 10px;
-    margin: 10px;
-    box-shadow: 5px 5px 10px rgb(77, 61, 15);
+    padding: 7px;
+    margin: 7px;
+    box-shadow: 2px 2px 5px rgb(77, 61, 15);
     border: 1px solid rgba(77, 61, 15, 0.4);
 }
 
 .db-queries li:hover {
-    background: rgba(77, 61, 15, 0.4);
+    background: rgba(77, 61, 15, 0.6);
     color: white;
     cursor: pointer;
+}
+
+.db-queries li.selected {
+    background: rgba(54, 42, 10, 0.8);
+    color: white;
 }
 
 .gallery-images {

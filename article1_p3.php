@@ -29,7 +29,7 @@
 						<figcaption>Figure: A very happy Aaron and his family</figcaption>
 					</figure>
 					-->
-					<div class="gallery-images" query="sandbag" n="1"></div>
+					<div class="gallery-images" query="sandbag" limit="1"></div>
 
 					<article>
 						<p>You successfully helped Aaron and his family  protect their home from the flood by
