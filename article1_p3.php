@@ -16,9 +16,8 @@
 					<img id="scrap" src="images/paper_scrap.png" width=40%>
 					<div class="scrapText">
 						<span id="close"   onclick="closeBox()">&#10006;</span>
-						<p>You received a mysterious scrap of paper... This will come in handy later.
+						<p>You received a mysterious scrap of paper... This will come in handy later.</p>
 						<img src="images/certificate_scrap.png" width="30%">
-						</p>
 					</div>
 				</section>
 

@@ -29,8 +29,7 @@
 				<p>This website was created as a project for the course DECO1800 - Interactive Design for the year 2021.</p>
 				<h2>Image sources</h2>
 				<ul>
-					<li>Australian Broadcasting Corparation. (2015). <em>ABC Local online photo stories 2009-2014 CSV</em> [CKAN API].
-						<a href="https://data.gov.au/dataset/ds-dga-3fd356c6-0ad4-453e-82e9-03af582024c3">https://data.gov.au/dataset/ds-dga-3fd356c6-0ad4-453e-82e9-03af582024c3</a></li>
+					<li>Australian Broadcasting Corparation. (2015). <em>ABC Local online photo stories 2009-2014 CSV</em> [CKAN API]. <a href="https://data.gov.au/dataset/ds-dga-3fd356c6-0ad4-453e-82e9-03af582024c3">https://data.gov.au/dataset/ds-dga-3fd356c6-0ad4-453e-82e9-03af582024c3</a></li>
 					<li>BRRT. (2017). <em>Open notebook</em> [Stock Image]. Pixabay. <a href="https://pixabay.com/photos/open-notebook-book-notebook-spread-2542525/">https://pixabay.com/photos/open-notebook-book-notebook-spread-2542525/</a></li>
 					<li>Pixabay. (2017). <em>Cup of fresh cappuccino near laptop keyboard and notebook</em> [Stock Image]. Pixabay. <a href="https://www.pexels.com/photo/cup-of-fresh-cappuccino-near-laptop-keyboard-and-notebook-414645/"> https://www.pexels.com/photo/cup-of-fresh-cappuccino-near-laptop-keyboard-and-notebook-414645/</a></li>
 				</ul>
