@@ -27,7 +27,7 @@
 					</p>
 				</article>
 
-				<button id="button-prev" onclick="prevPage()"> previous </button>
+				<button id="button-prev" onclick="prevPage()">previous</button>
 			</div>
 			<div id="rightpage">
 				<p>Swift flowing water can sweep away your car and even six inches of water is deep enough
@@ -43,7 +43,7 @@
 				<p>Flooding didn't stop some of the more foolhardy people from trying to cross them though. Local Ms Petersen says she was wary of crossing a flooded causeway on 20th of January 2011, 
 					but decided to do so after watching three other vehicles make it through.</p>
 				<p> Click here to play the car game and see what choice you would make</p>
-				<button id="button-next" onclick="nextPage()"> next </button>
+				<button id="button-next" onclick="nextPage()">next</button>
 			</div>
 			</div>
 	</section>

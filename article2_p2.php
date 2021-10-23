@@ -31,7 +31,7 @@
 					<img src="images/aaron2.jpeg" alt="Aaron and co" width="80%" height="60%">
 					<figcaption>Figure: A very happy Aaron and his family</figcaption>
 				</figure>
-				<button id="button-prev" onclick="prevPage()"> previous </button>
+				<button id="button-prev" onclick="prevPage()">previous</button>
 			</div>
 			<div id="rightpage">
 				<p>
@@ -49,7 +49,7 @@
 					"I would just say never even try it, it's really deceptive.
 					"You watch other cars go through, you think it's fine and it's not."
 				</p>
-				<button id="button-next" onclick="nextPage()"> next </button>
+				<button id="button-next" onclick="nextPage()">next</button>
 			</div>
 			</div>
 	</section>

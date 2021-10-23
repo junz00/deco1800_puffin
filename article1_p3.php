@@ -38,7 +38,7 @@
 						<p>Remember: Sandbags can be placed along doorways, drainage holes and floor drains, and toilets
 						 to prevent the backflow of water.</p>
 					</article>
-					<button id="button-prev" onclick="prevPage()"> previous </button>
+					<button id="button-prev" onclick="prevPage()">previous</button>
 				</div>
 		<div id="rightpage">
 			<figure>
@@ -57,7 +57,7 @@
 			<p>Click next to continue on with the journal.</p>
 
 
-			<button id="button-next" onclick="nextPage()"> next </button>
+			<button id="button-next" onclick="nextPage()">next</button>
 			</div>
 			</div>
 		</section>
