@@ -23,47 +23,61 @@ function getYear(year) {
 /* Iterates through AJAX query results and displays them in 'target'.
  * This should only be called upon the function below being successful */
 function showRecords(target, data, secondaryQuery, limit) {
-    console.log("showRecords(): Secondary query and result limit:", secondaryQuery, limit);
+    secondaryQuery = secondaryQuery.toLowerCase();
+
     target.empty();
+    results = [];
 
+    /* Extract results into JSON data and do secondary query matching */
 	$.each(data.result.records, function(recordKey, recordValue) {
+        var r = {};
 
-        var rImage = recordValue["Primary image"];
-        var rCaption = recordValue["Primary image caption"]
-		var rTitle = recordValue["Title"];
-		var rDate = recordValue["Date"];
-        var rYear = getYear(rDate);
-        var rState = recordValue["State"];
-        var rPlace = recordValue["Place"];
-        var rKeywords = recordValue["Keywords"];
-        var rLatitude = recordValue["Latitude"];
-        var rLongitude = recordValue["Longitude"];
+        r.image = recordValue["Primary image"];
+        r.caption = recordValue["Primary image caption"]
+		r.title = recordValue["Title"];
+		r.date = recordValue["Date"];
+        r.year = getYear(r.date);
+        r.state = recordValue["State"];
+        r.place = recordValue["Place"];
+        r.keywords = recordValue["Keywords"];
+        r.latitude = recordValue["Latitude"];
+        r.longitude = recordValue["Longitude"];
 
-        // TODO Case-insensitive matching
-        var match = rCaption.match(secondaryQuery) || rTitle.match(secondaryQuery) || rKeywords.match(secondaryQuery);
+        var match = r.caption.toLowerCase().match(secondaryQuery) ||
+                    r.title.toLowerCase().match(secondaryQuery) ||
+                    r.keywords.toLowerCase().match(secondaryQuery);
 
-		if(rImage && rCaption && rDate && match) {
-            console.log(rDate, rYear, rCaption, rImage);
-            target.append(
-				$('<section class="record">').append(
-                    $('<img>').attr("src", rImage),
-                    $('<figcaption class="hidden">').append(
-                        $('<h2>').text(rTitle),
-                        $('<p>').text(rDate),
-                        $('<p>').text(rCaption)
-                    )
-				)
-			);
+		if(r.image && r.caption && r.date && match) {
+            results.push(r);
+
 		}
 	});
 
     // TODO Query order randomisation
+
+    n = limit;
+    if (limit == 0) {
+        n = results.length;
+    }
+    for (let i = 0; i < n; i++) {
+        var r = results[i];
+        target.append(
+            $('<section class="record">').append(
+                $('<img>').attr("src", r.image),
+                $('<figcaption class="hidden">').append(
+                    $('<h3>').text(r.title),
+                    $('<p>').text(r.date),
+                    $('<p>').text(r.caption)
+                )
+            )
+        );
+    }
 }
 
 /* Query the ABC Images API for flood images and populate the target element with results.
  * 
- * target:          HTML <div> element with class "gallery-images",  and attributes: query, n.
- *                  Example: <div id="gallery-images" query="sandbag" n="5">
+ * target:          HTML <div> element with class "gallery-images" and attributes: query, n.
+ *                  Example: <div class="gallery-images" query="sandbag" n="5">
  * secondaryQuery:  Another search term used to further narrow down the results.
  * limit:           Maximum number of results displayed. Setting this to zero will show everything.
  */
@@ -88,18 +102,17 @@ function apiQueryABC(target, secondaryQuery, limit) {
     });
 }
 
-function updateGallery() {
+function updateGalleries() {
     $(".gallery-images").each(function() {
-        console.log(this);
         apiQueryABC($(this), $(this).attr("query"), parseInt($(this).attr("n")));
     })
 }
 
 $(document).ready(function() {
-    updateGallery();
+    updateGalleries();
 
     $("#db-queries li").click(function() {
         $(".gallery-images").attr("query", $(this).attr("query"), 500);
-        updateGallery();
+        updateGalleries();
     });
 });
