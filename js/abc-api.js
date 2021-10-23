@@ -107,6 +107,8 @@ function showRecords(target, data, secondaryQuery, limit) {
             )
         );
     }
+
+    console.log("Displayed", n, "results of", data.result.total, "with search query:", secondaryQuery);
 }
 
 /* Query the ABC Images API for flood images and populate the target element with results.

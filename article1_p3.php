@@ -1,4 +1,4 @@
-<?php $pageTitle="Article 1 - Part 2"; ?>
+<?php $pageTitle="Article 1 - Part 3"; ?>
 <?php $pageFile="article1P3"; ?>
 <?php $pagePrev="article_p2.php"; ?>
 <?php $pageNext="map.php"; ?>
@@ -22,12 +22,15 @@
 					</div>
 				</section>
 
-				<h1> Chapter 1: Chelmer Part II</h1><br>
+				<h1> Chapter 1: Chelmer Part III</h1><br>
 					<p id=congrats> Congratulations<span id="enterName"></span>! You did it!</p>
+					<!--
 					<figure id="aaron">
 						<img src="images/aaron2.jpeg" alt="Aaron and co" width="80%" height="60%">
 						<figcaption>Figure: A very happy Aaron and his family</figcaption>
 					</figure>
+					-->
+					<div class="gallery-images" query="sandbag" n="1"></div>
 
 					<article>
 						<p>You successfully helped Aaron and his family  protect their home from the flood by

@@ -1,20 +1,18 @@
-.gallery-images {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    height: 73%;
-    overflow-y: scroll;
-}
-
 .gallery-images .record {
-    display: flex;
-    flex-direction: column;
+    position: relative; /* For positioning of 'absolute' child elements */
     padding: 10px;
+    /* Based on image size, plus padding */
+    height: 220px;
+    width: 375.56px;
 }
 
 .gallery-images img {
+    position: absolute;
+    
+    /* Images are 700 x 394 pixels */
     height: 200px;
     width: 355.56px;
+
     box-shadow: 2px 2px 5px gray;
     background: rgba(200, 200, 200, 0.6);
     padding: 10px;
@@ -22,12 +20,16 @@
 
 .gallery-images figcaption.hidden {
     display: none;
-    /* position: relative; */
-    width: 355.56px;
+    position: absolute;
+    
+    /* Based on image size, minus padding */
+    height: 160px;
+    width: 315.56px;
+    margin-top: 20px;
+    margin-left: 20px;
+
     padding: 10px;
-    margin-top: 10px;
-    background: blue;
-    color: white;
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .gallery-images img:hover + figcaption.hidden {

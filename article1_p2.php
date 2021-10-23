@@ -1,4 +1,4 @@
-<?php $pageTitle="Article 1 - Part 1"; ?>
+<?php $pageTitle="Article 1 - Part 2"; ?>
 <?php $pageFile="article1P2"; ?>
 <?php $pagePrev="article_p1.php"; ?>
 <?php $pageNext="game.php"; ?>

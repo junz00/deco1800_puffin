@@ -10,3 +10,11 @@
     box-shadow: 5px 5px 10px brown;
     border: 1px solid brown;
 }
+
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 73%;
+    overflow-y: scroll;
+}
