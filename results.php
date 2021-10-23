@@ -10,12 +10,21 @@
         $result = 0;
         if($q1 == "a") {
             $result++;
+            echo "<script>document.getElementById('Q1').style = 'background-color: green'; </script>";
+        } else {
+            echo "<script>document.getElementById('Q1').style = 'background-color: red';</script>";
         }
         if($q2 == "b") {
             $result++;
+            echo "<script>document.getElementById('Q2').style = 'background-color: green';</script>";
+        } else {
+            echo "<script>document.getElementById('Q2').style = 'background-color: red';</script>";
         }
         if($q3 == "c") {
             $result++;
+            echo "<script>document.getElementById('Q3').style = 'background-color: green'; </script>";
+        } else {
+            echo "<script>document.getElementById('Q3').style = 'background-color: red'; </script>";
         }
         echo "<h3> You got $result/3 <h3>";
         if($result != 3) {
