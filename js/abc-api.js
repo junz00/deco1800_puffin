@@ -14,9 +14,33 @@
  * We call updateGalleries() to iterate through all the ".gallery-images"
  * elements and update them with results described by the attributes.
  * 
+ * Images are displayed in random order to make the website more intersting.
+ * In the case that gallery space is limited, this opens up the possibility of
+ * showing a different image each time a page is loaded.
+ * 
  * An event handler for clicking on an element within ".db-queries li" was
  * set up to allow updates to the galleries.
  */
+
+/* The following code is an implentation of the Fisher-Yates shuffle and was taken from:
+ *
+ * W3 Schools. (n.d.). How to Randomize (shuffle) a JavaScript Array. W3 Schools.
+ * https://www.w3docs.com/snippets/javascript/how-to-randomize-shuffle-a-javascript-array.html
+ */
+function shuffleArray(array) {
+    let i = array.length;
+    /* There remain elements to shuffle */
+    while (0 !== i) {
+        // Pick a remaining element
+        let randId = Math.floor(Math.random() * i);
+        i -= 1;
+        // Swap it with the current element.
+        let tmp = array[i];
+        array[i] = array[randId];
+        array[randId] = tmp;
+    }
+    return array;
+}
 
 /* Extracts the year from a given date string */
 function getYear(year) {
@@ -63,7 +87,8 @@ function showRecords(target, data, secondaryQuery, limit) {
 		}
 	});
 
-    // TODO Query order randomisation
+    /* Randomise order of results */
+    shuffleArray(results);
 
     n = limit;
     if (limit == 0) {
