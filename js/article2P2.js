@@ -19,7 +19,10 @@ window.onclick = function(event) {
         box.style.display = "none";}
 }
 
+
+
 window.onload = function(){
     sessionStorage.setItem("ch2Complete", true);
+    activeBookmark('ch2')
      }
  

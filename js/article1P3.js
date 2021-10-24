@@ -26,9 +26,9 @@ window.onclick = function(event) {
         box.style.display = "none";}
 }
 
-
-
 window.onload = function(){
+    displayName()
+    activeBookmark('ch1')
     sessionStorage.setItem("ch1Complete", true);
      }
  

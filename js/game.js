@@ -64,3 +64,9 @@ window.onclick = function(event) {
         box.style.display = "none";
     }
 }
+
+
+window.onload = function(){
+    activeBookmark('ch1')
+     }
+ 

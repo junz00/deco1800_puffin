@@ -5,3 +5,8 @@ function prevPage(){
 function nextPage(){
     location.href="article2_p2.php";
 }
+
+window.onload = function(){
+    activeBookmark('ch2')
+     }
+ 

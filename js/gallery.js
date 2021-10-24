@@ -93,3 +93,9 @@ $(document).ready(function() {
         apiQueryABC("flood", $(this).attr("search").toLowerCase(), 500);
     });
 });
+
+
+window.onload = function(){
+    activeBookmark('gallery')
+     }
+ 

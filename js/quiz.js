@@ -61,3 +61,9 @@ window.onload = function(){
     }
 }
 
+
+
+window.onload = function(){
+    activeBookmark('quiz')
+     }
+ 
