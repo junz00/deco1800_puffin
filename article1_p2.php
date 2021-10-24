@@ -44,7 +44,7 @@
 
 			<a href="game.php">
 				<div id="access_game">
-					<p id="access_game_text"> Click here to play</p>
+					<p id="access_game_text">Click here to help Aaron and his family</p>
 				</div>
 			</a>
 
