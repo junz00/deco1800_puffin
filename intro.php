@@ -4,10 +4,6 @@
 <?php $pageNext="map.php"; ?>
 <?php include("header.php"); ?>
 
-<style>
-<?php include 'css/intro.css'; ?>
-</style>
-
 <nav><!-- Space for bookmarks --></nav>
 
 <div id="book-container">

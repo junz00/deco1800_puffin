@@ -24,20 +24,24 @@ body {
 
 /*Bookmark bar*/
 nav {
+    height: 60px; /* Accommodating for the pop-up effect */
     width: 70vw;
-    margin-top: 30px;
-    margin-left: 15%;
+    position: relative;
+    margin-top: 20px;
+    margin-left: auto;
     margin-right: auto;
-    position:absolute;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
+
+    height: 100%;
+    width: 100%;
+
     display: flex;
     justify-content: space-around;
+    align-items: flex-end;
     overflow: visible; /* So the box shodows for the sticky notes do not get cut off */
 }
 
@@ -87,7 +91,7 @@ nav li a:hover{
     position: static; /* Needed so that the footer can appear below this section */
     height: 44.15vw;
     font-size: 15px;
-    padding: 6% 0 5% 0;
+    margin-bottom: 50px;
 }
 
 #book {
