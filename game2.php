@@ -20,18 +20,20 @@
 			<img id="book-bg" src="images/diary_bg.jpg">
 			<div id="pages">
 				<div id="pagespread">
-                    <img id="game_bg" src="images/garage_bg.jpg">
+                    <img id="game_bg" src="images/road.jpg">
                     <p>
-                    <button id = "move" onclick="move_car()">Click to start</button> 
+                    <button id = "movebutton" onclick="move_car()">Start</button> 
                     </p>
                     <p>
-                    <button id = "stop" onclick="stop_car()">stop</button>
+                    <button id = "stopbutton" onclick="stop_car()">Stop</button>
                     </p>
                     <a href = "article2_p2.php">
 							<div id = "cont"><strong id = "cont_text">Well done! Click to Continue</strong></div>
 						</a>
+
+							<div id = "restart"><strong id = "restart_text">Oh No! Click Start to try again</strong></div>
 					<div id = "car_animation">
-                        <img id = "car" src="images/fruits.png">
+                        <img id = "car" src="images/car.png">
 				    </div>
 			</div>
 		</section>
