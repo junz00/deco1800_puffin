@@ -4,7 +4,7 @@ function displayName() {
     element.innerHTML = ", " + value;
 }
 
-window.onload = function(){
-    activeBookmark('ch1')
+window.onload = function() {
+    activeBookmark('ch1');
     displayName()
-     }
+}

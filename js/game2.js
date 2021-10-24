@@ -26,3 +26,7 @@ function stop_car() {
     clearInterval(id);
     cont.style = "display: block !important";
 }
+
+window.onload = function() {
+  activeBookmark('ch2');
+}

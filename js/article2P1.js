@@ -1,4 +1,4 @@
-window.onload = function(){
-    activeBookmark('ch2')
-     }
+window.onload = function() {
+    activeBookmark('ch2');
+}
  

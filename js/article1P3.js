@@ -23,8 +23,8 @@ window.onclick = function(event) {
 }
 
 
-window.onload = function(){
-    activeBookmark('ch1')
+window.onload = function() {
+    activeBookmark('ch1');
     recordFoundPaper("ch1Complete");
     displayName()
-     }
+}

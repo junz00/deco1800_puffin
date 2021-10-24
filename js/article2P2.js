@@ -12,8 +12,8 @@ window.onclick = function(event) {
 }
 
 
-window.onload = function(){
-    activeBookmark('ch1')
+window.onload = function() {
+    activeBookmark('ch2');
     recordFoundPaper("ch2Complete");
     displayName()
 }
