@@ -11,8 +11,8 @@
                 <img id="cert" src="images/certificate.jpg" alt="certificate">
                 <h1 id="recipient">Name on certificate</h1>
                 <em id="date">[Today's date]</em>
-                <button type="button" id=exit_button onclick="printCert()">print</button>
-                <a id="button-next" href="index.php">next</a>
+                <!-- <button type="button" id=exit_button onclick="printCert()">print</button> -->
+                <a id="button-next" href="index.php">finish</a>
             </div>
         </div>
     </section>
