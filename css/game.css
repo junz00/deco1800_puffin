@@ -91,15 +91,6 @@ body{
     display: none;
 }
 
-
-#among_us {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    right: 300px;
-    bottom: 50px;
-}
-
 #plastic_sheeting {
     width: 15%;
     height: 15%;
@@ -110,29 +101,6 @@ body{
 
 #plastic_sheeting:hover {
     border: 4px yellow solid;
-}
-
-
-#bernie {
-    position: absolute;
-    left: 40px;
-    bottom: 50px;
-}
-
-#dog_girl {
-    height: 150px;
-    width: 100px;
-    position: absolute;
-    left: 320px;
-    bottom: 50px;
-}
-
-#fruits {
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    left:200px;
-    bottom: 50px;
 }
 
 #plastic_cover {

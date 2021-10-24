@@ -3,5 +3,5 @@ function prevPage(){
 }
 
 function nextPage(){
-    location.href="article2_p2.php";
+    location.href="game2.php";
 }
