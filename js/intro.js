@@ -1,13 +1,5 @@
 var invalidNameEntered = false;
 
-function prevPage(){
-    location.href="index.php";
-}
-
-function nextPage(){
-    location.href="map.php";
-}
-
 function setName() {
     uname = $("#userName").val();
     console.log(uname);

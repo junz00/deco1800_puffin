@@ -1,7 +1,5 @@
 <?php $pageTitle="Article 2 - Part 1"; ?>
 <?php $pageFile="article2P1"; ?>
-<?php $pagePrev="article_p3.php"; ?>
-<?php $pageNext="article2_p2.php"; ?>
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
 
@@ -27,7 +25,7 @@
 					</p>
 				</article>
 
-				<button id="button-prev" onclick="prevPage()">previous</button>
+				<a id="button-prev" href="map.php">previous</a>
 			</div>
 			<div id="rightpage">
 				<p>Swift flowing water can sweep away your car and even six inches of water is deep enough
@@ -43,7 +41,7 @@
 				<p>Flooding didn't stop some of the more foolhardy people from trying to cross them though. Local Ms Petersen says she was wary of crossing a flooded causeway on 20th of January 2011, 
 					but decided to do so after watching three other vehicles make it through.</p>
 				<p> Click here to play the car game and see what choice you would make</p>
-				<button id="button-next" onclick="nextPage()">next</button>
+				<a id="button-next" href="game2.php">next</a>
 			</div>
 			</div>
 	</section>

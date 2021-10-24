@@ -1,7 +1,5 @@
 <?php $pageTitle="About"; ?>
 <?php $pageFile="about"; ?>
-<?php $pagePrev="index.php"; ?>
-<?php $pageNext="article1_p1.php"; ?>
 <?php include("header.php"); ?>
 
 <nav><!-- Space for bookmarks --></nav>

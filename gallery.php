@@ -1,7 +1,5 @@
 <?php $pageTitle="Gallery"; ?>
 <?php $pageFile="gallery"; ?>
-<?php $pagePrev="index.php"; ?>
-<?php $pageNext="article1_p1.php"; ?>
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
 

@@ -1,7 +1,5 @@
-<?php $pageTitle="map"; ?>
+<?php $pageTitle="Map"; ?>
 <?php $pageFile="map"; ?>
-<?php $pagePrev="index.php"; ?>
-<?php $pageNext="article1_p1.php"; ?>
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
 
@@ -11,9 +9,9 @@
 	<section id="scrapMessage">
 		<img id="scrap" src="images/paper_scrap.png" width=40%>
 		<div class="scrapText">
-			<span id="close"   onclick="closeBox()">&#10006;</span>
-			<p>This map of the Brisbane River shows your progress through the journal. <br>
-			Select a point on the map to begin that story or simply press next to 
+			<span id="close" onclick="closeBox()">&#10006;</span>
+			<p>This map of the Brisbane River shows your progress through the journal.</p>
+			<p>Select a point on the map to begin that story or simply press next to 
 			begin the first article.</p>
 		</div>
 	</section>
@@ -22,10 +20,7 @@
 		<img id="book-bg" src="images/diary_bg.jpg">
 		<div id="pages" class="spread">
 			<div id="pagespread">
-				<h2 id="title">
-					Map of Brisbane
-					<button class="helpButton" onclick="openBox()"><img src="images/help_symbol.png" id="help"></button>
-				</h2>
+				<h2 id="title">Map of Brisbane<img src="images/help_symbol.png" id="help"></h2>
 
 				<img src="images/floodmapingwotape.jpg" id="map" alt="Map of Brisbane">
 
@@ -46,7 +41,7 @@
 					<div id="ch5Message" class="mapPointMessage">Chapter 5: Locked</div></a>
 				</div>
 			</div>
-			<button id="button-prev" onclick="prevPage()"> previous </button>
+			<a id="button-prev" href="intro.php">previous</a>
 		</div>
 	</section>
 </div>

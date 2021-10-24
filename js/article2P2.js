@@ -1,11 +1,3 @@
-function prevPage(){
-    location.href="article2_p1.php";
-}
-
-function nextPage(){
-    location.href="quiz.php";
-}
-
 //hides the box when the close button is pressed
 function closeBox() {
     var box = document.getElementById("scrapMessage");
@@ -24,4 +16,4 @@ window.onload = function(){
     activeBookmark('ch1')
     recordFoundPaper("ch2Complete");
     displayName()
-     }
+}

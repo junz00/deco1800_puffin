@@ -1,4 +1,4 @@
-<?php $pageTitle="quiz"; ?>
+<?php $pageTitle="Quiz"; ?>
 <?php $pageFile="quiz"; ?>
 <?php $pagePrev="article1_p1.php"; ?>
 <?php $result = 0; ?>
@@ -59,6 +59,8 @@
 
 			<div id="rightpage">
 				<?php include("results.php"); ?>
+				<p>Images from the <a href="gallery.php">ABC image archive</a></p>
+				<div class="gallery-images" query="" limit="2"></div>
 			</div>
 		</div>
 	</section>
