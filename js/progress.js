@@ -3,7 +3,7 @@
  *
  * The format of the object is as follows:
  * {
- *    userName:     String,
+ *    userName:     String
  *    visitedPages: List of Strings containing the path to the page
  *    papersFound:  List of Strings describing the paper
  *    quizComplete: Boolean

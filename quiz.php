@@ -11,6 +11,7 @@
 		<div id="pages">
 			<div id="leftpage">
 				<h1>Quiz</h1>
+				<p>So, do you think you would know what to do in a real flood to save yourself and your belongings? Take this quiz to find out!</p>
 				<p id="papers-not-found">Hmmm... looks like you don't have all the clues needed to take the quiz.</p>
 
 				<form id="quiz-form" action = "" method = "post">

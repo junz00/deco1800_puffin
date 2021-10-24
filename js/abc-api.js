@@ -103,7 +103,8 @@ function showRecords(target, data, secondaryQuery, limit) {
                 $('<figcaption class="hidden">').append(
                     $('<h3>').text(r.title),
                     $('<p>').text(r.date),
-                    $('<p>').text(r.caption)
+                    $('<p>').text(r.caption),
+                    $('<p>').text("Source: ABC (2015)")
                 )
             )
         );
