@@ -14,7 +14,7 @@
         } else {
             echo "<script>document.getElementById('Q1').style = 'background-color: red';</script>";
         }
-        if($q2 == "b") {
+        if($q2 == "d") {
             $result++;
             echo "<script>document.getElementById('Q2').style = 'background-color: green';</script>";
         } else {
