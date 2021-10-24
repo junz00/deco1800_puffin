@@ -2,10 +2,6 @@
 
 var count = 0;
 
-function exitGame() {
-    location.href="article1_p2.php";
-}
-
 function dragStart1(event) {
     event.dataTransfer.setData("text", event.target.id);
 }

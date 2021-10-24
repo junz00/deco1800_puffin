@@ -1,7 +1,5 @@
 <?php $pageTitle="Certificate"; ?>
 <?php $pageFile="cert"; ?>
-<?php $pagePrev="article_p2.php"; ?>
-<?php $pageNext="index.php"; ?>
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
 
@@ -14,7 +12,7 @@
                 <h1 id="recipient">Name on certificate</h1>
                 <em id="date">[Today's date]</em>
                 <button type="button" id=exit_button onclick="printCert()">print</button>
-                <button id="button-next" onclick="nextPage()">finish</button>
+                <a id="button-next" href="index.php">next</a>
             </div>
         </div>
     </section>

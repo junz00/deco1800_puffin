@@ -1,7 +1,5 @@
 <?php $pageTitle="Article 1 - Part 2"; ?>
 <?php $pageFile="article1P2"; ?>
-<?php $pagePrev="article_p1.php"; ?>
-<?php $pageNext="game.php"; ?>
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
 
@@ -27,7 +25,7 @@
 						<p>Sandbags should be placed in front of doorways / roller doors and brickwork vents with
 					sandbag walls being at least at 2 sandbags high for maximum effectiveness.</p>
 					</article>
-					<button id="button-prev" onclick="prevPage()">previous</button>
+					<a id="button-prev" href="article1_p1.php">previous</a>
 				</div>
 		<div id="rightpage">
 

@@ -1,6 +1,5 @@
 <?php $pageTitle="Floded Road Game"; ?>
 <?php $pageFile="game2"; ?>
-<?php $pagePrev="article1_p1.php"; ?>
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
 

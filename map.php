@@ -1,7 +1,5 @@
 <?php $pageTitle="Map"; ?>
 <?php $pageFile="map"; ?>
-<?php $pagePrev="index.php"; ?>
-<?php $pageNext="article1_p1.php"; ?>
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
 
@@ -43,7 +41,7 @@
 					<div id="ch5Message" class="mapPointMessage">Chapter 5: Locked</div></a>
 				</div>
 			</div>
-			<button id="button-prev" onclick="prevPage()"> previous </button>
+			<a id="button-prev" href="intro.php">previous</a>
 		</div>
 	</section>
 </div>
