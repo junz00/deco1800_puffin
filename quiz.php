@@ -12,7 +12,10 @@
 			<div id="leftpage">
 				<h1>Quiz</h1>
 				<p>So, do you think you would know what to do in a real flood to save yourself and your belongings? Take this quiz to find out!</p>
-				<p id="papers-not-found">Hmmm... looks like you don't have all the clues needed to take the quiz.</p>
+				<div id="papers-not-found">
+					<p>Hmmm... looks like you don't have all the clues needed to take the quiz. You'll need to look around for them!</p>
+					<!-- Icons representing the items are not yet found will appear here -->
+				</div>
 
 				<form id="quiz-form" action = "" method = "post">
 					<p id = "Q1">Question 1 : Which year did the Brisbane Floods occur?</p>

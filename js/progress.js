@@ -81,6 +81,19 @@ function allPapersFound() {
     return true;
 }
 
+function getNumPapersFound() {
+    nFound = 0;
+    nTotal = 0;
+    progress = getProgress();
+    for (let i = 0; i < PAPER_NAMES.length; i++) {
+        nTotal++;
+        if (progress.papersFound.includes(PAPER_NAMES[i])) {
+            nFound++;
+        }
+    }
+    return [nFound, nTotal, nTotal - nFound];
+}
+
 function recordQuizComplete() {
     progress = getProgress();
     progress.quizComplete = true;

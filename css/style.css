@@ -12,7 +12,7 @@ h1, h2, h3 {
 
 p {
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 body {
@@ -32,8 +32,6 @@ nav {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     display: flex;
     justify-content: space-around;
@@ -113,7 +111,6 @@ nav .active {
 #pages > #leftpage,#rightpage {
     flex: 50%;
     max-width: 42%;
-    /* border: 1px solid #aaa; FOR DEBUGGING */
 }
 
 #leftpage {
@@ -135,7 +132,6 @@ nav .active {
 }
 
 /* Navigation buttons */
-
 #pages button {
     display: block;
     background-color: rgb(212, 219, 226);
