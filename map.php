@@ -47,6 +47,7 @@
 				</div>
 			</div>
 		</div>
+		<button id="button-prev" onclick="prevPage()"> previous </button>
 	</section>
 </div>
 

@@ -19,7 +19,9 @@ window.onclick = function(event) {
         box.style.display = "none";}
 }
 
-$(document).ready(function() {
+
+window.onload = function(){
+    activeBookmark('ch1')
     recordFoundPaper("ch2Complete");
-});
-    activeBookmark('ch2')
+    displayName()
+     }
