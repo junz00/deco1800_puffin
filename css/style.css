@@ -26,12 +26,15 @@ body {
 nav {
     width: 70vw;
     margin-top: 30px;
-    margin-left: auto;
+    margin-left: 15%;
     margin-right: auto;
+    position:absolute;
 }
 
 nav ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
     display: flex;
     justify-content: space-around;
@@ -41,8 +44,8 @@ nav ul {
 nav li {
     display: block;
     float: left;
-    box-shadow: 1px -4px 7px #333;
-
+    box-shadow: 1px -3px 4px #333;
+    z-index: 0;
 }
 
 nav li a {
@@ -56,11 +59,27 @@ nav li a {
     border: black;
     border-width: 2px;
     background-color:rgb(221, 236, 0);
+
 }
 
 nav li a:hover, .active {
     background-color: red;
     color:white;
+    padding-bottom: 24px;
+}
+
+nav li a:hover{
+    margin-top: -7%;
+}
+
+.active{
+    margin-top: -10%;
+    padding-bottom: 30px;
+}
+
+.active:hover{
+    margin-top: -15%;
+    padding-bottom: 33px;
 }
 
 /* The book and everything inside it */
@@ -68,7 +87,7 @@ nav li a:hover, .active {
     position: static; /* Needed so that the footer can appear below this section */
     height: 44.15vw;
     font-size: 15px;
-    margin-bottom: 70px;
+    padding: 6% 0 5% 0;
 }
 
 #book {

@@ -10,5 +10,6 @@
 		<script src="js/<?php echo $pageFile ?>.js"></script>
 		<script src="js/abc-api.js"></script>
 		<script src="js/progress.js"></script>
+		<script src="js/bookmark.js"></script>
 	</head>
 	<body>

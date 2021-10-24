@@ -24,6 +24,12 @@ window.onclick = function(event) {
 }
 
 window.onload = function(){
+    
+    activeBookmark('map')
+
+    var progress = getProgress()
+    alert(progress)
+    
     if (sessionStorage.getItem("ch1Complete")) {
         var ch1Point = document.getElementById("ch1")
         var ch1Message = document.getElementById("ch1Message")
@@ -42,9 +48,7 @@ window.onload = function(){
         ch2Point.style.background="lightgreen";
     }
     };
-    activeBookmark('map')
     if (!thisPageBeenVisited()) {
         openBox()
         recordThisPageVisited();
-    }
-};
+    };

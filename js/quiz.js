@@ -25,6 +25,6 @@ $(document).ready(function() {
     }
 });
 
-    activeBookmark('quiz')
 window.onload = function(){
+    activeBookmark('quiz')
      }
