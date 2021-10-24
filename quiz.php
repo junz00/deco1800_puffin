@@ -55,8 +55,10 @@
 					
 					<input type="submit" value="Submit" name="submit">
 				</form>
-				<?php include("results.php"); ?>
+			</div>
 
+			<div id="rightpage">
+				<?php include("results.php"); ?>
 			</div>
 		</div>
 	</section>
