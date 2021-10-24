@@ -11,5 +11,23 @@
 }
 
 #cert {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#recipient, #date {
   position: absolute;
+}
+
+#recipient {
+  left: 40%;
+  top: 52%;
+  font-size: 2em;
+}
+
+#date {
+  left: 16%;
+  top: 64%;
 }
