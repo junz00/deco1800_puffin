@@ -1,3 +1,5 @@
+// Adapted from HTML Drag and Drop API - https://www.w3schools.com/html/html5_draganddrop.asp
+
 var count = 0;
 
 function exitGame() {
