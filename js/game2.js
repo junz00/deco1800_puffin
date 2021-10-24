@@ -2,6 +2,9 @@
 
 var id = null;
 function move_car() {
+  stopbutton.style = "display : block !important";
+  cont.style = "display : none !important";
+  restart.style = "display : none !important";
   var elem = document.getElementById("car");   
   var pos = 10;
   clearInterval(id);
@@ -9,6 +12,8 @@ function move_car() {
   function frame() {
     if (pos == 700) {
       clearInterval(id);
+      restart.style = "display: block !important";
+      stopbutton.style = "display : none !important";
     } else {
       pos++;  
       elem.style.left = pos + 'px'; 
@@ -19,5 +24,5 @@ function move_car() {
 function stop_car() {
     var elem = document.getElementById("car");
     clearInterval(id);
-    cont.style.display = "block";
+    cont.style = "display: block !important";
 }
