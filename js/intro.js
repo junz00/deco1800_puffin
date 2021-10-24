@@ -22,12 +22,12 @@ function displayName() {
     var element = document.getElementById("enterName");
     element.innerHTML = value;
 
-    /**const namePara = document.createElement("p");
+    const namePara = document.createElement("p");
     namePara.className = "p1";
     const nameValue = document.createTextNode(value);
     namePara.appendChild(nameValue);
     const nameForm = document.getElementById("enterName");
-    nameForm.parentNode.replaceChild(namePara, nameForm); */
+    nameForm.parentNode.replaceChild(namePara, nameForm);
 }
 
 function redisplayName() {
