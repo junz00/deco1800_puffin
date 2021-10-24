@@ -58,3 +58,7 @@
 #book-container {
     padding: 3% 0 5% 0;
 }
+
+#button-next {
+    display: none !important;
+}
