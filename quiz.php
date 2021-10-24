@@ -1,4 +1,4 @@
-<?php $pageTitle="quiz"; ?>
+<?php $pageTitle="Quiz"; ?>
 <?php $pageFile="quiz"; ?>
 <?php $pagePrev="article1_p1.php"; ?>
 <?php $result = 0; ?>

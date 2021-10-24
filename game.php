@@ -1,4 +1,4 @@
-<?php $pageTitle="game"; ?>
+<?php $pageTitle="Sandbag Game"; ?>
 <?php $pageFile="game"; ?>
 <?php $pagePrev="article1_p1.php"; ?>
 <?php include("header.php"); ?>
