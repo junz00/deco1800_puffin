@@ -59,6 +59,8 @@
 
 			<div id="rightpage">
 				<?php include("results.php"); ?>
+				<p>Images from the <a href="gallery.php">ABC image archive</a></p>
+				<div class="gallery-images" query="" limit="2"></div>
 			</div>
 		</div>
 	</section>
