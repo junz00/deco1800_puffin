@@ -5,6 +5,14 @@ function prevPage(){
 function submit(){
     win.style.display = "block";
 }
+
+$(document).ready(function() {
+    if (allPapersFound()) {
+        $("#papers-not-found").addClass("papersFound");
+        $("#quiz-form").addClass("papersFound");
+    }
+});
+
 /* $(function() {
     var update = function() {
         $('#serialize').text(        

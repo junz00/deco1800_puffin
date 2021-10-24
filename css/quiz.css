@@ -11,3 +11,15 @@
   color: black;
 }
 
+#papers-not-found.papersFound {
+  display: none;
+
+}
+
+#quiz-form.papersFound {
+  display: initial;
+}
+
+#quiz-form {
+  display: none;
+}

@@ -7,11 +7,10 @@ function nextPage(){
 }
 
 function displayName() {
-    var value = sessionStorage.getItem("name");
+    var value = getUserName();
     var element = document.getElementById("enterName");
     element.innerHTML = ", " + value;
 }
-
 
 function openBox() {
     var box = document.getElementById("scrapMessage");
@@ -29,3 +28,7 @@ window.onclick = function(event) {
     if (event.target == scrap) {
         box.style.display = "none";}
 }
+
+$(document).ready(function() {
+    recordFoundPaper("ch1Complete");
+});

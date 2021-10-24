@@ -13,13 +13,12 @@ function setName(name, id) {
     var element = document.getElementById(id);
     var elementValue = escape(element.value);
 
-    sessionStorage.setItem("name", elementValue);
-
+    setUserName(elementValue);
     displayName()
 }
 
 function displayName() {
-    var value = sessionStorage.getItem("name");
+    var value = getUserName();
     var element = document.getElementById("enterName");
     element.innerHTML = value;
 

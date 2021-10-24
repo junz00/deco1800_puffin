@@ -9,5 +9,6 @@
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 		<script src="js/<?php echo $pageFile ?>.js"></script>
 		<script src="js/abc-api.js"></script>
+		<script src="js/progress.js"></script>
 	</head>
 	<body>

@@ -22,3 +22,7 @@ window.onclick = function(event) {
     if (event.target == scrap) {
         box.style.display = "none";}
 }
+
+$(document).ready(function() {
+    recordFoundPaper("ch2Complete");
+});

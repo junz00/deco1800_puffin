@@ -48,6 +48,5 @@
 			</div>
 	</section>
 </div>
-<script src="js/api-abc.js"></script>
 
 <?php include("footer.php"); ?>

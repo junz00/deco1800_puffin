@@ -24,8 +24,8 @@ window.onclick = function(event) {
 }
 
 window.onload = function(){
-        if (!sessionStorage.getItem("firstVisit")) {
-            openBox()
-            sessionStorage.setItem("firstVisit", true);
-        }
+    if (!thisPageBeenVisited()) {
+        openBox()
+        recordThisPageVisited();
+    }
 };
