@@ -102,8 +102,8 @@ function showRecords(target, data, secondaryQuery, limit) {
                 $('<img>').attr("src", r.image),
                 $('<figcaption class="hidden">').append(
                     $('<h3>').text(r.title),
-                    $('<p>').text(r.date),
-                    $('<p>').text(r.caption)
+                    $('<p>').text(`${r.date}: ${r.caption}`),
+                    $('<em>').text("(Australian Broadcasting Corporation, 2015)")
                 )
             )
         );

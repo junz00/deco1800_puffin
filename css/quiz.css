@@ -11,6 +11,12 @@
   color: black;
 }
 
+#papers-not-found img {
+  max-width: 120px;
+  max-height: 120px;
+  margin: 10px;
+}
+
 #papers-not-found.papersFound {
   display: none;
 

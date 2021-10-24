@@ -3,7 +3,7 @@
  *
  * The format of the object is as follows:
  * {
- *    userName:     String,
+ *    userName:     String
  *    visitedPages: List of Strings containing the path to the page
  *    papersFound:  List of Strings describing the paper
  *    quizComplete: Boolean
@@ -79,6 +79,19 @@ function allPapersFound() {
         }
     }
     return true;
+}
+
+function getNumPapersFound() {
+    nFound = 0;
+    nTotal = 0;
+    progress = getProgress();
+    for (let i = 0; i < PAPER_NAMES.length; i++) {
+        nTotal++;
+        if (progress.papersFound.includes(PAPER_NAMES[i])) {
+            nFound++;
+        }
+    }
+    return [nFound, nTotal, nTotal - nFound];
 }
 
 function recordQuizComplete() {

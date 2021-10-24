@@ -1,11 +1,7 @@
 #access_game{
     opacity: 0.5;
-    width: 200px;
-    height: 100px;
     padding: 10px;
     position: absolute;
-    right: 210px;
-    bottom: 50px;
     border: 2px solid white;
     background-color:rgb(33, 45, 153);
 }
