@@ -14,7 +14,7 @@
 			<div id="pages">
 				<div id="pagespread">
                     <button type="button"  id =exit_button onclick="exitCert()">exit</button>
-                    <img id="cert" src="images/certificate.png" alt="certificate">
+                    <img id="cert" src="images/certificate.jpg" alt="certificate">
 					<button id="button-next" onclick="nextPage()">next</button>
                 </div>
             </div>

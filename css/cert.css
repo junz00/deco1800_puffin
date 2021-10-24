@@ -11,7 +11,5 @@
 }
 
 #cert {
-  margin: auto;
-  display: block;
-  width: 88%;
+  position: absolute;
 }
