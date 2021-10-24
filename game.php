@@ -20,7 +20,7 @@
 			<div id="pages">
 				<div id="pagespread">
 					<img id="game_bg" src="images/garage_bg.jpg" draggable="false">
-					<a id="button-exit" href="article1_P1.php">exit</a>
+					<a id="button-exit" href="article1_p1.php">exit</a>
 
 					<div id = "images">
 						<a href = "article1_p3.php">

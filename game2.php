@@ -20,7 +20,7 @@
 			<div id="pages">
 				<div id="pagespread">
                     <img id="game_bg" src="images/road.jpg">
-					<a id="button-exit" href="article2_P1.php">exit</a>
+					<a id="button-exit" href="article2_p1.php">exit</a>
                     <p>
                     <button id = "movebutton" onclick="move_car()">Start</button> 
                     </p>
