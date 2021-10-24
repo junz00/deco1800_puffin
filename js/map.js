@@ -51,4 +51,6 @@ window.onload = function() {
         openBox()
         recordThisPageVisited();
     }
+
+    $("#help").click(openBox);
 };
