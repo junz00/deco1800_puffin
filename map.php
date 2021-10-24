@@ -1,4 +1,4 @@
-<?php $pageTitle="map"; ?>
+<?php $pageTitle="Map"; ?>
 <?php $pageFile="map"; ?>
 <?php $pagePrev="index.php"; ?>
 <?php $pageNext="article1_p1.php"; ?>
