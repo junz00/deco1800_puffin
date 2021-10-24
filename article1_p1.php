@@ -24,7 +24,7 @@
 					</figure>
 				</article>
 
-				<button id="button-prev" onclick="prevPage()"> previous </button>
+				<button id="button-prev" onclick="prevPage()">previous</button>
 			</div>
 			<div id="rightpage">
 
@@ -43,7 +43,7 @@
 				</article>	
 				<button id="button-next" onclick="nextPage()">next</button>
 			</div>
-			</div>
+		</div>
 	</section>
 </div>
 </body>
