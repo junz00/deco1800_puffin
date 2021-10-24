@@ -23,6 +23,23 @@
     bottom: 20%;
 }
 
+#button-exit {
+    position: absolute;
+    opacity: 0.75;
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px;
+    right: 20px;
+    top: 20px;
+
+    /* Override hyperlink format */
+    color: white;
+    text-decoration: none;
+}
+
+#button-exit:hover {
+    opacity: 1;
+}
 #game_bg {
     display: block;
     height: 95%;

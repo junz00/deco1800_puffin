@@ -8,10 +8,10 @@
 			<img id="scrap" src="images/paper_scrap.png" width=40%>
 			<div class="scrapText">
 				<span id="close"   onclick="closeBox()">&#10006;</span>
-				<p>Welcome to the Sandbag Game! <br>
-					Use your knowledge of sandbags to help Aaron and his family protect their home. <br>
-					Remember, sandbag walls should be at least 2 sandbags high for maximum effectiveness. <br>
-					(Don't forget the plastic sheeting either!)
+				<p>Welcome to the Flooded Roads Game! <br>
+					Use your knowledge on the dangers of flooded roads to help this car from getting into an accident <br>
+					Click 'Start' to move the car and 'Stop' to stop the car<br>
+					(Be sure to stop the car before it hits the water!)
 				</p>
 			</div>
 		</section> -->
@@ -20,6 +20,7 @@
 			<div id="pages">
 				<div id="pagespread">
                     <img id="game_bg" src="images/road.jpg">
+					<a id="button-exit" href="article2_p1.php">exit</a>
                     <p>
                     <button id = "movebutton" onclick="move_car()">Start</button> 
                     </p>
