@@ -15,6 +15,7 @@
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0px 0px 5px rgba(20, 20, 20, 0.3);
 }
 
 #recipient, #date {
