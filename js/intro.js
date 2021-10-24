@@ -1,3 +1,5 @@
+var invalidNameEntered = false;
+
 function prevPage(){
     location.href="index.php";
 }
@@ -6,12 +8,18 @@ function nextPage(){
     location.href="map.php";
 }
 
-function setName(name, id) {
-    var element = document.getElementById(id);
-    var elementValue = escape(element.value);
-    $("#button-next").removeClass("hidden");
-    setUserName(elementValue);
-    displayName()
+function setName() {
+    uname = $("#userName").val();
+    console.log(uname);
+    if (uname) {
+        $("#button-next").removeClass("hidden");
+        setUserName(uname);
+        displayName();
+    } else if (!invalidNameEntered) {
+        $("#userName").after($("<p id=\"invalid-name\">Please enter your name</p>"));
+        invalidNameEntered = true;
+    }
+
 }
 
 function displayName() {

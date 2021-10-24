@@ -16,7 +16,7 @@
                     <h2>This Journal Belongs to:</h2>
                         <form action="intro.php" method="post" id="enterName">
                             <input type="text" id="userName" name="userName" placeholder="Enter your name" autofocus>
-                            <button onclick="setName('userName', 'userName')" type="button">Enter</button>
+                            <button onclick="setName()" type="button">Enter</button>
                             <br>
                         </form>
                 </div>

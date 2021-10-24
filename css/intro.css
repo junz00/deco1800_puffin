@@ -33,6 +33,11 @@
 
 }
 
+#invalid-name {
+    color: red;
+    text-align: center;
+}
+
 .p1{
     font-size: 22px;
     border-bottom: 5px solid black;
