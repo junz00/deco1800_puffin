@@ -10,11 +10,13 @@ function openBox() {
     var box = document.getElementById("scrapMessage");
     box.style.display = "block";
 }
+
 //hides the box when the close button is pressed
 function closeBox() {
     var box = document.getElementById("scrapMessage");
     box.style.display = "none";
 }
+
 //hides the box if the user presses outside of it        
 window.onclick = function(event) {
     var box = document.getElementById("scrapMessage");
@@ -23,14 +25,11 @@ window.onclick = function(event) {
         box.style.display = "none";}
 }
 
-window.onload = function(){
+window.onload = function() {
     
-    activeBookmark('map')
-
-    var progress = getProgress()
-    alert(progress)
+    activeBookmark('map');
     
-    if (sessionStorage.getItem("ch1Complete")) {
+    if (isPaperFound("ch1Complete")) {
         var ch1Point = document.getElementById("ch1")
         var ch1Message = document.getElementById("ch1Message")
 
@@ -39,7 +38,7 @@ window.onload = function(){
         ch1Message.appendChild(complete);
 
     }
-    if (sessionStorage.getItem("ch2Complete")) {
+    if (isPaperFound("ch2Complete")) {
         var ch2Point = document.getElementById("ch2")
         var ch2Message = document.getElementById("ch2Message")
         var complete = document.createTextNode(":Complete");
@@ -47,8 +46,9 @@ window.onload = function(){
         ch2Message.appendChild(complete);
         ch2Point.style.background="lightgreen";
     }
-    };
+
     if (!thisPageBeenVisited()) {
         openBox()
         recordThisPageVisited();
-    };
+    }
+};
