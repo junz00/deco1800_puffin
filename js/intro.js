@@ -9,7 +9,7 @@ function nextPage(){
 function setName(name, id) {
     var element = document.getElementById(id);
     var elementValue = escape(element.value);
-    document.getElementById("button-next").style = "display : block !important";
+    $("#button-next").removeClass("hidden");
     setUserName(elementValue);
     displayName()
 }

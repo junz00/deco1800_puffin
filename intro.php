@@ -15,12 +15,11 @@
                 <div class="nameInput">
                     <h2>This Journal Belongs to:</h2>
                         <form action="intro.php" method="post" id="enterName">
-                            <input type="text"  id="userName" name="userName" placeholder="Enter your name" autofocus>
+                            <input type="text" id="userName" name="userName" placeholder="Enter your name" autofocus>
                             <button onclick="setName('userName', 'userName')" type="button">Enter</button>
                             <br>
                         </form>
                 </div>
-
 
                 <button id="button-prev" onclick="prevPage()">previous</button>
             </div>
@@ -38,7 +37,7 @@
                     <p>
                 <div>
 
-                <button id="button-next" onclick="nextPage()">next</button>
+                <button id="button-next" class="hidden" onclick="nextPage()">next</button>
             </div>
         </div>
     </section>
