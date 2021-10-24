@@ -15,9 +15,8 @@
 					<img id="scrap" src="images/paper_scrap.png" width=40%>
 					<div class="scrapText">
 						<span id="close"   onclick="closeBox()">&#10006;</span>
-						<p>You received another mysterious scrap of paper!... This will come in handy later.
+						<p>You received another mysterious scrap of paper!... This will come in handy later.</p>
 						<img src="images/certificate_scrap.png" width="30%" style= "transform: scaleX(-1)">
-						</p>
 					</div>
 				</section>
 
@@ -31,7 +30,7 @@
 					<img src="images/aaron2.jpeg" alt="Aaron and co" width="80%" height="60%">
 					<figcaption>Figure: A very happy Aaron and his family</figcaption>
 				</figure>
-				<button id="button-prev" onclick="prevPage()"> previous </button>
+				<button id="button-prev" onclick="prevPage()">previous</button>
 			</div>
 			<div id="rightpage">
 				<p>
@@ -49,11 +48,10 @@
 					"I would just say never even try it, it's really deceptive.
 					"You watch other cars go through, you think it's fine and it's not."
 				</p>
-				<button id="button-next" onclick="nextPage()"> next </button>
+				<button id="button-next" onclick="nextPage()">next</button>
 			</div>
 			</div>
 	</section>
 </div>
-<script src="js/api-abc.js"></script>
 
 <?php include("footer.php"); ?>

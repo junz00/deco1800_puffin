@@ -45,9 +45,6 @@
 					<a><div class="mapPoint"  id="ch5"></div>
 					<div id="ch5Message" class="mapPointMessage">Chapter 5: Locked</div></a>
 				</div>
-
-				<button id="button-prev" onclick= "prevPage()" > previous </button>
-				<button id="button-next" onclick="nextPage()"> next </button>
 			</div>
 		</div>
 	</section>

@@ -1,0 +1,37 @@
+.gallery-images .record {
+    position: relative; /* For positioning of 'absolute' child elements */
+    padding: 10px;
+    /* Based on image size, plus padding */
+    height: 220px;
+    width: 375.56px;
+}
+
+.gallery-images img {
+    position: absolute;
+    
+    /* Images are 700 x 394 pixels */
+    height: 200px;
+    width: 355.56px;
+
+    box-shadow: 2px 2px 5px gray;
+    background: rgba(200, 200, 200, 0.6);
+    padding: 10px;
+}
+
+.gallery-images figcaption.hidden {
+    display: none;
+    position: absolute;
+    
+    /* Based on image size, minus padding */
+    height: 160px;
+    width: 315.56px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.gallery-images img:hover + figcaption.hidden {
+    display: block;
+}

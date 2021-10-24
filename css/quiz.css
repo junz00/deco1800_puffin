@@ -11,33 +11,21 @@
   color: black;
 }
 
-#scrapMessage {
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.4);
+#papers-not-found img {
+  max-width: 120px;
+  max-height: 120px;
+  margin: 10px;
 }
 
-#scrap{
-  padding: 20% 0 0 29%;
+#papers-not-found.papersFound {
+  display: none;
+
 }
 
-#scrapText{
-    position: absolute;
-    text-align: center;
-    margin: -15% 0 0 35%;
-    width: 30%;
+#quiz-form.papersFound {
+  display: initial;
 }
 
-#scrapText button{
-  width: 150px;
-  background-color: rgb(200, 211, 223);
-  margin-left: 25%;
-}
-
-#scrapText a{
-  text-decoration: none;
+#quiz-form {
+  display: none;
 }

@@ -41,7 +41,7 @@
 					<p>In order to help them out, let's learn more about sandbags and the best way to use 
 						them to safeguard houses. </p>
 				</article>	
-				<button id="button-next" onclick="nextPage()"> next </button>
+				<button id="button-next" onclick="nextPage()">next</button>
 			</div>
 			</div>
 	</section>

@@ -7,7 +7,7 @@ function nextPage(){
 }
 
 function displayName() {
-    var value = sessionStorage.getItem("name");
+    var value = getUserName();
     var element = document.getElementById("enterName");
     element.innerHTML = ", " + value;
 }

@@ -7,11 +7,15 @@ function nextPage(){
 }
 
 function displayName() {
-    var value = sessionStorage.getItem("name");
+    var value = getUserName();
     var element = document.getElementById("enterName");
     element.innerHTML = ", " + value;
 }
 
+function openBox() {
+    var box = document.getElementById("scrapMessage");
+    box.style.display = "block";
+}
 //hides the box when the close button is pressed
 function closeBox() {
     var box = document.getElementById("scrapMessage");
@@ -26,9 +30,6 @@ window.onclick = function(event) {
         box.style.display = "none";}
 }
 
-window.onload = function(){
-    displayName()
-    activeBookmark('ch1')
-    sessionStorage.setItem("ch1Complete", true);
-     }
- 
+$(document).ready(function() {
+    recordFoundPaper("ch1Complete");
+});

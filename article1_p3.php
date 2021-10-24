@@ -1,4 +1,4 @@
-<?php $pageTitle="Article 1 - Part 2"; ?>
+<?php $pageTitle="Article 1 - Part 3"; ?>
 <?php $pageFile="article1P3"; ?>
 <?php $pagePrev="article_p2.php"; ?>
 <?php $pageNext="map.php"; ?>
@@ -15,18 +15,20 @@
 					<img id="scrap" src="images/paper_scrap.png" width=40%>
 					<div class="scrapText">
 						<span id="close"   onclick="closeBox()">&#10006;</span>
-						<p>You received a mysterious scrap of paper... This will come in handy later.
+						<p>You received a mysterious scrap of paper... This will come in handy later.</p>
 						<img src="images/certificate_scrap.png" width="30%">
-						</p>
 					</div>
 				</section>
 
-				<h1> Chapter 1: Chelmer Part II</h1><br>
+				<h1> Chapter 1: Chelmer Part III</h1><br>
 					<p id=congrats> Congratulations<span id="enterName"></span>! You did it!</p>
+					<!--
 					<figure id="aaron">
 						<img src="images/aaron2.jpeg" alt="Aaron and co" width="80%" height="60%">
 						<figcaption>Figure: A very happy Aaron and his family</figcaption>
 					</figure>
+					-->
+					<div class="gallery-images" query="sandbag" limit="1"></div>
 
 					<article>
 						<p>You successfully helped Aaron and his family  protect their home from the flood by
@@ -35,7 +37,7 @@
 						<p>Remember: Sandbags can be placed along doorways, drainage holes and floor drains, and toilets
 						 to prevent the backflow of water.</p>
 					</article>
-					<button id="button-prev" onclick="prevPage()"> previous </button>
+					<button id="button-prev" onclick="prevPage()">previous</button>
 				</div>
 		<div id="rightpage">
 			<figure>
@@ -54,7 +56,7 @@
 			<p>Click next to continue on with the journal.</p>
 
 
-			<button id="button-next" onclick="nextPage()"> next </button>
+			<button id="button-next" onclick="nextPage()">next</button>
 			</div>
 			</div>
 		</section>

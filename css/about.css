@@ -1,0 +1,12 @@
+ul {
+    /* No bullets */
+    list-style-type: none;
+}
+
+li {
+    /* Hanging indent */
+    padding-left: 20px;
+    text-indent: -20px;
+
+    margin-bottom: 10px;
+}
