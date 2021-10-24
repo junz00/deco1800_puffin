@@ -1,3 +1,5 @@
+//Adapted from How to JS animation - https://www.w3schools.com/howto/howto_js_animate.asp
+
 var id = null;
 function move_car() {
   var elem = document.getElementById("car");   
