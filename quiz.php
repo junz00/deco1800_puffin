@@ -5,6 +5,14 @@
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
 
+				<section id="scrapMessage">
+					<img id="scrap" src="images/paper_scrap.png" width=40%>
+					<div id="scrapText">
+						<p>You need to complete all the chapters before you can attempt the quiz</p>
+						<a href="map.php"><button>Return to map</button></a>
+						</p>
+					</div>
+				</section>
 <div id="book-container">
 	<section id="book">
 		<img id="book-bg" src="images/diary_bg.jpg">

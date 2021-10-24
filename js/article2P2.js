@@ -6,10 +6,6 @@ function nextPage(){
     location.href="quiz.php";
 }
 
-function openBox() {
-    var box = document.getElementById("scrapMessage");
-    box.style.display = "block";
-}
 //hides the box when the close button is pressed
 function closeBox() {
     var box = document.getElementById("scrapMessage");
@@ -26,3 +22,4 @@ window.onclick = function(event) {
 $(document).ready(function() {
     recordFoundPaper("ch2Complete");
 });
+    activeBookmark('ch2')

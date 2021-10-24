@@ -31,19 +31,19 @@
 
 				<div id="mapPoints">
 				    <a href="article1_p1.php"><div class="mapPoint" id="ch1"></div>
-					<div id="ch1" class="mapPointMessage">Chapter 1</div></a>
+					<div id="ch1Message" class="mapPointMessage">Chapter 1</div></a>
 
 					<a href="article2_p1.php"><div class="mapPoint"  id="ch2"></div>
-					<div id="ch2" class="mapPointMessage">Chapter 2</div></a>
+					<div id="ch2Message" class="mapPointMessage">Chapter 2</div></a>
 
 					<a><div class="mapPoint"  id="ch3"></div>
-					<div id="ch3" class="mapPointMessage">Chapter 3: Locked</div></a>
+					<div id="ch3Message" class="mapPointMessage">Chapter 3: Locked</div></a>
 
 					<a><div class="mapPoint"  id="ch4"></div>
-					<div id="ch4" class="mapPointMessage">Chapter 4: Locked</div></a>
+					<div id="ch4Message" class="mapPointMessage">Chapter 4: Locked</div></a>
 					
 					<a><div class="mapPoint"  id="ch5"></div>
-					<div id="ch5" class="mapPointMessage">Chapter 5: Locked</div></a>
+					<div id="ch5Message" class="mapPointMessage">Chapter 5: Locked</div></a>
 				</div>
 			</div>
 		</div>

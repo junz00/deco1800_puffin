@@ -24,6 +24,25 @@ window.onclick = function(event) {
 }
 
 window.onload = function(){
+    if (sessionStorage.getItem("ch1Complete")) {
+        var ch1Point = document.getElementById("ch1")
+        var ch1Message = document.getElementById("ch1Message")
+
+        var complete = document.createTextNode(":Complete");
+        ch1Point.style.background="lightgreen";
+        ch1Message.appendChild(complete);
+
+    }
+    if (sessionStorage.getItem("ch2Complete")) {
+        var ch2Point = document.getElementById("ch2")
+        var ch2Message = document.getElementById("ch2Message")
+        var complete = document.createTextNode(":Complete");
+
+        ch2Message.appendChild(complete);
+        ch2Point.style.background="lightgreen";
+    }
+    };
+    activeBookmark('map')
     if (!thisPageBeenVisited()) {
         openBox()
         recordThisPageVisited();

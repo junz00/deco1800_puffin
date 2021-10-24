@@ -24,3 +24,7 @@ $(document).ready(function() {
         }
     }
 });
+
+    activeBookmark('quiz')
+window.onload = function(){
+     }

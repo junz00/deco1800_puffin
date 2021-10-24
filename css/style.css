@@ -22,7 +22,7 @@ body {
     margin: 0;
 }
 
-/*Book mark bar*/
+/*Bookmark bar*/
 nav {
     width: 70vw;
     margin-top: 30px;
@@ -41,7 +41,8 @@ nav ul {
 nav li {
     display: block;
     float: left;
-    box-shadow: 0px -2px 10px #333;
+    box-shadow: 1px -4px 7px #333;
+
 }
 
 nav li a {
@@ -57,13 +58,9 @@ nav li a {
     background-color:rgb(221, 236, 0);
 }
 
-nav li a:hover {
+nav li a:hover, .active {
     background-color: red;
     color:white;
-}
-
-nav .active {
-    background-color: #04AA6D;
 }
 
 /* The book and everything inside it */
@@ -165,9 +162,6 @@ figcaption{
 }
 
 /* Footer */
-footer {
-    height: 70px;
-}
 
 mark{
     cursor: help;
@@ -176,6 +170,7 @@ mark{
 footer {
     position: fixed;
     width: 100vw;
+    height: 45px;
     bottom: 0;
 
     display: flex;
@@ -189,10 +184,7 @@ footer {
 }
 
 footer > * {
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 10px;
-
+    padding: 0.5% 5% 0% 5%;
     color:white;
 }
 

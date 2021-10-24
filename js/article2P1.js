@@ -5,3 +5,8 @@ function prevPage(){
 function nextPage(){
     location.href="game2.php";
 }
+
+window.onload = function(){
+    activeBookmark('ch2')
+     }
+ 

@@ -20,6 +20,7 @@ function openBox() {
 function closeBox() {
     var box = document.getElementById("scrapMessage");
     box.style.display = "none";
+
 }
 //hides the box if the user presses outside of it        
 window.onclick = function(event) {
