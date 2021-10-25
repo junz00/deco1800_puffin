@@ -33,9 +33,10 @@
 					<a id="button-prev" href="article1_p2.php">previous</a>
 				</div>
 		<div id="rightpage">
-
-			<img src="images/Article1-sandbags.jpg" alt="Sandbags lining a wall" class="articleImage">
-			<div class="imgOverlay"><b>A house succesfully protected by sandbags<b></div>
+			<div class="container">
+				<img src="images/Article1-sandbags.jpg" alt="Sandbags lining a wall" class="articleImage">
+				<div class="imgOverlay"><b>A house succesfully protected by sandbags<b></div>
+			</div>
 
 			<br>
 			<article>
