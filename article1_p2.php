@@ -35,10 +35,10 @@
 			<article>		
 				<p> Make sure you cover all drainage holes and floor drains, including toilets, laundry, shower
 					and bath drains to stop the backflow of <mark title="Contaminated water from domestic use">grey water</mark>.</p>
-				<figure>
-					<img src="images/Article1-sandbag_membrane.jfif" alt="sandbags in front of a door" class="articleImage">
-					<figcaption>Figure: Place sandbags in front of doors (Don't forget the plastic sheeting!) </figcaption>
-				</figure>
+
+				<img src="images/Article1-sandbag_membrane.jfif" alt="sandbags in front of a door" class="articleImage">
+				<div class="imgOverlay"><b>Place sandbags in front of doors (Don't forget the plastic sheeting!)<b></div>
+
 				<p>With this information, you will be easily able to aid Aaron and his family in sandbagging their home!
 					Click on the box below to help them out.</p>
 			</article>

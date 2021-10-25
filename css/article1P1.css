@@ -5,3 +5,17 @@
     background: #D6D7D6;
 }
 
+.imgOverlay{
+    background-color: white;
+    opacity: 0.85;
+    font-size: 11px;
+    width: 290px;
+    height: 105px;
+    margin:-185px 0 0 20px ;
+    padding: 30px 10px;
+    display: none;
+}
+
+.articleImage:hover + .imgOverlay, .articleImage:hover{
+    display: block;
+}

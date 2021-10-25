@@ -36,10 +36,9 @@
 						the upcoming disaster. Meet Aaron and his family. To prepare for the floods, they 
 						stayed up sandbagging their Graceville home until 4:00 in the morning.</p>
 							
-					<figure>
 					<img src="images/Article1-aaron_family.jpg" alt="Aaron and his family" class="articleImage">
-						<figcaption>Figure: Aaron and his family </figcaption>
-					</figure>
+					<div class="imgOverlay"><b>Aaron and his family at a flooded Bellinger River<b></div>
+
 					<br>
 					<p>In order to help them out, let's learn more about <mark title="Aptly named sand filled bags used for barricading or stopping water">sandbags</mark> and the best way to use 
 						them to safeguard houses. </p>

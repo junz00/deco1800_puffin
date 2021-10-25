@@ -33,10 +33,10 @@
 					<a id="button-prev" href="article1_p2.php">previous</a>
 				</div>
 		<div id="rightpage">
-			<figure>
-				<img src="images/Article1-sandbags.jpg" alt="Sandbags lining a wall" class="articleImage">
-				<figcaption>Figure: House protected by sandbags</figcaption>
-			</figure>
+
+			<img src="images/Article1-sandbags.jpg" alt="Sandbags lining a wall" class="articleImage">
+			<div class="imgOverlay"><b>A house succesfully protected by sandbags<b></div>
+
 			<br>
 			<article>
 				<p>To find out more informations on how to use sandbags to prepare for a flood be sure to
