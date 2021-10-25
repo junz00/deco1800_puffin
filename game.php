@@ -1,6 +1,5 @@
-<?php $pageTitle="game"; ?>
+<?php $pageTitle="Sandbag Game"; ?>
 <?php $pageFile="game"; ?>
-<?php $pagePrev="article1_p1.php"; ?>
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
 
@@ -8,7 +7,7 @@
 		<section id="scrapMessage">
 			<img id="scrap" src="images/paper_scrap.png" width=40%>
 			<div class="scrapText">
-				<span id="close"   onclick="closeBox()">&#10006;</span>
+				<span id="close" onclick="closeBox()">&#10006;</span>
 				<p>Welcome to the Sandbag Game! <br>
 					Use your knowledge of sandbags to help Aaron and his family protect their home. <br>
 					Remember, sandbag walls should be at least 2 sandbags high for maximum effectiveness. <br>
@@ -21,7 +20,7 @@
 			<div id="pages">
 				<div id="pagespread">
 					<img id="game_bg" src="images/garage_bg.jpg" draggable="false">
-					<button type="button" id =exit_button onclick="exitGame()">exit</button>
+					<a id="button-exit" href="article1_p1.php">exit</a>
 
 					<div id = "images">
 						<a href = "article1_p3.php">
@@ -37,8 +36,6 @@
 						<div id = "box1" ondragover="showDrop(event)" ondrop="drop1(event)"> 
 							<p>Place objects here</p>
 						</div>
-						
-						
 
 						<img id="sandbag1" src="images/sandbag.png" draggable="true" ondragstart="dragStart2(event)">
 						<img id="sandbag2" src="images/sandbag.png" draggable="true" ondragstart="dragStart2(event)">

@@ -1,7 +1,5 @@
 <?php $pageTitle="Article 1 - Part 1"; ?>
 <?php $pageFile="article1P1"; ?>
-<?php $pagePrev="map.php"; ?>
-<?php $pageNext="article1_p2.php"; ?>
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
 
@@ -24,7 +22,7 @@
 					</figure>
 				</article>
 
-				<button id="button-prev" onclick="prevPage()"> previous </button>
+				<a id="button-prev" href="map.php">previous</a>
 			</div>
 			<div id="rightpage">
 
@@ -41,9 +39,9 @@
 					<p>In order to help them out, let's learn more about sandbags and the best way to use 
 						them to safeguard houses. </p>
 				</article>	
-				<button id="button-next" onclick="nextPage()">next</button>
+				<a id="button-next" href="article1_p2.php">next</a>
 			</div>
-			</div>
+		</div>
 	</section>
 </div>
 </body>

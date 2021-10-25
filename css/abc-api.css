@@ -2,16 +2,16 @@
     position: relative; /* For positioning of 'absolute' child elements */
     padding: 10px;
     /* Based on image size, plus padding */
-    height: 220px;
-    width: 375.56px;
+    height: 200px;
+    width: 339.80px;
 }
 
 .gallery-images img {
     position: absolute;
     
     /* Images are 700 x 394 pixels */
-    height: 200px;
-    width: 355.56px;
+    height: 180px;
+    width: 319.80px;
 
     box-shadow: 2px 2px 5px gray;
     background: rgba(200, 200, 200, 0.6);
@@ -22,9 +22,9 @@
     display: none;
     position: absolute;
     
-    /* Based on image size, minus padding */
-    height: 160px;
-    width: 315.56px;
+    /* Based on image size, minus margin */
+    height: 140px;
+    width: 279.80px;
     margin-top: 20px;
     margin-left: 20px;
 

@@ -1,11 +1,3 @@
-function prevPage(){
-    location.href="article1_p2.php";
-}
-
-function nextPage(){
-    location.href="map.php";
-}
-
 function displayName() {
     var value = getUserName();
     var element = document.getElementById("enterName");
@@ -31,8 +23,8 @@ window.onclick = function(event) {
 }
 
 
-window.onload = function(){
-    activeBookmark('ch1')
+window.onload = function() {
+    activeBookmark('ch1');
     recordFoundPaper("ch1Complete");
     displayName()
-     }
+}

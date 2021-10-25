@@ -1,17 +1,17 @@
-function prevPage(){
-    location.href="index.php";
-}
+var invalidNameEntered = false;
 
-function nextPage(){
-    location.href="map.php";
-}
+function setName() {
+    uname = $("#userName").val();
+    console.log(uname);
+    if (uname) {
+        $("#button-next").removeClass("hidden");
+        setUserName(uname);
+        displayName();
+    } else if (!invalidNameEntered) {
+        $("#userName").after($("<p id=\"invalid-name\">Please enter your name</p>"));
+        invalidNameEntered = true;
+    }
 
-function setName(name, id) {
-    var element = document.getElementById(id);
-    var elementValue = escape(element.value);
-
-    setUserName(elementValue);
-    displayName()
 }
 
 function displayName() {
@@ -19,12 +19,12 @@ function displayName() {
     var element = document.getElementById("enterName");
     element.innerHTML = value;
 
-    /**const namePara = document.createElement("p");
+    const namePara = document.createElement("p");
     namePara.className = "p1";
     const nameValue = document.createTextNode(value);
     namePara.appendChild(nameValue);
     const nameForm = document.getElementById("enterName");
-    nameForm.parentNode.replaceChild(namePara, nameForm); */
+    nameForm.parentNode.replaceChild(namePara, nameForm);
 }
 
 function redisplayName() {

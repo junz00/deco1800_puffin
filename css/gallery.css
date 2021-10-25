@@ -6,8 +6,8 @@
 }
 
 .db-queries li {
-    padding: 7px;
-    margin: 7px;
+    padding: 5px;
+    margin: 5px;
     box-shadow: 2px 2px 5px rgb(77, 61, 15);
     border: 1px solid rgba(77, 61, 15, 0.4);
 }
@@ -27,6 +27,6 @@
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    height: 73%;
-    overflow-y: scroll;
+    height: 70%;
+    overflow-y: auto;
 }

@@ -33,7 +33,12 @@
 
 }
 
-.p1{
+#invalid-name {
+    color: red;
+    text-align: center;
+}
+
+.p1 {
     font-size: 22px;
     border-bottom: 5px solid black;
     margin-top: 7%;
@@ -54,7 +59,6 @@
     justify-content: center;
 }
 
-
-#book-container {
-    padding: 3% 0 5% 0;
+#button-next.hidden {
+    display: none;
 }

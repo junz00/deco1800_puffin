@@ -1,7 +1,5 @@
 <?php $pageTitle="Article 1 - Part 3"; ?>
 <?php $pageFile="article1P3"; ?>
-<?php $pagePrev="article_p2.php"; ?>
-<?php $pageNext="map.php"; ?>
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
 
@@ -37,7 +35,7 @@
 						<p>Remember: Sandbags can be placed along doorways, drainage holes and floor drains, and toilets
 						 to prevent the backflow of water.</p>
 					</article>
-					<button id="button-prev" onclick="prevPage()">previous</button>
+					<a id="button-prev" href="article1_p2.php">previous</a>
 				</div>
 		<div id="rightpage">
 			<figure>
@@ -52,11 +50,9 @@
 			</article>
 			
 			<p>Atfer all, the best tip is to keep calm and follow the Qld Government Recommended Steps</p>
-
 			<p>Click next to continue on with the journal.</p>
 
-
-			<button id="button-next" onclick="nextPage()">next</button>
+			<a id="button-next" href="map.php">next</a>
 			</div>
 			</div>
 		</section>

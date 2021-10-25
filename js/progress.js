@@ -94,6 +94,10 @@ function getNumPapersFound() {
     return [nFound, nTotal, nTotal - nFound];
 }
 
+function isPaperFound(paperName) {
+    return getProgress().papersFound.includes(paperName);
+}
+
 function recordQuizComplete() {
     progress = getProgress();
     progress.quizComplete = true;

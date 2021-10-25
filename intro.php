@@ -1,12 +1,6 @@
 <?php $pageTitle="Introduction"; ?>
 <?php $pageFile="intro"; ?>
-<?php $pagePrev="index.php"; ?>
-<?php $pageNext="map.php"; ?>
 <?php include("header.php"); ?>
-
-<style>
-<?php include 'css/intro.css'; ?>
-</style>
 
 <nav><!-- Space for bookmarks --></nav>
 
@@ -19,19 +13,18 @@
                 <div class="nameInput">
                     <h2>This Journal Belongs to:</h2>
                         <form action="intro.php" method="post" id="enterName">
-                            <input type="text"  id="userName" name="userName" placeholder="Enter your name" autofocus>
-                            <button onclick="setName('userName', 'userName')" type="button">Enter</button>
+                            <input type="text" id="userName" name="userName" placeholder="Enter your name" autofocus>
+                            <button onclick="setName()" type="button">Enter</button>
                             <br>
                         </form>
                 </div>
 
-
-                <button id="button-prev" onclick="prevPage()">previous</button>
+                <a id="button-prev" href="article2_p1.php">previous</a>
             </div>
 
             <div id="rightpage">
                 <div class="introMessage">
-                    <h2>Welcome to the Brisbane Flood Journal!<h2>
+                    <h2>Welcome to the Brisbane Flood Journal!</h2>
                     <p>
                         Here, you will explore the reality of flooding and the dangers it presents through the stories
                         of people who lived through the events. Help them survive the floods by reading their 
@@ -40,9 +33,9 @@
                         Press Next to begin. <br><br>
                         Good luck!
                     <p>
-                <div>
+                </div>
 
-                <button id="button-next" onclick="nextPage()">next</button>
+                <a id="button-next" href="map.php" class="hidden">next</a>
             </div>
         </div>
     </section>

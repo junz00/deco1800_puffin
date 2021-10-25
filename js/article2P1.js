@@ -1,12 +1,4 @@
-function prevPage(){
-    location.href="article1_p2.php";
+window.onload = function() {
+    activeBookmark('ch2');
 }
-
-function nextPage(){
-    location.href="game2.php";
-}
-
-window.onload = function(){
-    activeBookmark('ch2')
-     }
  
