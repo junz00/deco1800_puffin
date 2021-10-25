@@ -15,9 +15,12 @@ $(document).ready(function() {
         }
         for (let i = 0; i < getNumPapersFound()[2]; i++) {
             $("#papers-not-found").append(
-                $("<img>").attr("src", "images/help_symbol.png")
+                $("<img>").attr("src", "images/certificate_scrap_missing.png")
             );
         }
+        
+        $("#papers-not-found").append(getNumPapersFound()[0]+ "/2");
+            
     }
 });
 

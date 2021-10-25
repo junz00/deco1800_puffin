@@ -10,19 +10,19 @@
         $result = 0;
         if($q1 == "a") {
             $result++;
-            echo "<script>document.getElementById('Q1').style = 'background-color: green'; </script>";
+            echo "<script>document.getElementById('Q1').style = 'background-color: lightgreen'; </script>";
         } else {
             echo "<script>document.getElementById('Q1').style = 'background-color: red';</script>";
         }
         if($q2 == "d") {
             $result++;
-            echo "<script>document.getElementById('Q2').style = 'background-color: green';</script>";
+            echo "<script>document.getElementById('Q2').style = 'background-color: lightgreen';</script>";
         } else {
             echo "<script>document.getElementById('Q2').style = 'background-color: red';</script>";
         }
         if($q3 == "c") {
             $result++;
-            echo "<script>document.getElementById('Q3').style = 'background-color: green'; </script>";
+            echo "<script>document.getElementById('Q3').style = 'background-color: lightgreen'; </script>";
         } else {
             echo "<script>document.getElementById('Q3').style = 'background-color: red'; </script>";
         }

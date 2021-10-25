@@ -5,29 +5,3 @@
     background: #D6D7D6;
 }
 
-.db-queries li:hover {
-    background: rgba(77, 61, 15, 0.6);
-    color: white;
-    cursor: pointer;
-}
-
-.db-queries li.selected {
-    background: rgba(54, 42, 10, 0.8);
-    color: white;
-}
-
-.gallery-images {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    height: 70%;
-    overflow-y: auto;
-}
-
-.gallery-images figcaption p {
-    font-size: 1em;
-}
-
-.gallery-images figcaption em {
-    font-size: 0.8em;
-}
