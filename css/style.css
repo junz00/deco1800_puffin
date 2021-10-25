@@ -46,13 +46,10 @@ nav {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    position:absolute;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
 
     height: 100%;
