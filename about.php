@@ -33,6 +33,7 @@
 					<li>Pexels. (2017). <em>Cup of fresh cappuccino near laptop keyboard and notebook</em> [Stock Image]. Pexels. <a href="https://www.pexels.com/photo/cup-of-fresh-cappuccino-near-laptop-keyboard-and-notebook-414645/"> https://www.pexels.com/photo/cup-of-fresh-cappuccino-near-laptop-keyboard-and-notebook-414645/</a></li>
 					<li>Pixabay. (2014). <em>Flood sign water flooding</em> [Stock Image]. Pixabay. <a href="https://pixabay.com/photos/flood-sign-downfall-water-flooding-392707/"> https://pixabay.com/photos/flood-sign-downfall-water-flooding-392707/</a></li>
 					<li>pngset. (2020). <em>Car Cut Out Hd Photoshop, Vehicle, Transportation, Automobile, Wheel Transparent Png</em> [Stock Image]. pngset. <a href = "https://pngset.com/download-free-png-wvepe">https://pngset.com/download-free-png-wvepe</a></li>
+					<li>Safewise. (2021). <em>How Can I Prevent My Home from Flooding?</em> [Image] <a href = "https://www.safewise.com/home-security-faq/flooding/">https://www.safewise.com/home-security-faq/flooding/</a></li>
 				</ul>
 			</div>
 		</div>
