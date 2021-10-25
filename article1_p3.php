@@ -18,7 +18,7 @@
 					</div>
 				</section>
 
-				<h1> Chapter 1: Sandbags Part III</h1><br>
+				<h1> Chapter 1: Sandbags Pt. III</h1><br>
 					<p id=congrats> Congratulations<span id="enterName"></span>! You did it!</p>
 					<!--
 					<figure id="aaron">
@@ -26,7 +26,7 @@
 						<figcaption>Figure: A very happy Aaron and his family</figcaption>
 					</figure>
 					-->
-					<div class="gallery-images" query="sandbag" limit="1"></div>
+					<div class="gallery-images" query="army personnel" limit="1"></div>
 
 					<article>
 						<p>You successfully helped Aaron and his family  protect their home from the flood by
@@ -39,7 +39,7 @@
 				</div>
 		<div id="rightpage">
 			<figure>
-				<img src="images/Article1-sandbags.jpg" alt="Sandbags lining a wall" width="80%">
+				<img src="images/Article1-sandbags.jpg" alt="Sandbags lining a wall" class="articleImage">
 				<figcaption>Figure: House protected by sandbags</figcaption>
 			</figure>
 			

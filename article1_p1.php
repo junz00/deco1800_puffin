@@ -8,18 +8,22 @@
 		<img id="book-bg" src="images/diary_bg.jpg">
 		<div id="pages">
 			<div id="leftpage">
-				<h1>Chapter 1: Sandbags Part I</h1>
+				<h1>Chapter 1: Sandbags Pt. I</h1>
 				<article>
 					<p>Let's get started<span id="enterName"></span></p>
-					<p>The Brisbane floods of 2011 hit many people hard. The suburb of Chelmer was immersed in water with houses and roads being flooded. </p>
-					<figure>
-						<img src="images/Article1-chelmer.jpg" alt="a flooded chelmer" width="80%">
+					<p>The <mark>Brisbane floods of 2011</mark> hit many people hard. </p>
+					
+					<!--<figure>
+						<img src="images/Article1-chelmer.jpg" alt="a flooded chelmer" class="articleImage">
 						<figcaption>Figure: Chelmer, January 2011 </figcaption>
 					</figure>
 					<figure>
-						<img src="images/Article1-chelmer2.jpg" alt="flooded roads" width="80%">
+						<img src="images/Article1-chelmer2.jpg" alt="flooded roads" class="articleImage">
 						<figcaption>Figure: Flooded roads </figcaption>
-					</figure>
+					</figure>-->
+
+					<div class="gallery-images" query="Keep safe and dry down there" limit="1"></div>
+					<div class="gallery-images" query="Wimmera Bridge" limit="1"></div>
 				</article>
 
 				<a id="button-prev" href="map.php">previous</a>
@@ -27,14 +31,12 @@
 			<div id="rightpage">
 
 				<article>	
-					<p>However, with the proper preparation, the worst of the damage was avoided.</p>
+					<p> The suburb of Chelmer was immersed in water with houses and roads being flooded. However, with the proper preparation, the worst of the damage was avoided.</p>
 					<p>On the 12th of January, the night before the flood, everyone was getting ready for 
-						the upcoming disaster. Meet Aaron and his family. To prepare for the floods, they 
+						the upcoming disaster. <mark>Meet Aaron and his family</mark>. To prepare for the floods, they 
 						stayed up sandbagging their Graceville home until 4:00 in the morning.</p>
-					<figure>
-						<img src="images/Article1-aaron_family.jpg" alt="Aaron and his family" width="100%">
-						<figcaption>Figure: Aaron and his family </figcaption>
-					</figure>
+										
+					<img src="images/Article1-aaron_family.jpg" alt="Aaron and his family" class="articleImage">
 
 					<p>In order to help them out, let's learn more about sandbags and the best way to use 
 						them to safeguard houses. </p>

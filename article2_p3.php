@@ -8,41 +8,47 @@
 		<img id="book-bg" src="images/diary_bg.jpg">
 		<div id="pages">
 			<div id="leftpage">
-				<h1>Chapter 2: Flooded Roads PtIII</h1>
+				<h1>Chapter 2: Roads Pt. III</h1>
 				<section id="scrapMessage">
 					<img id="scrap" src="images/paper_scrap.png" width=40%>
 					<div class="scrapText">
 						<span id="close"   onclick="closeBox()">&#10006;</span>
-						<p>You received another mysterious scrap of paper!... It seems to form something with the other one.</p>
-						<img src="images/certificate_scrap.png" width="30%" style= "transform: scaleX(-1)">
+						<p>You received another mysterious scrap of paper!... It seems to fit together with the other piece.</p>
+						<img src="images/certificate_scrap.png" width="25%" style= "transform: scaleX(-1)">
 					</div>
 				</section>
 
 				<p id=congrats> Thanks for your help<span id="enterName"></span>!</p>
-				<p>Though you managed to keep you and your car safe, Ms Petersen was not as lucky.</p>
+				<p>Though you managed to keep you and your car safe, Eva was not as lucky.</p>
 				<p>"So then I followed the cars and just as I was going across, about eight or 10 feet upstream there was 
-					this broken branch lodged with all this debris... and there was an almighty crack and the branch just
-					splintered into pieces and this wave of debris and water just hit the car," she says.
+					this broken branch lodged with all this debris," she says</p>
+				<p>There was an almighty crack and the branch just splintered into pieces and this wave of debris and water just hit the car."
+					Then it was history because the stream was flowing quite rapidly." 
 				</p>
-				<figure id="aaron">
-					<img src="images/Article2-car_stuck.jpg" alt="A car sinking" width="80%" height="60%">
+				<div class="gallery-images" query="station wagon" limit="1"></div>
+
+				<!--<figure id="aaron">
+					<img src="images/Article2-car_stuck.jpg" alt="A car sinking" class="articleImage">
 					<figcaption>Figure: Her car sunk after being swept off the road</figcaption>
 				</figure>
 				<figure id="aaron">
-					<img src="images/Article2-car_towed.jpg" alt="A car being pulled from water" width="80%" height="60%">
+					<img src="images/Article2-car_towed.jpg" alt="A car being pulled from water" class="articleImage">
 					<figcaption>Figure: A tow truck was called to remove it from flood waters</figcaption>
-				</figure>
+				</figure>-->
+
 				<a id="button-prev" href="article2_p1.php">previous</a>
 			</div>
 			<div id="rightpage">
-				<p>"Then it was history because the stream was flowing quite rapidly."<br>
-					Ms Petersen managed to open her window and climb onto the roof of the vehicle before jumping into the
+				<p>	Eva managed to open her window and climb onto the roof of the vehicle before jumping into the
 					floodwaters and making her way to the edge.
 				</p>
-				<figure id="aaron">
-					<img src="images/Article2-stranded_car.jpg" alt="A car up to its tires in flood water" width="80%" height="60%">
-					<figcaption>Figure: Too many people make the same mistake as Ms Petersen</figcaption>
-				</figure>
+				
+				<div class="gallery-images" query="Car stuck in flood water in Lockhart" limit="1"></div>
+				
+				<!--<figure id="aaron">
+					<img src="images/Article2-stranded_car.jpg" alt="A car up to its tires in flood water"class="articleImage">
+					<figcaption>Figure: Too many people make the same mistake as Eva</figcaption>
+				</figure>-->
 				<p>
 					She says she will never drive through water again.<br>
 					"It was really terrifying and it was really quick, it happened so quickly," she says.

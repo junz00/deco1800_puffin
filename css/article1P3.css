@@ -5,3 +5,10 @@
 #close:hover {
     cursor: pointer;
 }
+
+.articleImage{
+    width: 90%;
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgb(116, 116, 116);
+    background: #D6D7D6;
+}
