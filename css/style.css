@@ -36,6 +36,9 @@ figcaption{
     font-size: 0.7em;
 }
 
+mark {
+    background-color: rgb(245, 225, 46);
+}
 
 body {
     background-image: url("/images/desk-background_planks.jpg");
@@ -166,7 +169,7 @@ nav li a:hover{
 
 #pagespread {
     display: inline-block;
-    height: 91%; /* Don't know what's making 94% overflow */
+    height: 90%; /* Don't know what's making 94% overflow */
     width: 92%;
     padding-left: 4%;
     padding-right: 4%;
