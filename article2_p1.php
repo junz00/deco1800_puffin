@@ -8,7 +8,7 @@
 		<img id="book-bg" src="images/diary_bg.jpg">
 		<div id="pages">
 		<div id="leftpage">
-				<h1>Chapter 2: If It's Flooded, Forget It!</h1>
+				<h1>Chapter 2: Flooded Roads PtI</h1>
 				<article>
 					<p>As the rain continued during the Brisbane Floods, roads were flooded and remote communities
 						 cut off. Local police, emergency services and councils were all emphasizing the message "If it's flooded, forget it!
@@ -35,7 +35,7 @@
 						<img src="images/Article2-car_in_water.jpg" alt="A car beginning to drive into flooded water" width="100%">
 						<figcaption>Figure: Ms Peterson driving into flooded waters </figcaption>
 					</figure>
-					
+
 					<div class="gallery-images" query="floods and winds" limit="1"></div>
 
 				<p>Let's learn more about what to do in this situation to try and help Ms Petersen in this situation</p>

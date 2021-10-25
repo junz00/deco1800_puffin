@@ -8,7 +8,7 @@
 		<img id="book-bg" src="images/diary_bg.jpg">
 		<div id="pages">
 			<div id="leftpage">
-
+				<h1>Chapter 2: Flooded Roads PtIII</h1>
 				<section id="scrapMessage">
 					<img id="scrap" src="images/paper_scrap.png" width=40%>
 					<div class="scrapText">

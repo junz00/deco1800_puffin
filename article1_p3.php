@@ -18,7 +18,7 @@
 					</div>
 				</section>
 
-				<h1> Chapter 1: Chelmer Part III</h1>
+				<h1> Chapter 1: Sandbags Part III</h1><br>
 					<p id=congrats> Congratulations<span id="enterName"></span>! You did it!</p>
 					<!--
 					<figure id="aaron">

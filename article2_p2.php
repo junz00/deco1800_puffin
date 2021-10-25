@@ -8,7 +8,7 @@
 		<img id="book-bg" src="images/diary_bg.jpg">
 		<div id="pages">
 		<div id="leftpage">
-				<h1>Chapter 2: If It's Flooded, Forget It!</h1>
+				<h1>Chapter 2: Flooded Roads PtII</h1>
 				<article>
 				<p>To stay safe while driving in flooded areas:</p>
 						<ul>

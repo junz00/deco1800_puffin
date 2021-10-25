@@ -8,7 +8,7 @@
 		<img id="book-bg" src="images/diary_bg.jpg">
 		<div id="pages">
 			<div id="leftpage">
-				<h1>Chapter 1: Chelmer Part I</h1>
+				<h1>Chapter 1: Sandbags Part I</h1>
 				<article>
 					<p>Let's get started<span id="enterName"></span></p>
 					<p>The Brisbane floods of 2011 hit many people hard. The suburb of Chelmer was immersed in water with houses and roads being flooded. </p>

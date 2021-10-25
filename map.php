@@ -10,9 +10,9 @@
 		<img id="scrap" src="images/paper_scrap.png" width=40%>
 		<div class="scrapText">
 			<span id="close" onclick="closeBox()">&#10006;</span>
-			<p>This map of the Brisbane River shows your progress through the journal.</p>
-			<p>Select a point on the map to begin that story or simply press next to 
-			begin the first article.</p>
+			<p id="helpText">This map of the Brisbane River shows your progress through the journal.<br><br>
+				Select a point on the map to begin that story or simply press next to 
+				begin the first article.</p>
 		</div>
 	</section>
 
