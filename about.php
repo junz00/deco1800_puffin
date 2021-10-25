@@ -34,6 +34,10 @@
 					<li>Pixabay. (2014). <em>Flood sign water flooding</em> [Stock Image]. Pixabay. <a href="https://pixabay.com/photos/flood-sign-downfall-water-flooding-392707/"> https://pixabay.com/photos/flood-sign-downfall-water-flooding-392707/</a></li>
 					<li>pngset. (2020). <em>Car Cut Out Hd Photoshop, Vehicle, Transportation, Automobile, Wheel Transparent Png</em> [Stock Image]. pngset. <a href = "https://pngset.com/download-free-png-wvepe">https://pngset.com/download-free-png-wvepe</a></li>
 					<li>Safewise. (2021). <em>How Can I Prevent My Home from Flooding?</em> [Image] <a href = "https://www.safewise.com/home-security-faq/flooding/">https://www.safewise.com/home-security-faq/flooding/</a></li>
+					<li>Australian Broadcasting Corparation. (2012). <em>Sandbags</em> [Image]. Forbes Flood Photos. <a href="https://www.abc.net.au/local/photos/2012/03/07/3447793.htm">https://www.abc.net.au/local/photos/2012/03/07/3447793.htm</a></li>
+					<li>Australian Broadcasting Corparation. (2012). <em>Businesses in Coffs Harbour being sandbagged</em> [Image]. Photos from the mid north coast floods. <a href="https://www.abc.net.au/local/photos/2012/01/25/3415460.htm">https://www.abc.net.au/local/photos/2012/01/25/3415460.htm</a></li>
+					<li>Australian Broadcasting Corparation. (2012). <em>The Doye family standing in front of the Bellinger River</em> [Image]. Photos from the mid north coast floods. <a href="https://www.abc.net.au/local/photos/2012/01/25/3415460.htm">https://www.abc.net.au/local/photos/2012/01/25/3415460.htm</a></li>
+
 				</ul>
 			</div>
 		</div>
