@@ -10,7 +10,7 @@ function move_car() {
   clearInterval(id);
   id = setInterval(frame, 10);
   function frame() {
-    if (pos == 700) {
+    if (pos == 530) {
       clearInterval(id);
       restart.style = "display: block !important";
       stopbutton.style = "display : none !important";
