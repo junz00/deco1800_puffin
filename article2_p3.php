@@ -19,12 +19,10 @@
 				</section>
 
 				<p id=congrats> Thanks for your help<span id="enterName"></span>!</p>
-				<p>Though you managed to keep you and your car safe, Eva was not as lucky.</p>
+				<p>Though you managed to keep yourself safe, Eva's car was not as lucky.</p>
+				<p>She chose to drive through the flooded road. </p>
 				<p>"So then I followed the cars and just as I was going across, about eight or 10 feet upstream there was 
-					this broken branch lodged with all this debris," she says</p>
-				<p>There was an almighty crack and the branch just splintered into pieces and this wave of debris and water just hit the car."
-					Then it was history because the stream was flowing quite rapidly." 
-				</p>
+					this broken branch lodged with all this debris," she says.</p>
 				<div class="gallery-images" query="station wagon" limit="1"></div>
 
 				<!--<figure id="aaron">
@@ -39,6 +37,9 @@
 				<a id="button-prev" href="article2_p1.php">previous</a>
 			</div>
 			<div id="rightpage">
+				<p>"There was an almighty crack and the branch just splintered into pieces and this wave of debris and water just hit the car.
+					Then it was history because the stream was flowing quite rapidly." 
+				</p>
 				<p>	Eva managed to open her window and climb onto the roof of the vehicle before jumping into the
 					floodwaters and making her way to the edge.
 				</p>

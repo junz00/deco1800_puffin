@@ -20,12 +20,7 @@
 
 				<h1> Chapter 1: Sandbags Pt. III</h1><br>
 					<p id=congrats> Congratulations<span id="enterName"></span>! You did it!</p>
-					<!--
-					<figure id="aaron">
-						<img src="images/aaron2.jpeg" alt="Aaron and co" width="80%" height="60%">
-						<figcaption>Figure: A very happy Aaron and his family</figcaption>
-					</figure>
-					-->
+
 					<div class="gallery-images" query="army personnel" limit="1"></div>
 
 					<article>
@@ -42,15 +37,15 @@
 				<img src="images/Article1-sandbags.jpg" alt="Sandbags lining a wall" class="articleImage">
 				<figcaption>Figure: House protected by sandbags</figcaption>
 			</figure>
-			
+			<br>
 			<article>
 				<p>To find out more informations on how to use sandbags to prepare for a flood be sure to
-				the Queensland Government's website on<a href="https://www.disaster.qld.gov.au/dmp/sandbagging/Pages/default.aspx" target="_blank">
-				Using sandbags to protect your home and business</a>.
+				the Queensland Government's website on<mark title="https://www.disaster.qld.gov.au/dmp/sandbagging/Pages/default.aspx"><a href="https://www.disaster.qld.gov.au/dmp/sandbagging/Pages/default.aspx" target="_blank">
+				Using sandbags to protect your home and business</a></mark>.
 			</article>
 			
 			<p>Atfer all, the best tip is to keep calm and follow the Qld Government Recommended Steps</p>
-			<p>Click next to continue on with the journal.</p>
+			<p><b>Click next to continue on with the journal.</b></p>
 
 			<a id="button-next" href="map.php">next</a>
 			</div>

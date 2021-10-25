@@ -12,11 +12,12 @@
 				<article>
 				<p>To stay safe while driving in flooded areas:</p>
 						<ul>
-							<li>Check if flooding is likely and make alternative arrangements so you are not driving on flooded roads.</li>
+							<li><mark title="You can see live updates of flooded roads on the Qld Gov Department of Transport and Main Roads' website">
+								Check if flooding is likely and make alternative arrangements so you are not driving on flooded roads.</mark></li>
 							<li>Never drive on a road covered with water—floodwaters can be fast moving and hide dips, debris and roads that have been washed away entirely.</li>
+							<li><mark title="Sometimes the road damage is not known until the road is completely dry">Don't drive over previously flooded
+								roads until the road is officially open again.</mark></li>
 							<li>Always follow the directions of flood road signs and road closures.</li>
-							<li>Don't drive over previously roads until the road is open again. Sometimes the road damage is not known until
-							the road is completely dry.</li>
 						</ul>
 					<!--<figure>
 						<img src="images/Article2-road_closure.jfif" alt="A road closure sign in front of a flooded road" class="articleImage">
@@ -28,7 +29,7 @@
 				<a id="button-prev" href="article2_p1.php">previous</a>
 			</div>
 			<div id="rightpage">
-				<p>Remember: Swift flowing water can sweep away your car and even six inches of water is deep enough
+				<p><b>Remember:</b> Swift flowing water can sweep away your car and even six inches of water is deep enough
 					to reach the bottom of most passenger cars, flooding the exhaust and leaving your car immobile.</p>
 			
 					<!--<figure>

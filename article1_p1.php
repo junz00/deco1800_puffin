@@ -11,7 +11,7 @@
 				<h1>Chapter 1: Sandbags Pt. I</h1>
 				<article>
 					<p>Let's get started<span id="enterName"></span></p>
-					<p>The <mark>Brisbane floods of 2011</mark> hit many people hard. </p>
+					<p>The Brisbane floods of 2011 hit many people hard. </p>
 					
 					<!--<figure>
 						<img src="images/Article1-chelmer.jpg" alt="a flooded chelmer" class="articleImage">
@@ -32,13 +32,16 @@
 
 				<article>	
 					<p> The suburb of Chelmer was immersed in water with houses and roads being flooded. However, with the proper preparation, the worst of the damage was avoided.</p>
-					<p>On the 12th of January, the night before the flood, everyone was getting ready for 
-						the upcoming disaster. <mark>Meet Aaron and his family</mark>. To prepare for the floods, they 
+					<p>On the <mark title="A series of floods hit Brisbane spanning 2011, the first beginning in November 2011.">12th of January </mark>, the night before the flood, everyone was getting ready for 
+						the upcoming disaster. Meet Aaron and his family. To prepare for the floods, they 
 						stayed up sandbagging their Graceville home until 4:00 in the morning.</p>
-										
+							
+					<figure>
 					<img src="images/Article1-aaron_family.jpg" alt="Aaron and his family" class="articleImage">
-
-					<p>In order to help them out, let's learn more about sandbags and the best way to use 
+						<figcaption>Figure: Aaron and his family </figcaption>
+					</figure>
+					<br>
+					<p>In order to help them out, let's learn more about <mark title="Aptly named sand filled bags used for barricading or stopping water">sandbags</mark> and the best way to use 
 						them to safeguard houses. </p>
 				</article>	
 				<a id="button-next" href="article1_p2.php">next</a>
