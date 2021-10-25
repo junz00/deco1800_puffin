@@ -19,7 +19,7 @@
 			<img id="book-bg" src="images/diary_bg.jpg">
 			<div id="pages">
 				<div id="pagespread">
-                    <img id="game_bg" src="images/road.jpg">
+                    <img id="game_bg" src="images/flood_water_road.jpg">
 					<a id="button-exit" href="article2_p1.php">exit</a>
                     <p>
                     <button id = "movebutton" onclick="move_car()">Start</button> 
