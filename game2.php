@@ -4,7 +4,7 @@
 <?php include("bookmarks.php"); ?>
 
 	<div id="book-container">
-<!-- 		<section id="scrapMessage">
+ 		<section id="scrapMessage">
 			<img id="scrap" src="images/paper_scrap.png" width=40%>
 			<div class="scrapText">
 				<span id="close"   onclick="closeBox()">&#10006;</span>
@@ -14,7 +14,7 @@
 					(Be sure to stop the car before it hits the water!)
 				</p>
 			</div>
-		</section> -->
+		</section>
 		<section id = "book">
 			<img id="book-bg" src="images/diary_bg.jpg">
 			<div id="pages">
