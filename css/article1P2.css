@@ -51,7 +51,7 @@
 
 }
 
-.articleImage:hover + .imgOverlay, .articleImage:hover{
+.articleImage:hover + .imgOverlay, .imgOverlay:hover{
     display:block;
 }
 
