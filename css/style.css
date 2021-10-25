@@ -39,7 +39,7 @@ figcaption{
 
 body {
     background-image: url("/images/desk-background_planks.jpg");
-    background-color: #b38050;
+    background-color: #b38d7c;
     background-size: cover;
     margin: 0;
 }
@@ -89,7 +89,7 @@ nav li a {
 }
 
 nav li a:hover, .active {
-    background-color: red;
+    background-color: rgb(206, 42, 24);
     color:white;
     padding-bottom: 24px;
 }

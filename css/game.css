@@ -11,7 +11,7 @@ body{
 #button-exit {
     position: absolute;
     opacity: 0.75;
-    background-color: red;
+    background-color: rgb(206, 42, 24);
     border-radius: 5px;
     padding: 5px;
     right: 20px;
@@ -46,7 +46,7 @@ body{
     position: absolute;
     left: 63%;
     bottom: 50%;
-    outline: 4px solid red;
+    outline: 4px solid rgb(206, 42, 24);
     background-color: transparent;
     display: none;
 }

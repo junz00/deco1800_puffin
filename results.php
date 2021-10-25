@@ -12,19 +12,19 @@
             $result++;
             echo "<script>document.getElementById('Q1').style = 'background-color: lightgreen'; </script>";
         } else {
-            echo "<script>document.getElementById('Q1').style = 'background-color: red';</script>";
+            echo "<script>document.getElementById('Q1').style = 'background-color: salmon';</script>";
         }
         if($q2 == "d") {
             $result++;
             echo "<script>document.getElementById('Q2').style = 'background-color: lightgreen';</script>";
         } else {
-            echo "<script>document.getElementById('Q2').style = 'background-color: red';</script>";
+            echo "<script>document.getElementById('Q2').style = 'background-color: salmon';</script>";
         }
         if($q3 == "c") {
             $result++;
             echo "<script>document.getElementById('Q3').style = 'background-color: lightgreen'; </script>";
         } else {
-            echo "<script>document.getElementById('Q3').style = 'background-color: red'; </script>";
+            echo "<script>document.getElementById('Q3').style = 'background-color: salmon'; </script>";
         }
         echo "<h3> You got $result/3 <h3>";
         if($result != 3) {

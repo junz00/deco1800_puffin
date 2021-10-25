@@ -9,7 +9,7 @@
   padding: 5px;
   margin-left: 80px;
   border: white;
-  background-color:red;
+  background-color:rgb(206, 42, 24);
   text-decoration: none;
   color: white;
   text-align: center;
@@ -21,11 +21,10 @@
 }
 
 #papers-not-found{
-  background-color: red;
+  background-color: rgb(206, 42, 24);
   color: white;
   padding: 10px 10px;
   border: 2px solid white;
-  background-color:red;
 }
 
 #papers-not-found img {
