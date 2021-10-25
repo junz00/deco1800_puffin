@@ -30,3 +30,11 @@
     height: 70%;
     overflow-y: auto;
 }
+
+.gallery-images figcaption p {
+    font-size: 1em;
+}
+
+.gallery-images figcaption em {
+    font-size: 0.8em;
+}

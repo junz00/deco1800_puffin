@@ -29,9 +29,9 @@
 				<ul>
 					<li>Australian Broadcasting Corparation. (2015). <em>ABC Local online photo stories 2009-2014 CSV</em> [CKAN API]. <a href="https://data.gov.au/dataset/ds-dga-3fd356c6-0ad4-453e-82e9-03af582024c3">https://data.gov.au/dataset/ds-dga-3fd356c6-0ad4-453e-82e9-03af582024c3</a></li>
 					<li>BRRT. (2017). <em>Open notebook</em> [Stock Image]. Pixabay. <a href="https://pixabay.com/photos/open-notebook-book-notebook-spread-2542525/">https://pixabay.com/photos/open-notebook-book-notebook-spread-2542525/</a></li>
+					<li>freepik. (2016). <em> Road, clound and sky at moutain background </em> [Stock Image]. freepik.  Background photo created by whatwolf - www.freepik.com. <a href='https://www.freepik.com/photos/background'>https://www.freepik.com/photos/background</a></li>
 					<li>Pexels. (2017). <em>Cup of fresh cappuccino near laptop keyboard and notebook</em> [Stock Image]. Pexels. <a href="https://www.pexels.com/photo/cup-of-fresh-cappuccino-near-laptop-keyboard-and-notebook-414645/"> https://www.pexels.com/photo/cup-of-fresh-cappuccino-near-laptop-keyboard-and-notebook-414645/</a></li>
-					<li>pngset. (2020) <em>Car Cut Out Hd Photoshop, Vehicle, Transportation, Automobile, Wheel Transparent Png</em> [Stock Image]. pngset.<a href = "https://pngset.com/download-free-png-wvepe"></li>
-					<li>freepik. (2016) <em> Road, clound and sky at moutain background </em> [Stock Image]. freepik. <a href="<a href='https://www.freepik.com/photos/background'>Background photo created by whatwolf - www.freepik.com</a>">
+					<li>pngset. (2020). <em>Car Cut Out Hd Photoshop, Vehicle, Transportation, Automobile, Wheel Transparent Png</em> [Stock Image]. pngset. <a href = "https://pngset.com/download-free-png-wvepe">https://pngset.com/download-free-png-wvepe</a></li>
 				</ul>
 			</div>
 		</div>
