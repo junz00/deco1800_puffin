@@ -1,5 +1,7 @@
-<?php $pageTitle="Article 1 - Part 2"; ?>
+<?php $pageTitle="Article 1 - Part 1"; ?>
 <?php $pageFile="article1P2"; ?>
+<?php $pagePrev="article_p1.php"; ?>
+<?php $pageNext="game.php"; ?>
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
 
@@ -8,7 +10,7 @@
 			<img id="book-bg" src="images/diary_bg.jpg">
 			<div id="pages">
 				<div id="leftpage">
-					<h1> Chapter: Chelmer Part II</h1>
+					<h1> Chapter 1: Chelmer Part I</h1>
 					<article>
 						<p>Sandbags correctly placed appropriately around the home can significantly reduce the impact of flooding.</p> 
 						<div class=id="distribution"">
@@ -18,14 +20,14 @@
 							</figure>
 							
 							<p>They can be purchased from your local hardware
-								store or are distributed by your local Council or by <mark title="State Emergency Services">SES</mark> during a flood emergency.</p>
+								store or are distributed by your local Council or by <mark title="State Emergency Services">SES</mark> in an emergency flood.</p>
 						</div>
 							
 						<p>Before laying down a sandbag, place down a layer of plastic sheeting to act as a waterproof membrane.</p>
 						<p>Sandbags should be placed in front of doorways / roller doors and brickwork vents with
 					sandbag walls being at least at 2 sandbags high for maximum effectiveness.</p>
 					</article>
-					<a id="button-prev" href="article1_p1.php">previous</a>
+					<a id="button-prev" href="map.php">previous</a>
 				</div>
 		<div id="rightpage">
 
@@ -42,7 +44,7 @@
 
 			<a href="game.php">
 				<div id="access_game">
-					<p id="access_game_text">Click here to help Aaron and his family</p>
+					<p id="access_game_text"> Click here to play</p>
 				</div>
 			</a>
 

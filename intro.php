@@ -19,7 +19,7 @@
                         </form>
                 </div>
 
-                <a id="button-prev" href="article2_p1.php">previous</a>
+                <a id="button-prev" href="index.php">previous</a>
             </div>
 
             <div id="rightpage">

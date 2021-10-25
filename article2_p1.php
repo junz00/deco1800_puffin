@@ -10,40 +10,35 @@
 		<div id="leftpage">
 				<h1>Chapter 2: If It's Flooded, Forget It!</h1>
 				<article>
-					<p>Housing isn't the only thing impacted in flooding, and as the rain continued during the Brisbane Floods,
-						roads were flooded and remote communities cut off. Local police, emergency services and councils were all 
-						emphasizing the message "If it's flooded, forget it!
+					<p>As the rain continued during the Brisbane Floods, roads were flooded and remote communities
+						 cut off. Local police, emergency services and councils were all emphasizing the message "If it's flooded, forget it!
 					</p>
 
 					<figure>
-						<img src="images/Article1-chelmer_tape.png" alt="chelmer" width="100%">
+						<img src="images/Article2-flooded_road.jpg" alt="chelmer" width="100%">
 						<figcaption>Figure: Chelmer, January 2011 </figcaption>
 					</figure>
 
-					<p>With more than half of flood-related deaths being a result of driving through floodwater, this is great advice.
-					Even if it looks calm, no one can predict what floodwater will do or what’s happened to the road underneath.
+					<p>With more than half of flood-related deaths being a result of driving through floodwater, this is great advice.</p>
+					<p>Even if it looks calm, no one can predict what floodwater will do or what’s happened to the road underneath.
 					</p>
 				</article>
 
-				<a id="button-prev" href="map.php">previous</a>
+				<a id="button-prev" href="map.php">next</a>
 			</div>
 			<div id="rightpage">
-				<p>Swift flowing water can sweep away your car and even six inches of water is deep enough
-					to reach the bottom of most passenger cars, flooding the exhaust and leaving your car immobile.</p>
-				<p>To stay safe while driving in flooded areas:</p>
-						<ul>
-							<li>Check if flooding is likely and make alternative arrangements so you are not driving on flooded roads.</li>
-							<li>Never drive on a road covered with water—floodwaters can be fast moving and hide dips, debris and roads that have been washed away entirely.</li>
-							<li>Always follow the directions of flood road signs and road closures.</li>
-							<li>Don't drive over previously roads until the road is open again. Sometimes the road damage is not known until
-							the road is completely dry.</li>
-						</ul>
-				<p>Flooding didn't stop some of the more foolhardy people from trying to cross them though. Local Ms Petersen says she was wary of crossing a flooded causeway on 20th of January 2011, 
+</p>
+				<p>However, the various risks didn't stop some of the more foolhardy people from trying to cross flooded roads. 
+					Local Ms Petersen says she was wary of crossing a flooded causeway on 20th of January 2011, 
 					but decided to do so after watching three other vehicles make it through.</p>
-				<p> Click here to play the car game and see what choice you would make</p>
-				<a id="button-next" href="game2.php">next</a>
+					<figure>
+						<img src="images/Article2-car_in_water.jpg" alt="chelmer" width="100%">
+						<figcaption>Figure: Chelmer, January 2011 </figcaption>
+					</figure>
+				<p>Let's learn more about what to do in this situation to try and help Ms Petersen in this situation</p>
+				</div>
 			</div>
-			</div>
+			<a id="button-next" href="article2_p2.php">previous</a>
 	</section>
 </div>
 

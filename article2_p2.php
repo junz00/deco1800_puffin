@@ -1,4 +1,4 @@
-<?php $pageTitle="Article 2 - Part 2"; ?>
+<?php $pageTitle="Article 2 - Part 1"; ?>
 <?php $pageFile="article2P2"; ?>
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
@@ -7,46 +7,40 @@
 	<section id="book">
 		<img id="book-bg" src="images/diary_bg.jpg">
 		<div id="pages">
-			<div id="leftpage">
+		<div id="leftpage">
+				<h1>Chapter 2: If It's Flooded, Forget It!</h1>
+				<article>
+				<p>To stay safe while driving in flooded areas:</p>
+						<ul>
+							<li>Check if flooding is likely and make alternative arrangements so you are not driving on flooded roads.</li>
+							<li>Never drive on a road covered with water—floodwaters can be fast moving and hide dips, debris and roads that have been washed away entirely.</li>
+							<li>Always follow the directions of flood road signs and road closures.</li>
+							<li>Don't drive over previously roads until the road is open again. Sometimes the road damage is not known until
+							the road is completely dry.</li>
+						</ul>
+					<figure>
+						<img src="images/Article2-road_closure.jfif" alt="chelmer" width="100%">
+						<figcaption>Figure: Chelmer, January 2011 </figcaption>
+					</figure>
+				</article>
 
-				<section id="scrapMessage">
-					<img id="scrap" src="images/paper_scrap.png" width=40%>
-					<div class="scrapText">
-						<span id="close"   onclick="closeBox()">&#10006;</span>
-						<p>You received another mysterious scrap of paper!... This will come in handy later.</p>
-						<img src="images/certificate_scrap.png" width="30%" style= "transform: scaleX(-1)">
-					</div>
-				</section>
-
-				<p>Congratulations, you made the right decision and stayed safe during the floods!</p>
-				<p> Ms Peterson was not as lucky however.<br><br>
-					"So then I followed them and just as I was going across, about eight or 10 feet upstream there was 
-					this broken branch lodged with all this debris... and there was an almighty crack and the branch just
-					splintered into pieces and this wave of debris and water just hit the car," she says.
-				</p>
-				<figure id="aaron">
-					<img src="images/aaron2.jpeg" alt="Aaron and co" width="80%" height="60%">
-					<figcaption>Figure: A very happy Aaron and his family</figcaption>
-				</figure>
 				<a id="button-prev" href="article2_p1.php">previous</a>
 			</div>
 			<div id="rightpage">
-				<p>
-					"Then it was history because the stream was flowing quite rapidly."<br>
-					Ms Petersen managed to open her window and climb onto the roof of the vehicle before jumping into the
-					floodwaters and making her way to the edge.
-				</p>
-				<figure id="aaron">
-					<img src="images/aaron2.jpeg" alt="Aaron and co" width="80%" height="60%">
-					<figcaption>Figure: A very happy Aaron and his family</figcaption>
-				</figure>
-				<p>
-					She says she will never drive through water again.<br>
-					"It was really terrifying and it was really quick, it happened so quickly," she says.
-					"I would just say never even try it, it's really deceptive.
-					"You watch other cars go through, you think it's fine and it's not."
-				</p>
-				<a id="button-next" href="map.php">next</a>
+				<p>Remember: Swift flowing water can sweep away your car and even six inches of water is deep enough
+					to reach the bottom of most passenger cars, flooding the exhaust and leaving your car immobile. Never drive on flooded roads.</p>
+					<figure>
+						<img src="images/Article2-water_in_exhaust.jpg" alt="chelmer" width="100%">
+						<figcaption>Figure: Chelmer, January 2011 </figcaption>
+					</figure>
+				<p>After learning about the dangers of driving on flooded roads, it's time to put your knowledge to the test. Click below
+					 to play the car game and see what choice you would have made in Ms Petersen's position.</p>
+				
+				<a href="game.php">
+					<div id="access_game">
+						<p id="access_game_text"> Help Ms Petersen!</p>
+					</div>
+				</a>
 			</div>
 			</div>
 	</section>

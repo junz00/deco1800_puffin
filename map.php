@@ -43,7 +43,6 @@
 			</div>
 			<a id="button-prev" href="intro.php">previous</a>
 		</div>
-		<button id="button-prev" onclick="prevPage()"> previous </button>
 	</section>
 </div>
 
