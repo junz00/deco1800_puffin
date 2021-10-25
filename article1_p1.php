@@ -13,7 +13,7 @@
 					<p>Let's get started<span id="enterName"></span></p>
 					<p>The Brisbane floods of 2011 hit many people hard. The suburb of Chelmer was immersed in water with houses and roads being flooded. </p>
 					<figure>
-						<img src="images/Article1-chelmer_tape.png" alt="chelmer" width="100%">
+						<img src="images/Article1-chelmer.jpg" alt="a flooded chelmer" width="80%">
 						<figcaption>Figure: Chelmer, January 2011 </figcaption>
 					</figure>
 					<figure>

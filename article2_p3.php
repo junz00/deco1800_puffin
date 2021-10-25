@@ -25,12 +25,12 @@
 					splintered into pieces and this wave of debris and water just hit the car," she says.
 				</p>
 				<figure id="aaron">
-					<img src="images/Article2-car_stuck.jpg" alt="Aaron and co" width="80%" height="60%">
-					<figcaption>Figure: A very happy Aaron and his family</figcaption>
+					<img src="images/Article2-car_stuck.jpg" alt="A car sinking" width="80%" height="60%">
+					<figcaption>Figure: Her car sunk after being swept off the road</figcaption>
 				</figure>
 				<figure id="aaron">
-					<img src="images/Article2-car_towed.jpg" alt="Aaron and co" width="80%" height="60%">
-					<figcaption>Figure: A very happy Aaron and his family</figcaption>
+					<img src="images/Article2-car_towed.jpg" alt="A car being pulled from water" width="80%" height="60%">
+					<figcaption>Figure: A tow truck was called to remove it from flood waters</figcaption>
 				</figure>
 				<a id="button-prev" href="article2_p1.php">previous</a>
 			</div>
@@ -40,8 +40,8 @@
 					floodwaters and making her way to the edge.
 				</p>
 				<figure id="aaron">
-					<img src="images/Article2-stranded_car.jpg" alt="Aaron and co" width="80%" height="60%">
-					<figcaption>Figure: A very happy Aaron and his family</figcaption>
+					<img src="images/Article2-stranded_car.jpg" alt="A car up to its tires in flood water" width="80%" height="60%">
+					<figcaption>Figure: Too many people make the same mistake as Ms Petersen</figcaption>
 				</figure>
 				<p>
 					She says she will never drive through water again.<br>

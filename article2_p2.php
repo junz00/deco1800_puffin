@@ -19,8 +19,8 @@
 							the road is completely dry.</li>
 						</ul>
 					<figure>
-						<img src="images/Article2-road_closure.jfif" alt="chelmer" width="100%">
-						<figcaption>Figure: Chelmer, January 2011 </figcaption>
+						<img src="images/Article2-road_closure.jfif" alt="A road closure sign in front of a flooded road" width="100%">
+						<figcaption>Figure: Follow the road safety signs</figcaption>
 					</figure>
 				</article>
 
@@ -28,15 +28,17 @@
 			</div>
 			<div id="rightpage">
 				<p>Remember: Swift flowing water can sweep away your car and even six inches of water is deep enough
-					to reach the bottom of most passenger cars, flooding the exhaust and leaving your car immobile. Never drive on flooded roads.</p>
+					to reach the bottom of most passenger cars, flooding the exhaust and leaving your car immobile.</p>
+			
 					<figure>
-						<img src="images/Article2-water_in_exhaust.jpg" alt="chelmer" width="100%">
-						<figcaption>Figure: Chelmer, January 2011 </figcaption>
+						<img src="images/Article2-water_in_exhaust.jpg" alt="a car stuck in floodwater" width="100%">
+						<figcaption>Figure: 6 inches of water is all it takes</figcaption>
 					</figure>
+
 				<p>After learning about the dangers of driving on flooded roads, it's time to put your knowledge to the test. Click below
 					 to play the car game and see what choice you would have made in Ms Petersen's position.</p>
 				
-				<a href="game.php">
+				<a href="game2.php">
 					<div id="access_game">
 						<p id="access_game_text"> Help Ms Petersen!</p>
 					</div>

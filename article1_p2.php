@@ -27,7 +27,7 @@
 						<p>Sandbags should be placed in front of doorways / roller doors and brickwork vents with
 					sandbag walls being at least at 2 sandbags high for maximum effectiveness.</p>
 					</article>
-					<a id="button-prev" href="map.php">previous</a>
+					<a id="button-prev" href="article1_p1.php">previous</a>
 				</div>
 		<div id="rightpage">
 

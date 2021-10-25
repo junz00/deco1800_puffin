@@ -15,8 +15,8 @@
 					</p>
 
 					<figure>
-						<img src="images/Article2-flooded_road.jpg" alt="chelmer" width="100%">
-						<figcaption>Figure: Chelmer, January 2011 </figcaption>
+						<img src="images/Article2-flooded_road.jfif" alt="a flooded road under a bridge" width="100%">
+						<figcaption>Figure: Flooded roads are no joke </figcaption>
 					</figure>
 
 					<p>With more than half of flood-related deaths being a result of driving through floodwater, this is great advice.</p>
@@ -24,7 +24,7 @@
 					</p>
 				</article>
 
-				<a id="button-prev" href="map.php">next</a>
+				<a id="button-prev" href="map.php">previous</a>
 			</div>
 			<div id="rightpage">
 </p>
@@ -32,13 +32,16 @@
 					Local Ms Petersen says she was wary of crossing a flooded causeway on 20th of January 2011, 
 					but decided to do so after watching three other vehicles make it through.</p>
 					<figure>
-						<img src="images/Article2-car_in_water.jpg" alt="chelmer" width="100%">
-						<figcaption>Figure: Chelmer, January 2011 </figcaption>
+						<img src="images/Article2-car_in_water.jpg" alt="A car beginning to drive into flooded water" width="100%">
+						<figcaption>Figure: Ms Peterson driving into flooded waters </figcaption>
 					</figure>
+					
+					<div class="gallery-images" query="floods and winds" limit="1"></div>
+
 				<p>Let's learn more about what to do in this situation to try and help Ms Petersen in this situation</p>
 				</div>
 			</div>
-			<a id="button-next" href="article2_p2.php">previous</a>
+			<a id="button-next" href="article2_p2.php">next</a>
 	</section>
 </div>
 

@@ -39,7 +39,7 @@
 				</div>
 		<div id="rightpage">
 			<figure>
-				<img src="images/Article1-sandbags.jpg" alt="Sandbag" width="80%">
+				<img src="images/Article1-sandbags.jpg" alt="Sandbags lining a wall" width="80%">
 				<figcaption>Figure: House protected by sandbags</figcaption>
 			</figure>
 			
