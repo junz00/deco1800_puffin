@@ -46,4 +46,41 @@ window.onload = function() {
 
     $("#help").click(openBox);
 
+    if(isPaperFound("ch1Complete")== true && isPaperFound("ch2Complete") == true){
+        var oldMessage = document.getElementById("helpText");
+        
+        var congrats = document.createElement("h3"); 
+        var congratsTxt = document.createTextNode("Congratulations, you completed all the chapters!")
+
+        congrats.appendChild(congratsTxt);
+        oldMessage.replaceWith(congrats)
+        
+        var message = document.createElement("p"); 
+        var txt = document.createTextNode("To finish the Brisbane Flood Journal, put your knowledge\
+                                            to the test in the quiz, or if you would like to let the\
+                                            knowledge sink in for a bit longer, why not visit the Gallery\
+                                            to view further experiences of flooding from around Australia.");
+        message.appendChild(txt);
+        congrats.append(message);
+
+        var quizBtn = document.createElement("a");
+        var qbTxt = document.createTextNode("Quiz");
+        quizBtn.appendChild(qbTxt);
+        quizBtn.href = "quiz.php";
+        quizBtn.className = "mapButton"
+
+        var galleryBtn = document.createElement("a");
+        var gTxt = document.createTextNode("Gallery");
+        galleryBtn.appendChild(gTxt);
+        galleryBtn.href = "gallery.php";
+        galleryBtn.className = "mapButton"
+
+        var buttons = document.createElement("p");
+        buttons.appendChild(quizBtn);
+        buttons.appendChild(galleryBtn);
+
+        congrats.append(buttons);
+
+        openBox()
+    }
 };
