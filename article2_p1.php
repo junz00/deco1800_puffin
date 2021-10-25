@@ -24,7 +24,7 @@
 					</p>
 				</article>
 
-				<a id="button-prev" href="map.php">next</a>
+				<a id="button-prev" href="map.php">previous</a>
 			</div>
 			<div id="rightpage">
 </p>
@@ -38,7 +38,7 @@
 				<p>Let's learn more about what to do in this situation to try and help Ms Petersen in this situation</p>
 				</div>
 			</div>
-			<a id="button-next" href="article2_p2.php">previous</a>
+			<a id="button-next" href="article2_p2.php">next</a>
 	</section>
 </div>
 

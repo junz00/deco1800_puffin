@@ -1,4 +1,4 @@
-<?php $pageTitle="Article 1 - Part 1"; ?>
+<?php $pageTitle="Article 1 - Part 2"; ?>
 <?php $pageFile="article1P2"; ?>
 <?php $pagePrev="article_p1.php"; ?>
 <?php $pageNext="game.php"; ?>
@@ -10,7 +10,7 @@
 			<img id="book-bg" src="images/diary_bg.jpg">
 			<div id="pages">
 				<div id="leftpage">
-					<h1> Chapter 1: Chelmer Part I</h1>
+					<h1> Chapter 1: Chelmer Part II</h1>
 					<article>
 						<p>Sandbags correctly placed appropriately around the home can significantly reduce the impact of flooding.</p> 
 						<div class=id="distribution"">

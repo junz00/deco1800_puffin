@@ -27,7 +27,7 @@
                     <p>
                     <button id = "stopbutton" onclick="stop_car()">Stop</button>
                     </p>
-                    <a href = "article2_p2.php">
+                    <a href = "article2_p3.php">
 							<div id = "cont"><strong id = "cont_text">Well done! Click to Continue</strong></div>
 						</a>
 

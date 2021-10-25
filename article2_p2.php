@@ -1,4 +1,4 @@
-<?php $pageTitle="Article 2 - Part 1"; ?>
+<?php $pageTitle="Article 2 - Part 2"; ?>
 <?php $pageFile="article2P2"; ?>
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
@@ -36,7 +36,7 @@
 				<p>After learning about the dangers of driving on flooded roads, it's time to put your knowledge to the test. Click below
 					 to play the car game and see what choice you would have made in Ms Petersen's position.</p>
 				
-				<a href="game.php">
+				<a href="game2.php">
 					<div id="access_game">
 						<p id="access_game_text"> Help Ms Petersen!</p>
 					</div>
