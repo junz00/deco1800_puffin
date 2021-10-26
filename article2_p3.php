@@ -34,7 +34,7 @@
 					<figcaption>Figure: A tow truck was called to remove it from flood waters</figcaption>
 				</figure>-->
 
-				<a id="button-prev" href="article2_p1.php">previous</a>
+				<a id="button-prev" href="article2_p2.php">previous</a>
 			</div>
 			<div id="rightpage">
 				<p>"There was an almighty crack and the branch just splintered into pieces and this wave of debris and water just hit the car.
