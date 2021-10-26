@@ -26,7 +26,7 @@
         } else {
             echo "<script>document.getElementById('Q3').style = 'background-color: salmon'; </script>";
         }
-        echo "<h3> You got $result/3 <h3>";
+        echo "<h3> You got $result/3 </h3>";
         if($result != 3) {
             echo "<p> Try again <p>";
         } else {
