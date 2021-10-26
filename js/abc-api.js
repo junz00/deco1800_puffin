@@ -58,8 +58,6 @@ function getYear(year) {
  * This should only be called upon the function below being successful */
 function showRecords(target, data, secondaryQuery, limit) {
     secondaryQuery = secondaryQuery.toLowerCase();
-
-    target.empty();
     results = [];
 
     /* Extract results into JSON data and do secondary query matching */
@@ -98,7 +96,7 @@ function showRecords(target, data, secondaryQuery, limit) {
     for (let i = 0; i < n; i++) {
         let r = results[i];
         target.append(
-            $('<section class="record">').append(
+            $('<section class="record hidden">').append(
                 $('<img>').attr("src", r.image),
                 $('<figcaption class="hidden">').append(
                     $('<h3>').text(r.title),
@@ -108,6 +106,8 @@ function showRecords(target, data, secondaryQuery, limit) {
             )
         );
     }
+    $('.loading-spinner').addClass("hidden");
+    $("section.record.hidden").removeClass("hidden");
 
     console.log("Displayed", n, "results of", results.length, "with secondary search query:", secondaryQuery);
 }
@@ -120,6 +120,10 @@ function showRecords(target, data, secondaryQuery, limit) {
  * limit:           Maximum number of results displayed. Setting this to zero will show everything.
  */
 function apiQueryABC(target, secondaryQuery, limit) {
+    target.empty();
+    console.log("Loading images");
+    target.append($('<p class="loading-spinner">').text("Loading API images..."));
+
     let data = {
         resource_id: "d73f2a2a-c271-4edd-ac45-25fd7ad2241f",
         q: "flood",
