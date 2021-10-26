@@ -46,11 +46,9 @@
 					Click on the box below to help them out.</p>
 			</article>
 
-			<a href="game.php">
-				<div id="access_game">
-					<p id="access_game_text"> Click here to help Aaron sandbag his house</p>
-				</div>
-			</a>
+			<div id="access_game">
+				<a href="game.php"><p id="access_game_text"> Click here to help Aaron sandbag his house</p></a>
+			</div>
 
 			<!--<button id="button-next" onclick="nextPage()"> next </button>-->
 			</div>

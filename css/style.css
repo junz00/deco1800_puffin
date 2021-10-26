@@ -250,13 +250,38 @@ body > nav li a:hover {
     cursor: pointer;
 }
 
+/* Access game buttons */
+#access_game {
+    opacity: 0.8;
+    padding: 10px;
+    border: 2px solid white;
+    background-color:rgb(206, 42, 24);
+}
 
-/* Footer */
+#access_game a {
+    text-decoration: none;
+}
 
+#access_game_text {
+    text-align: center;
+    display: block;
+    color: white;
+}
+
+#access_game:hover {
+    opacity: 1;
+}
+
+#access_game:hover > #access_game_text {
+    font-weight: bold;
+} 
+
+/* <mark> */
 mark{
     cursor: help;
 }
 
+/* Footer */
 footer {
     position: fixed;
     width: 100vw;

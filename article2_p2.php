@@ -42,11 +42,9 @@
 				<p>After learning about the dangers of driving on flooded roads, it's time to put your knowledge to the test. Click below
 					 to play the car game and see what choice you would have made in Eva's position.</p>
 				
-				<a href="game2.php">
 					<div id="access_game">
-						<p id="access_game_text"> Help Eva!</p>
+					<a href="game2.php"><p id="access_game_text">Click here to help Eva!</p><a>
 					</div>
-				</a>
 			</div>
 			</div>
 	</section>
