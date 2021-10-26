@@ -6,12 +6,26 @@
 <!--<body onload="openBox(this)">-->
 <div id="book-container">
 
-	<section id="scrapMessage">
+	<section id="scrapMessage" class="hidden">
 		<img id="scrap" src="images/paper_scrap.png" width=40%>
 		<div class="scrapText">
 			<span id="close" onclick="closeBox()">&#10006;</span>
-			<p id="helpText"><h3>Keeping Progress</h3>This map of the Brisbane River shows your progress through the journal.<br><br>
+			<div id="helpText">
+				<h3>Keeping Progress</h3>
+				<p>This map of the Brisbane River shows your progress through the journal.<br><br>
 				Select a point on the map to begin that story.</p>
+			</div>
+			<div id="chapterCompleteText">
+				<h3>Congratulations, you completed all the chapters!</h3>
+				<p>To finish the Brisbane Flood Journal, put your knowledge
+                to the test in the Quiz, or if you would like to let the
+                knowledge sink in for a bit longer, why not visit the Gallery
+                to view further experiences of flooding from around Australia</p>
+				<nav>
+					<a href="quiz.php">Quiz</a>
+					<a href="gallery.php">Gallery</a>
+				</nav>
+			</div>
 		</div>
 	</section>
 

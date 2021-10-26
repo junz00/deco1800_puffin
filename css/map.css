@@ -23,38 +23,29 @@
   border-radius: 50px;
 }
 
+#scriptMessage {
+  display: block;
+}
+
+#scrapMessage.hidden {
+  display: none;
+}
+
+#helpText.hidden {
+  display: none;
+}
+
+#chapterCompleteText.hidden {
+  display: none;
+}
+
+.scrapText nav {
+  display: flex;
+  justify-content: space-around;
+}
+
 #help:hover {
   cursor: pointer;
-}
-
-#scrapMessage {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.4);
-}
-
-#scrap{
-  padding: 20% 0 0 29%;
-}
-
-.scrapText{
-    position: absolute;
-    text-align: center;
-    margin: -15% 0 0 35%;
-    width: 30%;
-}
-
-#close{
-    float: right;
-}
-
-#close:hover{
-    cursor: pointer;
 }
 
 .mapPoints{
@@ -62,7 +53,7 @@
   position: absolute;
 }
 
-a:hover #ch1, a:hover #ch2, a:hover #ch3, a:hover #ch4, a:hover #ch5{
+a:hover #ch1, a:hover #ch2, a:hover #ch3, a:hover #ch4, a:hover #ch5 {
     background-color: white;
 }
 
@@ -74,7 +65,7 @@ a:hover .mapPointMessage{
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  position:absolute
+  position: absolute
 }
 
 .mapPointMessage{
@@ -85,7 +76,6 @@ a:hover .mapPointMessage{
   text-align: center;
   position: absolute;
 }
-
 
 #ch1, #ch1Message{
   background-color: rgb(231, 175, 20);

@@ -48,7 +48,7 @@ body {
 }
 
 /*Bookmark bar*/
-nav {
+body > nav {
     height: 60px; /* Accommodating for the pop-up effect */
     width: 70vw;
     position: relative;
@@ -57,7 +57,7 @@ nav {
     margin-right: auto;
 }
 
-nav ul {
+body > nav ul {
     list-style-type: none;
     overflow: hidden;
 
@@ -70,14 +70,14 @@ nav ul {
     overflow: visible; /* So the box shodows for the sticky notes do not get cut off */
 }
 
-nav li {
+body > nav li {
     display: block;
     float: left;
     box-shadow: 0px -2px 4px rgba(20, 20, 20, 0.5);
     z-index: 0;
 }
 
-nav li a {
+body > nav li a {
     display: block;
     flex-grow: 1;
     color: #333;
@@ -91,13 +91,13 @@ nav li a {
 
 }
 
-nav li a:hover, .active {
+body > nav li a:hover, .active {
     background-color: rgb(206, 42, 24);
     color:white;
     padding-bottom: 24px;
 }
 
-nav li a:hover{
+body > nav li a:hover {
     margin-top: -7%;
 }
 
@@ -185,7 +185,7 @@ nav li a:hover{
 }
 
 /* Navigation buttons */
-#button-prev, #button-next, button {
+#button-prev, #button-next, button, .scrapText nav a {
     display: block;
     background-color: rgb(212, 219, 226);
     border-radius: 5px;
