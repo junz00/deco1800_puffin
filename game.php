@@ -8,10 +8,11 @@
 			<img id="scrap" src="images/paper_scrap.png" width=40%>
 			<div class="scrapText">
 				<span id="close" onclick="closeBox()">&#10006;</span>
-				<p>Welcome to the Sandbag Game! <br>
+				<h3>Welcome to the Sandbag Game!</h3>
+				<p>
 					Use your knowledge of sandbags to help Aaron and his family protect their home. <br>
 					Remember, sandbag walls should be at least 2 sandbags high for maximum effectiveness. <br>
-					(Don't forget the plastic sheeting either!)
+					(Don't forget to lay down plastic sheeting!)
 				</p>
 			</div>
 		</section>

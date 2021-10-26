@@ -241,6 +241,16 @@ nav li a:hover{
     width: 30%;
 }
 
+/* Scrap close buttons */
+#close {
+    float: right;
+}
+
+#close:hover{
+    cursor: pointer;
+}
+
+
 /* Footer */
 
 mark{

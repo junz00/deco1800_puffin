@@ -13,7 +13,7 @@
 					<img id="scrap" src="images/paper_scrap.png" width=40%>
 					<div class="scrapText">
 						<span id="close"   onclick="closeBox()">&#10006;</span>
-						<p>You received another mysterious scrap of paper!... It seems to fit together with the other piece.</p>
+						<p><strong>You received another mysterious scrap of paper!...</strong><br> It seems to fit together with the other piece.</p>
 						<img src="images/certificate_scrap.png" width="25%" style= "transform: scaleX(-1)">
 					</div>
 				</section>

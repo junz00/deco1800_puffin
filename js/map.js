@@ -46,7 +46,7 @@ window.onload = function() {
 
     $("#help").click(openBox);
 
-    if(isPaperFound("ch1Complete")== true && isPaperFound("ch2Complete") == true){
+    if(allPapersFound()) {
         var oldMessage = document.getElementById("helpText");
         
         var congrats = document.createElement("h3"); 

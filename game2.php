@@ -8,7 +8,8 @@
 			<img id="scrap" src="images/paper_scrap.png" width=40%>
 			<div class="scrapText">
 				<span id="close"   onclick="closeBox()">&#10006;</span>
-				<p>Welcome to the Flooded Roads Game! <br>
+				<h3>Welcome to the Flooded Roads Game!</h3>
+				<p>
 					Use your knowledge on the dangers of flooded roads to help this car from getting into an accident <br>
 					Click 'Start' to move the car and 'Stop' to stop the car<br>
 					(Be sure to stop the car before it hits the water!)

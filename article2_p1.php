@@ -41,7 +41,7 @@
 					</figure>-->
 					<div class="gallery-images" query="The SES says its biggest problem is people driving" limit="1"></div>
 
-				<p>Let's learn more about what to do in this situation to try and help Eva in this situation</p>
+				<p>Let's learn more about what to do to try and help Eva in this situation.</p>
 				</div>
 			</div>
 			<a id="button-next" href="article2_p2.php">next</a>

@@ -32,13 +32,13 @@
 
 				<article>	
 					<p> The suburb of Chelmer was immersed in water with houses and roads being flooded. However, with the proper preparation, the worst of the damage was avoided.</p>
-					<p>On the <mark title="A series of floods hit Brisbane spanning 2011, the first beginning in November 2011.">12th of January </mark>, the night before the flood, everyone was getting ready for 
+					<p>On the <mark title="A series of floods hit Brisbane in early 2011, the first beginning in November 2010.">12th of January</mark>, the night before the flood, everyone was getting ready for 
 						the upcoming disaster. Meet Aaron and his family. To prepare for the floods, they 
 						stayed up sandbagging their Graceville home until 4:00 in the morning.</p>
 							
 					<div class="container">
 						<img src="images/Article1-aaron_family.jpg" alt="Aaron and his family" class="articleImage">
-						<div class="imgOverlay"><b>Aaron and his family at a flooded Bellinger River<b></div>
+						<div class="imgOverlay"><strong>Aaron and his family at a flooded Bellinger River</strong></div>
 					</div>
 
 					<br>
