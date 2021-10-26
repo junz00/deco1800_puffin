@@ -1,4 +1,4 @@
-<?php $pageTitle="Article 2 - Part 1"; ?>
+<?php $pageTitle="Article 2 - Part 2"; ?>
 <?php $pageFile="article2P2"; ?>
 <?php include("header.php"); ?>
 <?php include("bookmarks.php"); ?>
