@@ -34,8 +34,8 @@
             echo "<div id='win'>
 					<p>Congratulations, you passed and recieved the final scrap of paper! Together, the papers combine to become a certificate with
                     your name on it.</p>
-					<a href='certificate.php'><div id='get_cert'> Click here to get your certificate!</div></a>
-                    </div> "; 
+					<div id='get_cert'><a href='certificate.php'>Click here to get your certificate!</a></div>
+                  </div> "; 
             }
         }
     }

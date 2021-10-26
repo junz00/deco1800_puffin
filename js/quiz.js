@@ -1,4 +1,4 @@
-function submit(){
+function submit() {
     win.style.display = "block";
 }
 
@@ -26,4 +26,4 @@ $(document).ready(function() {
 
 window.onload = function(){
     activeBookmark('quiz')
-     }
+}

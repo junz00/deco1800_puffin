@@ -9,7 +9,7 @@
         <div id="pages">
             <div id="pagespread">
                 <img id="cert" src="images/certificate.jpg" alt="certificate">
-                <h1 id="recipient">Name on certificate</h1>
+                <h1 id="recipient">You</h1>
                 <em id="date">[Today's date]</em>
                 <!-- <button type="button" id=exit_button onclick="printCert()">print</button> -->
                 <a id="button-next" href="index.php">finish</a>

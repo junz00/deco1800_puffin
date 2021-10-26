@@ -4,7 +4,10 @@ function printCert() {
 
 $(document).ready(function() {
     /* Display recipient and date */
-    $("#recipient").text(getUserName());
+    let uname = getUserName();
+    if (uname) {
+        $("#recipient").text(uname);
+    }
     today = new Date();
     $("#date").text(`${today.getDate()}/${today.getMonth() + 1}/${today.getFullYear()}`);
 });
