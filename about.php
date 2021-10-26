@@ -1,8 +1,7 @@
 <?php $pageTitle="About"; ?>
 <?php $pageFile="about"; ?>
 <?php include("header.php"); ?>
-
-<nav><!-- Space for bookmarks --></nav>
+<?php include("bookmarks.php"); ?>
 
 <!--<body onload="openBox(this)">-->
 <div id="book-container">

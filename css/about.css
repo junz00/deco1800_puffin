@@ -2,12 +2,12 @@
     overflow-y: auto;
 }
 
-ul {
+#pagespread ul {
     /* No bullets */
     list-style-type: none;
 }
 
-li {
+#pagespread ul li {
     /* Hanging indent */
     padding-left: 20px;
     text-indent: -20px;
